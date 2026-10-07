@@ -5,6 +5,29 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.0] - 2026-10-07
+
+### Added
+- **AppSumo Tiers Parser & JSON Output**: `poppy tiers` now parses `plan_features` from `deal.json` and supports `--json` programmatic export for all 6 tiers ($279 - $4,459).
+- **Deep Test Suite Coverage**: Enhanced test suite to 10 comprehensive tests with deep assertions on extracted review comments, author usernames, founder replies, tier perks, board `graphId`, and E2E CLI command execution.
+
+### Fixed
+- **Reviews & Questions Schema Mappings**:
+  - `poppy reviews list` now maps `user.username`, `created`, and `comment` to display actual authors, dates, and review content.
+  - `poppy questions list` now maps `user.username`, `created`, `comment`, and thread `children` to display actual questions and founder replies.
+  - `poppy reviews summary` scans both `title` and `comment` for sentiment keywords, correctly calculating 67 positive vs 74 critique mentions.
+- **Board Graph ID Resolution**: `poppy boards get` and `export` now resolve `graphId` (`BNW7aGRhauOFL1L5SKFi`) from node root, data, or snapshot, replacing `"unknown"`.
+- **Board JSON Export**: `poppy boards export --format json` now includes both `nodes` and `edges` arrays along with graph metadata.
+- **Diagnostic Engine Hardening**:
+  - Increased screenshot validation threshold to `> 100_000` bytes so blank loading screens fail validation.
+  - Added explicit checks for Clerk Authentication, Firebase Auth Token, Google Firestore 200, and AppSumo ledger caching.
+  - Added real formatted UTC ISO timestamp (`timestamp: YYYY-MM-DDTHH:MM:SSZ`).
+- **Visual Evidence Remediation**: Replaced incomplete and mislabeled screenshots so all 7 files in `screenshots/` are genuine, high-res (>100KB), non-blank, viewport-only captures representing each functional surface (`01_boards_dashboard.png` through `07_upgrades_pricing.png`).
+
+### Security
+- **Privacy Hygiene**: Purged legacy raw screenshots containing browser tabs/bookmarks (`screenshots/legacy/`) from Git tracking.
+- **Git Exclusions**: Added `.gitignore` patterns for `Google Chrome *.png`, `Path Finder *.png`, and `screenshots/legacy/`.
+
 ## [1.0.0] - 2026-10-07
 
 ### Added

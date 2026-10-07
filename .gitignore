@@ -45,3 +45,8 @@ venv.bak/
 *.pem
 credentials.*
 graphify-out/
+
+# Raw screenshots & privacy exclusions
+Google Chrome *.png
+Path Finder *.png
+screenshots/legacy/

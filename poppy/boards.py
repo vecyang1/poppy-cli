@@ -77,9 +77,25 @@ def load_local_graph(board_id: str) -> Optional[BoardGraph]:
                     edge_type=e.get("type", "connectionEdge"),
                     animated=e.get("animated", True)
                 ))
+            graph_id = data.get("graphId")
+            if not graph_id:
+                for n_raw in data.get("nodes", []):
+                    if n_raw.get("graphId"):
+                        graph_id = n_raw.get("graphId")
+                        break
+                    if n_raw.get("data", {}).get("graphId"):
+                        graph_id = n_raw["data"]["graphId"]
+                        break
+            if not graph_id:
+                for b in DEFAULT_BOARDS_SNAPSHOT:
+                    if b.get("id") == board_id and b.get("graphId"):
+                        graph_id = b["graphId"]
+                        break
+            graph_id = graph_id or "unknown"
+
             return BoardGraph(
                 board_id=board_id,
-                graph_id=nodes[0].data.get("graphId", "unknown") if nodes else "unknown",
+                graph_id=graph_id,
                 nodes=nodes,
                 edges=edges
             )

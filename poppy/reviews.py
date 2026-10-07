@@ -1,5 +1,6 @@
 """AppSumo review intelligence, Q&A queries, and sentiment analysis."""
 
+import re
 import json
 from pathlib import Path
 from typing import Dict, List, Any, Optional
@@ -47,7 +48,7 @@ def get_reviews_summary() -> Dict[str, Any]:
     pos_mentions = 0
     neg_mentions = 0
     for r in reviews:
-        text = (r.get("review") or r.get("title") or "").lower()
+        text = f"{r.get('title') or ''} {r.get('comment') or r.get('review') or ''}".lower()
         if any(w in text for w in positive_keywords):
             pos_mentions += 1
         if any(w in text for w in critique_keywords):
@@ -81,15 +82,20 @@ def filter_reviews(limit: int = 10, min_rating: int = 1, search: Optional[str] =
         rating = int(r.get("rating", 5))
         if rating < min_rating:
             continue
-        text = f"{r.get('title', '')} {r.get('review', '')}"
+        comment = r.get("comment") or r.get("review") or ""
+        title = r.get("title") or ""
+        text = f"{title} {comment}"
         if search_lower and search_lower not in text.lower():
             continue
+        user = r.get("user") or {}
+        author = user.get("username") or user.get("name") or r.get("author") or "Anonymous"
+        date = r.get("created") or r.get("created_at") or r.get("date") or ""
         filtered.append({
-            "name": r.get("author") or r.get("user", {}).get("name") or "Anonymous",
+            "name": author,
             "rating": rating,
-            "title": r.get("title") or "No title",
-            "date": r.get("created_at") or r.get("date") or "",
-            "content": (r.get("review") or "")[:200] + ("..." if len(r.get("review", "")) > 200 else "")
+            "title": title or "No title",
+            "date": date[:10] if date else "",
+            "content": comment[:200] + ("..." if len(comment) > 200 else "")
         })
         if len(filtered) >= limit:
             break
@@ -102,19 +108,81 @@ def filter_questions(limit: int = 10, search: Optional[str] = None) -> List[Dict
     search_lower = search.lower() if search else None
     
     for q in questions:
-        text = f"{q.get('question', '')} {q.get('title', '')}"
+        q_text = q.get("comment") or q.get("question") or ""
+        title = q.get("title") or ""
+        text = f"{title} {q_text}"
         if search_lower and search_lower not in text.lower():
             continue
-        answers = q.get("answers") or []
-        first_answer = answers[0] if answers else {}
+        user = q.get("user") or {}
+        author = user.get("username") or user.get("name") or q.get("author") or "Sumoling"
+        children = q.get("children") or q.get("answers") or []
+        reply_obj = next((c for c in children if c.get("answer_type") in ("partner", "staff")), None)
+        if not reply_obj and children:
+            reply_obj = children[0]
+            
+        if reply_obj:
+            reply_user = reply_obj.get("user", {}).get("username") or reply_obj.get("author") or "Founder"
+            reply_text = reply_obj.get("comment") or reply_obj.get("answer") or ""
+            reply_str = f"[{reply_user}]: {reply_text[:150]}..." if reply_text else "No reply"
+        else:
+            reply_str = "No reply"
+
         filtered.append({
             "id": q.get("id"),
-            "author": q.get("author") or q.get("user", {}).get("name") or "Sumoling",
-            "question": (q.get("question") or "")[:150] + ("..." if len(q.get("question", "")) > 150 else ""),
-            "answer_count": len(answers),
-            "founder_reply": (first_answer.get("answer") or "")[:150] + ("..." if len(first_answer.get("answer", "")) > 150 else "") if first_answer else "No reply"
+            "author": author,
+            "title": title,
+            "question": q_text[:150] + ("..." if len(q_text) > 150 else ""),
+            "answer_count": len(children),
+            "founder_reply": reply_str
         })
         if len(filtered) >= limit:
             break
             
     return filtered
+
+def get_deal_tiers() -> List[Dict[str, Any]]:
+    deal = load_deal_data()
+    raw_plans = deal.get("plans") or []
+    tiers = []
+    for p in raw_plans:
+        tier_num = p.get("tier", 1)
+        price_val = float(p.get("price", 0))
+        price_str = f"${int(price_val):,}" if price_val.is_integer() else f"${price_val:,.2f}"
+        features = p.get("plan_features") or []
+        feat_texts = []
+        for f in features:
+            txt = f.get("feature", "") if isinstance(f, dict) else str(f)
+            clean = re.sub(r"<[^>]+>", "", txt).strip()
+            if clean:
+                feat_texts.append(clean)
+        
+        credits = next((f for f in feat_texts if "Monthly credits" in f), "N/A")
+        credits_clean = credits.replace(" Monthly credits", "/mo") if "Monthly credits" in credits else credits
+        brands = next((f for f in feat_texts if "Brand" in f), "N/A")
+        seats = next((f for f in feat_texts if "Seat" in f), "1 Seat")
+        
+        perks = []
+        for f in feat_texts:
+            if "BYOK" in f:
+                perks.append("BYOK")
+            elif "API" in f:
+                perks.append("API")
+            elif "White-label" in f or "White-labelled" in f:
+                perks.append("White-Label")
+            elif "Chatbot" in f:
+                perks.append("Chatbots")
+        perks_unique = list(dict.fromkeys(perks))
+        perk_str = ", ".join(perks_unique) if perks_unique else "Standard Features"
+        
+        tiers.append({
+            "tier": tier_num,
+            "name": f"Tier {tier_num}",
+            "price": price_str,
+            "price_usd": price_val,
+            "credits_per_month": credits_clean,
+            "brands_limit": brands,
+            "seats_limit": seats,
+            "key_perks": perk_str,
+            "features": feat_texts
+        })
+    return tiers

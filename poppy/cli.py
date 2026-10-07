@@ -5,7 +5,7 @@ import json
 import argparse
 from typing import Optional
 from .boards import list_boards, load_local_graph, render_board_tree, export_board_markdown
-from .reviews import get_reviews_summary, filter_reviews, filter_questions, load_deal_data
+from .reviews import get_reviews_summary, filter_reviews, filter_questions, load_deal_data, get_deal_tiers
 from .diagnose import run_diagnostics, render_diagnostics_report
 
 def main():
@@ -58,7 +58,8 @@ def main():
     qlist.add_argument("--json", action="store_true", help="Output raw JSON")
 
     # 4. Tiers
-    subparsers.add_parser("tiers", help="Display AppSumo 6-tier pricing & features matrix")
+    tiers_parser = subparsers.add_parser("tiers", help="Display AppSumo 6-tier pricing & features matrix")
+    tiers_parser.add_argument("--json", action="store_true", help="Output raw JSON")
 
     # 5. Diagnose
     diag_parser = subparsers.add_parser("diagnose", help="Run comprehensive diagnostic reconciliation audit")
@@ -169,26 +170,18 @@ def main():
             q_parser.print_help()
 
     elif args.command == "tiers":
-        deal = load_deal_data()
-        tiers = deal.get("plans") or []
-        print("==========================================================================================")
-        print("                         APPSUMO POPPY AI PRICING & TIER MATRIX                           ")
-        print("==========================================================================================")
-        print(f"{'TIER':<10} {'PRICE':<10} {'CREDITS':<15} {'BRANDS':<12} {'SEATS':<8} {'KEY PERKS':<25}")
-        print("-" * 90)
-        for t in tiers:
-            name = t.get("name", "Tier")
-            price = f"${t.get('price', 0)}"
-            credits = f"{t.get('credits_per_month', 'N/A')}/mo"
-            brands = str(t.get("brands_limit", "N/A"))
-            seats = str(t.get("seats_limit", "1"))
-            perks = []
-            if t.get("has_byok"): perks.append("BYOK")
-            if t.get("has_api"): perks.append("API")
-            if t.get("has_chatbot"): perks.append("Chatbot")
-            perk_str = ", ".join(perks) if perks else "Standard Features"
-            print(f"{name:<10} {price:<10} {credits:<15} {brands:<12} {seats:<8} {perk_str:<25}")
-        print("==========================================================================================")
+        tiers = get_deal_tiers()
+        if getattr(args, "json", False):
+            print(json.dumps(tiers, indent=2))
+        else:
+            print("==========================================================================================")
+            print("                         APPSUMO POPPY AI PRICING & TIER MATRIX                           ")
+            print("==========================================================================================")
+            print(f"{'TIER':<10} {'PRICE':<10} {'CREDITS':<15} {'BRANDS':<18} {'SEATS':<12} {'KEY PERKS':<25}")
+            print("-" * 95)
+            for t in tiers:
+                print(f"{t['name']:<10} {t['price']:<10} {t['credits_per_month']:<15} {t['brands_limit']:<18} {t['seats_limit']:<12} {t['key_perks']:<25}")
+            print("==========================================================================================")
 
     elif args.command == "diagnose":
         diag = run_diagnostics()

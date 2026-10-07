@@ -4,6 +4,7 @@ import sys
 import json
 import argparse
 from typing import Optional
+from . import __version__
 from .boards import list_boards, load_local_graph, render_board_tree, export_board_markdown
 from .reviews import get_reviews_summary, filter_reviews, filter_questions, load_deal_data, get_deal_tiers
 from .diagnose import run_diagnostics, render_diagnostics_report
@@ -13,6 +14,7 @@ def main():
         prog="poppy",
         description="Poppy AI Automation & Community Intelligence CLI"
     )
+    parser.add_argument("--version", "-v", action="version", version=f"%(prog)s {__version__}")
     subparsers = parser.add_subparsers(dest="command", help="Available subcommands")
 
     # 1. Boards

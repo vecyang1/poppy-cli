@@ -19,6 +19,14 @@ def make_mock_jwt(header: dict, payload: dict) -> str:
         return base64.urlsafe_b64encode(s).decode("ascii").rstrip("=")
     return f"{b64url(header)}.{b64url(payload)}.mock_sig"
 
+class MockHTTPResponse:
+    def __init__(self, status=200):
+        self.status = status
+    def __enter__(self):
+        return self
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        pass
+
 class TestPoppyCLI(unittest.TestCase):
 
     def test_list_boards(self):
@@ -186,11 +194,12 @@ class TestPoppyCLI(unittest.TestCase):
         self.assertEqual(t6["brands_limit"], "Unlimited Brands")
         self.assertIn("White-Label", t6["key_perks"])
 
+    @patch("urllib.request.urlopen", return_value=MockHTTPResponse(200))
     @patch.dict(os.environ, {
         "CLERK_TOKEN": make_mock_jwt({"alg": "RS256", "typ": "JWT"}, {"sub": "user_test", "sid": "sess_test"}),
         "FIREBASE_AUTH_TOKEN": make_mock_jwt({"alg": "RS256", "typ": "JWT"}, {"uid": "user_test"})
     })
-    def test_diagnostics_pass(self):
+    def test_diagnostics_pass(self, _mock_url):
         diag = run_diagnostics()
         self.assertEqual(diag["overall_status"], "PASS")
         self.assertIsNotNone(diag["timestamp"])
@@ -216,8 +225,9 @@ class TestPoppyCLI(unittest.TestCase):
         rep = render_diagnostics_report(diag)
         self.assertIn("Verified Status: Firestore 200 ✓ | Clerk Auth valid ✓ | Firebase auth token ✓ | AppSumo ledger cached ✓", rep)
 
+    @patch("urllib.request.urlopen", return_value=MockHTTPResponse(200))
     @patch.dict(os.environ, {}, clear=True)
-    def test_diagnostics_unconfigured_warn(self):
+    def test_diagnostics_unconfigured_warn(self, _mock_url):
         diag = run_diagnostics()
         self.assertEqual(diag["overall_status"], "WARN")
         rep = render_diagnostics_report(diag)
@@ -232,8 +242,9 @@ class TestPoppyCLI(unittest.TestCase):
         self.assertIn("Firestore Unreachable ✗", rep)
         self.assertNotIn("Firestore 200 ✓", rep)
 
+    @patch("urllib.request.urlopen", return_value=MockHTTPResponse(200))
     @patch.dict(os.environ, {"CLERK_TOKEN": "malformed_token_not_jwt"})
-    def test_diagnostics_malformed_token(self):
+    def test_diagnostics_malformed_token(self, _mock_url):
         diag = run_diagnostics()
         self.assertEqual(diag["overall_status"], "FAIL")
         rep = render_diagnostics_report(diag)

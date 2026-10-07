@@ -44,3 +44,4 @@ venv.bak/
 *.token
 *.pem
 credentials.*
+graphify-out/

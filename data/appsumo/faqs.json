@@ -1,0 +1,52 @@
+[
+  {
+    "id": 11492,
+    "question": "What is Poppy AI and what are its main features?",
+    "answer": "Poppy AI is a proactive AI assistant designed to help organize your digital life by integrating various services such as email, calendar, and messaging into a single dashboard. It offers features like proactive suggestions based on your schedule and location, the ability to connect with services like Apple Calendar, Google Calendar, Gmail, Outlook, iCloud Mail, Apple Health, Reminders, Contacts, iMessage, WhatsApp, Uber, and Instacart, and the capability to handle multiple content types including YouTube videos, PDFs, voice notes, and images."
+  },
+  {
+    "id": 11493,
+    "question": "How do I get started with Poppy AI?",
+    "answer": "To get started with Poppy AI, you can sign up on their official website. Once registered, you can connect various services like your email, calendar, and messaging apps to Poppy. The platform provides a visual canvas where you can drag in content such as YouTube videos, articles, PDFs, and voice notes, organizing them into groups for the AI to process simultaneously."
+  },
+  {
+    "id": 11494,
+    "question": "What AI models does Poppy AI support, and how do I choose the right one?",
+    "answer": "Poppy AI supports multiple AI models, each with different content limits and strengths. For instance, GPT-5 mini is suitable for quick questions, while other models may be better for analyzing extensive documents. It's important to choose the model based on your specific task to avoid exceeding token limits and encountering errors."
+  },
+  {
+    "id": 11495,
+    "question": "How does Poppy AI handle user data and privacy?",
+    "answer": "Poppy AI encrypts user data when stored in its database and has a zero-retention policy enabled when using cloud-based large language models for its suggestions. The company aims to transition to using local, on-device AI models as technology advances to further enhance privacy."
+  },
+  {
+    "id": 11496,
+    "question": "What is the Power User Upgrade in Poppy AI?",
+    "answer": "The Power User Upgrade is a plan designed for serious Poppy AI users, offering 16,000 total monthly credits, full API access to connect Poppy to various platforms, a chatbot feature to share knowledge without sharing your account, and white-glove setup support during the launch period."
+  },
+  {
+    "id": 11497,
+    "question": "How are credits used in Poppy AI?",
+    "answer": "Credits in Poppy AI are consumed when you interact with the AI through chats. Each plan comes with 2,000 base credits that reset to zero on the 1st of every month at 9 AM PST. Credits are not used for uploading files or organizing boards, only for AI interactions."
+  },
+  {
+    "id": 11498,
+    "question": "Can I integrate Poppy AI with other applications?",
+    "answer": "Yes, Poppy AI offers full API access, allowing you to integrate it with various applications. This includes building custom chatbots, connecting to automation tools like Zapier and Make.com, integrating with messaging platforms like Telegram, and embedding Poppy's intelligence into your existing software."
+  },
+  {
+    "id": 11499,
+    "question": "What types of content can I add to Poppy AI boards?",
+    "answer": "You can add various forms of content to Poppy AI boards, including YouTube videos, PDFs, voice notes, images, and more. This allows the AI to process and analyze multiple content types simultaneously, enhancing your productivity and content creation capabilities."
+  },
+  {
+    "id": 11500,
+    "question": "How does Poppy AI's proactive suggestion feature work?",
+    "answer": "Poppy AI's proactive suggestion feature analyzes your connected services and data, such as your calendar and location, to provide timely recommendations. For example, if it detects a 30-minute gap in your schedule near a park, it might suggest taking a walk before your next appointment."
+  },
+  {
+    "id": 11501,
+    "question": "Is there a community or forum for Poppy AI users to provide feedback?",
+    "answer": "Yes, Poppy AI has a feedback platform where users can submit feature requests, report issues, and engage with the community. The team reviews every idea and feedback submitted to improve the product."
+  }
+]

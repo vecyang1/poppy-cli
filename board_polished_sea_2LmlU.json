@@ -1,0 +1,1131 @@
+{
+  "nodes": [
+    {
+      "title": "My Business",
+      "updatedAt": "2026-10-07T12:13:13.706Z",
+      "userId": "86f5b982-23fa-452a-9017-f246391688b4",
+      "boardId": "polished-sea-2LmlU",
+      "graphId": "BNW7aGRhauOFL1L5SKFi",
+      "width": 1035,
+      "height": 500,
+      "type": "groupNode",
+      "id": "groupNode-wonderful-wave-lu9jW",
+      "className": "",
+      "zIndex": -1,
+      "position": {
+        "x": -687.566129279827,
+        "y": -934.0610139379958
+      },
+      "createdAt": "2026-10-07T12:13:13.706Z",
+      "data": {
+        "userId": "2IsJr0QScvQvTwMLsXjlJgAg2nm2",
+        "type": "groupNode",
+        "createdAt": "May 27, 2025 10:41 AM",
+        "connectionId": 4,
+        "userName": "Robin Grundfelt",
+        "userEmail": "user@example.com",
+        "title": "My Business",
+        "createdAtTimestamp": "2025-05-27T07:41:31.876Z",
+        "isCopying": false
+      },
+      "style": {
+        "height": 500,
+        "width": 600
+      },
+      "measured": {
+        "width": 1035,
+        "height": 500
+      }
+    },
+    {
+      "updatedAt": "2026-10-07T12:13:13.706Z",
+      "userId": "86f5b982-23fa-452a-9017-f246391688b4",
+      "boardId": "polished-sea-2LmlU",
+      "graphId": "BNW7aGRhauOFL1L5SKFi",
+      "title": "Bottom Ads",
+      "height": 508,
+      "width": 1044,
+      "className": "",
+      "id": "groupNode-lively-dream-aqvOB",
+      "type": "groupNode",
+      "zIndex": -1,
+      "position": {
+        "y": 1926.8194733666387,
+        "x": -679.6156453485376
+      },
+      "createdAt": "2026-10-07T12:13:13.706Z",
+      "data": {
+        "isCopying": false,
+        "isCopiedAnalytics": true,
+        "createdAtTimestamp": "2025-10-27T23:12:59.636Z",
+        "title": "Bottom Ads",
+        "createdAt": "October 27, 2025 4:12 PM",
+        "connectionId": 5,
+        "type": "groupNode",
+        "userName": "Nate Yeske",
+        "userId": "94e9e629-a3fb-4487-8295-249efa9cfc19",
+        "userEmail": "user@example.com"
+      },
+      "style": {
+        "height": 508,
+        "width": 1044
+      },
+      "measured": {
+        "width": 1044,
+        "height": 508
+      }
+    },
+    {
+      "updatedAt": "2026-10-07T12:13:13.706Z",
+      "userId": "86f5b982-23fa-452a-9017-f246391688b4",
+      "boardId": "polished-sea-2LmlU",
+      "graphId": "BNW7aGRhauOFL1L5SKFi",
+      "title": "Top Ads",
+      "id": "groupNode-black-summit-8yTqw",
+      "height": 508,
+      "className": "",
+      "zIndex": -1,
+      "type": "groupNode",
+      "width": 1044,
+      "position": {
+        "x": -687.566129279827,
+        "y": 1229.7057585537161
+      },
+      "createdAt": "2026-10-07T12:13:13.706Z",
+      "data": {
+        "userName": "Nate Yeske",
+        "title": "Top Ads",
+        "createdAtTimestamp": "2025-10-27T02:22:05.456Z",
+        "connectionId": 2,
+        "isCopiedAnalytics": true,
+        "isCopying": false,
+        "userEmail": "user@example.com",
+        "userId": "94e9e629-a3fb-4487-8295-249efa9cfc19",
+        "type": "groupNode",
+        "createdAt": "October 26, 2025 7:22 PM"
+      },
+      "style": {
+        "width": 1035,
+        "height": 508
+      },
+      "measured": {
+        "width": 1044,
+        "height": 508
+      }
+    },
+    {
+      "title": "My Voice and Content",
+      "updatedAt": "2026-10-07T12:13:13.706Z",
+      "userId": "86f5b982-23fa-452a-9017-f246391688b4",
+      "boardId": "polished-sea-2LmlU",
+      "graphId": "BNW7aGRhauOFL1L5SKFi",
+      "zIndex": -1,
+      "type": "groupNode",
+      "width": 1035,
+      "className": "",
+      "height": 508,
+      "id": "groupNode-dark-river-aru_P",
+      "position": {
+        "x": -687.566129279827,
+        "y": -316.7730505999198
+      },
+      "createdAt": "2026-10-07T12:13:13.706Z",
+      "data": {
+        "type": "groupNode",
+        "userId": "94e9e629-a3fb-4487-8295-249efa9cfc19",
+        "createdAtTimestamp": "2025-10-26T23:26:22.767Z",
+        "userEmail": "user@example.com",
+        "createdAt": "October 26, 2025 4:26 PM",
+        "title": "My Voice and Content",
+        "connectionId": 0,
+        "isCopying": false,
+        "isCopiedAnalytics": true,
+        "userName": "Nate Yeske"
+      },
+      "style": {
+        "width": 1035,
+        "height": 508
+      },
+      "measured": {
+        "width": 1035,
+        "height": 508
+      }
+    },
+    {
+      "title": "Expert Brain",
+      "updatedAt": "2026-10-07T12:13:13.706Z",
+      "userId": "86f5b982-23fa-452a-9017-f246391688b4",
+      "boardId": "polished-sea-2LmlU",
+      "graphId": "BNW7aGRhauOFL1L5SKFi",
+      "width": 1045,
+      "zIndex": -1,
+      "id": "groupNode-winter-beach-e1UQD",
+      "type": "groupNode",
+      "height": 834,
+      "className": "",
+      "position": {
+        "x": -665.2557235079721,
+        "y": 264.50984773876604
+      },
+      "createdAt": "2026-10-07T12:13:13.706Z",
+      "data": {
+        "createdAt": "May 27, 2025 10:41 AM",
+        "connectionId": 4,
+        "userId": "2IsJr0QScvQvTwMLsXjlJgAg2nm2",
+        "type": "groupNode",
+        "createdAtTimestamp": "2025-05-27T07:41:56.817Z",
+        "userEmail": "user@example.com",
+        "userName": "Robin Grundfelt",
+        "title": "Expert Brain",
+        "isCopying": false
+      },
+      "style": {
+        "height": 500,
+        "width": 600
+      },
+      "measured": {
+        "width": 1045,
+        "height": 834
+      }
+    },
+    {
+      "graphId": "BNW7aGRhauOFL1L5SKFi",
+      "type": "annotationNode",
+      "title": "annotationNode-mighty-firefly--4HES",
+      "transcript": "",
+      "tokenCount": 0,
+      "createdAt": "2026-10-07T12:13:13.706Z",
+      "content": "<p><span style=\"font-size: 80px;\"><strong>Step 3 | Expert Brain</strong></span></p>",
+      "boardId": "polished-sea-2LmlU",
+      "userId": "86f5b982-23fa-452a-9017-f246391688b4",
+      "updatedAt": "2026-10-07T12:13:13.706Z",
+      "id": "annotationNode-restless-cloud-jn6Fc",
+      "position": {
+        "x": -2131.534815515041,
+        "y": 602.7202382727087
+      },
+      "data": {
+        "transcriptSavedOnDB": true,
+        "createdAt": "October 26, 2025 7:29 PM",
+        "isDetaching": false,
+        "isCopying": false,
+        "createdAtTimestamp": "2025-10-27T02:29:08.756Z",
+        "connectionId": 2,
+        "userEmail": "user@example.com",
+        "userName": "Nate Yeske",
+        "userId": "94e9e629-a3fb-4487-8295-249efa9cfc19",
+        "type": "annotationNode",
+        "text": null
+      },
+      "measured": {
+        "width": 816,
+        "height": 136
+      }
+    },
+    {
+      "graphId": "BNW7aGRhauOFL1L5SKFi",
+      "type": "annotationNode",
+      "title": "annotationNode-silent-lake-j2PXi",
+      "transcript": "",
+      "tokenCount": 0,
+      "createdAt": "2026-10-07T12:13:13.706Z",
+      "content": "<p><span style=\"font-size: 80px;\"><strong>Step 1 | My Business</strong></span></p>",
+      "boardId": "polished-sea-2LmlU",
+      "userId": "86f5b982-23fa-452a-9017-f246391688b4",
+      "updatedAt": "2026-10-07T12:13:13.706Z",
+      "id": "annotationNode-divine-valley-RHapk",
+      "position": {
+        "x": -2131.534815515041,
+        "y": -785.5690958001194
+      },
+      "data": {
+        "userId": "94e9e629-a3fb-4487-8295-249efa9cfc19",
+        "type": "annotationNode",
+        "userEmail": "user@example.com",
+        "connectionId": 2,
+        "createdAtTimestamp": "2025-10-27T02:28:13.680Z",
+        "userName": "Nate Yeske",
+        "createdAt": "October 26, 2025 7:28 PM",
+        "isCopying": false,
+        "isDetaching": false,
+        "transcriptSavedOnDB": true,
+        "text": null
+      },
+      "measured": {
+        "width": 817,
+        "height": 136
+      }
+    },
+    {
+      "graphId": "BNW7aGRhauOFL1L5SKFi",
+      "type": "annotationNode",
+      "title": "annotationNode-wonderful-silence-3xjXj",
+      "transcript": "",
+      "tokenCount": 0,
+      "createdAt": "2026-10-07T12:13:13.706Z",
+      "content": "<p><span style=\"font-size: 80px;\"><strong>Step 2 | My Voice + Content</strong></span></p>",
+      "boardId": "polished-sea-2LmlU",
+      "userId": "86f5b982-23fa-452a-9017-f246391688b4",
+      "updatedAt": "2026-10-07T12:13:13.706Z",
+      "id": "annotationNode-spring-resonance-wUUP2",
+      "position": {
+        "y": -159.927202159599,
+        "x": -2389.8872772846685
+      },
+      "data": {
+        "isDetaching": false,
+        "isCopying": false,
+        "transcriptSavedOnDB": true,
+        "connectionId": 2,
+        "type": "annotationNode",
+        "createdAtTimestamp": "2025-10-27T02:28:50.734Z",
+        "userName": "Nate Yeske",
+        "userEmail": "user@example.com",
+        "userId": "94e9e629-a3fb-4487-8295-249efa9cfc19",
+        "createdAt": "October 26, 2025 7:28 PM",
+        "text": null
+      },
+      "measured": {
+        "width": 1102,
+        "height": 136
+      }
+    },
+    {
+      "graphId": "BNW7aGRhauOFL1L5SKFi",
+      "type": "annotationNode",
+      "title": "annotationNode-muddy-flower-3X9BT",
+      "transcript": "",
+      "tokenCount": 0,
+      "createdAt": "2026-10-07T12:13:13.706Z",
+      "content": "<p><span style=\"font-size: 80px;\"><strong>Step 4 | Inspiration Content</strong></span></p>",
+      "boardId": "polished-sea-2LmlU",
+      "userId": "86f5b982-23fa-452a-9017-f246391688b4",
+      "updatedAt": "2026-10-07T12:13:13.706Z",
+      "id": "annotationNode-bitter-sun-9Mrzq",
+      "position": {
+        "x": -2382.5751448112137,
+        "y": 1439.8055726178993
+      },
+      "data": {
+        "text": null,
+        "userName": "Nate Yeske",
+        "userId": "94e9e629-a3fb-4487-8295-249efa9cfc19",
+        "createdAtTimestamp": "2025-10-27T02:29:24.726Z",
+        "userEmail": "user@example.com",
+        "isDetaching": false,
+        "createdAt": "October 26, 2025 7:29 PM",
+        "connectionId": 2,
+        "type": "annotationNode",
+        "isCopying": false,
+        "transcriptSavedOnDB": true
+      },
+      "measured": {
+        "width": 1093,
+        "height": 136
+      }
+    },
+    {
+      "graphId": "BNW7aGRhauOFL1L5SKFi",
+      "type": "annotationNode",
+      "title": "annotationNode-gentle-brook-3crfZ",
+      "transcript": "",
+      "tokenCount": 0,
+      "createdAt": "2026-10-07T12:13:13.706Z",
+      "content": "<p><span style=\"font-size: 80px;\"><strong>Step 5 | New Video Ideas</strong></span></p>",
+      "boardId": "polished-sea-2LmlU",
+      "userId": "86f5b982-23fa-452a-9017-f246391688b4",
+      "updatedAt": "2026-10-07T12:13:13.706Z",
+      "id": "annotationNode-dark-glacier-fLJkL",
+      "position": {
+        "x": -2275.543353623021,
+        "y": 2027.0269072465503
+      },
+      "data": {
+        "createdAt": "October 27, 2025 4:12 PM",
+        "transcriptSavedOnDB": true,
+        "isDetaching": false,
+        "text": null,
+        "createdAtTimestamp": "2025-10-27T23:12:47.173Z",
+        "type": "annotationNode",
+        "isCopying": false,
+        "connectionId": 5,
+        "userEmail": "user@example.com",
+        "userId": "94e9e629-a3fb-4487-8295-249efa9cfc19",
+        "userName": "Nate Yeske"
+      },
+      "measured": {
+        "width": 988,
+        "height": 136
+      }
+    },
+    {
+      "graphId": "BNW7aGRhauOFL1L5SKFi",
+      "type": "annotationNode",
+      "title": "annotationNode-muddy-dust-SUDEJ",
+      "transcript": "",
+      "tokenCount": 0,
+      "createdAt": "2026-10-07T12:13:13.706Z",
+      "content": "<p><span style=\"font-size: 80px;\"><strong>Last Step | Copy This Into Poppy Chat! </strong></span><span style=\"font-size: 80px;\"><strong>👉</strong></span></p>",
+      "boardId": "polished-sea-2LmlU",
+      "userId": "86f5b982-23fa-452a-9017-f246391688b4",
+      "updatedAt": "2026-10-07T12:13:13.706Z",
+      "id": "annotationNode-damp-sound-JctpZ",
+      "height": 256,
+      "width": 1630,
+      "position": {
+        "x": -2288.800370913055,
+        "y": 2576.0935608333048
+      },
+      "data": {
+        "createdAt": "October 27, 2025 4:21 PM",
+        "isDetaching": false,
+        "text": null,
+        "createdAtTimestamp": "2025-10-27T23:21:59.653Z",
+        "transcriptSavedOnDB": true,
+        "userName": "Nate Yeske",
+        "userEmail": "user@example.com",
+        "type": "annotationNode",
+        "userId": "94e9e629-a3fb-4487-8295-249efa9cfc19",
+        "connectionId": 5,
+        "isCopying": false
+      },
+      "measured": {
+        "width": 1630,
+        "height": 256
+      }
+    },
+    {
+      "boardId": "polished-sea-2LmlU",
+      "graphId": "BNW7aGRhauOFL1L5SKFi",
+      "userId": "86f5b982-23fa-452a-9017-f246391688b4",
+      "updatedAt": "2026-10-07T12:13:13.706Z",
+      "width": 800,
+      "height": 700,
+      "type": "chatNode",
+      "id": "chatNode-young-thunder-FnpUb",
+      "position": {
+        "x": 871.4295902273952,
+        "y": 186.11585897402446
+      },
+      "createdAt": "2026-10-07T12:13:13.706Z",
+      "data": {
+        "createdAtTimestamp": "2025-05-27T07:25:23.242Z",
+        "userId": "2IsJr0QScvQvTwMLsXjlJgAg2nm2",
+        "type": "chatNode",
+        "userName": "Robin Grundfelt",
+        "connectionId": 0,
+        "createdAt": "May 27, 2025 10:25 AM",
+        "userEmail": "user@example.com",
+        "isCopying": false,
+        "modelId": "claude-sonnet-5",
+        "confirmDelete": true,
+        "isSidebarCollapsed": false,
+        "sidebarWidth": 220.00000000000003,
+        "reasoningEffort": "high",
+        "enableExtendedThinking": true
+      },
+      "style": {
+        "height": 700,
+        "width": 800
+      },
+      "measured": {
+        "width": 800,
+        "height": 700
+      }
+    },
+    {
+      "convertedUUID": "f6cafd9c-2419-49d2-8d68-9e639cac4f2f",
+      "token": 54387464,
+      "transcript": "                              100 Viral Hooks\r\n“Use this to get ideas of viral hooks that have been proven to work. I have studied hundreds\r\nof creators and viral content to get the best proven hooks. Remember to make them\r\npersonal but keep the core structure of the hook. (Make sure to click, File & Make a copy).\r\n\r\n\r\n\r\n   1. Imagine if you could (DESIRED RESULT)\r\n\r\n   2. What if I told you there's a simple way to (DESIRED RESULT)?\r\n\r\n   3. What if your (DESIRED RESULTS) were just one step away?\r\n\r\n   4. What if you could (DESIRED RESULT) without (PAIN POINT OF TARGET\r\n\r\n       AUDIENCE)?\r\n\r\n   5. Ever ask yourself why (PAIN POINT)\r\n\r\n   6. Struggling with (PAIN POINT OF TARGET AUDIENCE)? Here’s a secret tip I wish I\r\n\r\n       knew earlier\r\n\r\n   7. Are you struggling with (PAIN POINT OF TARGET AUDIENCE)? Then try this\r\n\r\n   8. Why 99% of (PAIN POINT TO TARGET AUDIENCE) don’t (RELATED TO NICHE)\r\n\r\n   9. X% of (TARGET AUDIENCE) are (PAIN POINT TO TARGET AUDIENCE), and\r\n\r\n       here’s why\r\n\r\n   10. I tried every (HACK/TIP/TRICK), so you don’t have to\r\n\r\n   11. (HACK/TIP/TRICK) I wish I knew earlier\r\n\r\n   12. Exposing my secret to (DESIRED RESULT)\r\n\r\n   13. How to get (DESIRED RESULT) in (TIME)\r\n\r\n   14. What happens when we (DESIRED RESULT)\r\n\r\n   15. Here’s how we (DESIRED RESULT)\r\n\r\n   16. These 3 (HACK/TIP/TRICK) feel illegal to know\r\n\r\n   17. This (PAIN POINT TO TARGET AUDIENCE) could destroy (DESIRED RESULT) in 5\r\n\r\n       seconds\r\n\r\n   18. This (RELATED TO NICHE) is the most dangerous (RELATED TO NICHE) of\r\n\r\n       (PLACE)\r\n19. Stop doing (PAIN POINT OF TARGET AUDIENCE) right now! Instead (DESIRED\r\n\r\n   RESULT)\r\n\r\n20. (RELATED TO NICHE) are dead\r\n\r\n21. The dark secret behind (RELATED TO NICHE)\r\n\r\n22. Here’s how I achieved (DESIRED RESULT) in (TIME)\r\n\r\n23. This is why your (ACTION) isn’t working\r\n\r\n24. Don’t hate me, but (HARD TRUTH)\r\n\r\n25. Everything you knew about (RELATED TO NICHE) is 100% wrong!\r\n\r\n26. This is the only thing you need to know about (RELATED TO NICHE)\r\n\r\n27. Did you know that (FACT)\r\n\r\n28. The craziest thing just happened at (PLACE), you will never believe it\r\n\r\n29. Fun fact: (FACT)\r\n\r\n30. (TARGET AUDIENCE) will never (DESIRED RESULT)\r\n\r\n31. (TARGET AUDIENCE) will never admit these “secrets”\r\n\r\n32. This will change the way you use (RELATED TO NICHE)\r\n\r\n33. Stop doing (RELATED TO NICHE) if you want to do (DESIRED RESULT)\r\n\r\n34. The biggest secret about (DESIRED RESULT) no one has told you\r\n\r\n35. Stop scrolling, you want to see this if you want (DESIRED RESULT)\r\n\r\n36. This hack will save you hours if you (RELATED TO NICHE)\r\n\r\n37. Other (RELATED TO NICHE) are lying to you!\r\n\r\n38. You will look at (RELATED TO NICHE) differently by the end of this video\r\n\r\n39. X steps to (DESIRED RESULT)\r\n\r\n40. X ways to (DESIRED RESULT)\r\n\r\n41. How to get (DESIRED RESULT) step-by-step\r\n\r\n42. The (NUMBER) secrets to (DESIRED RESULT)\r\n\r\n43. Here’s (NUMBER) underestimated (HACK/TIP/TRICK) to (DESIRED RESULT)\r\n\r\n44. Here are 3 quick ways to get (DESIRED RESULT)\r\n\r\n45. (NUMBER)( THINGS) that feel illegal to know\r\n46. Here are 5 signs why (PAIN POINT OF TARGET AUDIENCE)\r\n\r\n47. 5 mistakes you’re probably doing if you’re not getting (DESIRE RESULT)\r\n\r\n48. This is how I achieved (DESIRED RESULT)\r\n\r\n49. This simple trick helped me to (ACHIEVE DESIRED OUTCOME) and it can help you\r\n\r\n   too\r\n\r\n50. How I went from (PAST SITUATION) to (DESIRED RESULT) in just (TIME) years\r\n\r\n51. What nobody tells you about (DESIRED RESULT)\r\n\r\n52. The hidden benefits of overcoming (PAIN POINT)\r\n\r\n53. The #1 reason why people struggle with (PAIN POINT) and how to avoid it\r\n\r\n54. Steal my secret strategy on (DESIRED RESULT)\r\n\r\n55. Mistakes I made when (TARGET AUDIENCE)\r\n\r\n56. I’ve always been (PAIN POINT), but…\r\n\r\n57. If you want to achieve (DESIRED RESULT) Listen up!\r\n\r\n58. You need to watch this if you struggle with (PAIN POINT)\r\n\r\n59. I bet you didn’t know this!\r\n\r\n60. Why are there not more people talking about PAIN POINT\r\n\r\n61. You’re doing (DESIRED RESULT) wrong!\r\n\r\n62. POV: You (DESIRED RESULT)\r\n\r\n63. My secret to (DESIRED RESULT) revealed!\r\n\r\n64. Ever wondered how (ACTION) is done?\r\n\r\n65. Is there anything worse than (PAIN POINT)\r\n\r\n66. Stop doing (PAIN POINT)\r\n\r\n67. 99% of (TARGET AUDIENCE) don't. To be the 1% you need to (DESIRED RESULT)\r\n\r\n68. This is going to blow your mind.\r\n\r\n69. How to never (PAIN POINT) again\r\n\r\n70. You may not know this but…\r\n\r\n71. Still trying to figure out (DESIRED RESULT)? Here's an epic hack…\r\n\r\n72. This (PRODUCT) is the secret to (DESIRED RESULT).\r\n73. Why is nobody talking about (DESIRED RESULT)\r\n\r\n74. Here's a challenge for you…\r\n\r\n75. Today was the worst day ever…\r\n\r\n76. There's nothing more painful than (PAIN POINT)\r\n\r\n77. How I got (DESIRED RESULT) in (TIME)\r\n\r\n78. Here are the 3 best ways to (DESIRED RESULT)\r\n\r\n79. IDK who needs to hear this, but…\r\n\r\n80. Okay imagine this…\r\n\r\n81. Hear me out…\r\n\r\n82. If you're (RELATED TO NICHE) you should probably check out (ACTION)\r\n\r\n83. What would you do if (DESIRED RESULT)\r\n\r\n84. Hate to break it to you, but…\r\n\r\n85. Easy hack to (DESIRED RESULT)\r\n\r\n86. If you want (DESIRED RESULT) do these 5 things\r\n\r\n87. This is a reminder to (RELATED TO NICHE)\r\n\r\n88. You're going to miss out on (DESIRED RESULT) if you don't (ACTION)\r\n\r\n89. Here’s the number one reason why (RELATED TO NICHE) fail\r\n\r\n90. Here’s why you’re doing (ACTION) all wrong\r\n\r\n91. Watch this if you hate (PAIN POINT)\r\n\r\n92. Here’s a simple hack to help you (DESIRED RESULT)\r\n\r\n93. Here’s a simple hack to avoid (PAIN POINT OF TARGET AUDIENCE)\r\n\r\n94. Did you know that…\r\n\r\n95. This hack will save you hours on…\r\n\r\n96. You need to stop doing this!\r\n\r\n97. 5 mistakes you are probably making\r\n\r\n98. Try this one hack to get (DESIRED RESULT)\r\n\r\n99. Free tools for (RELATED TO NICHE)\r\n\r\n100.   If you want(DESIRED RESULT), avoid doing this!\r\n",
+      "status": "converted",
+      "createdAt": "2026-10-07T12:13:13.706Z",
+      "notes": "List of Viral Hooks ",
+      "title": "Viral Hook Ideas",
+      "updatedAt": "2026-10-07T12:13:13.706Z",
+      "userId": "86f5b982-23fa-452a-9017-f246391688b4",
+      "boardId": "polished-sea-2LmlU",
+      "graphId": "BNW7aGRhauOFL1L5SKFi",
+      "type": "documentNode",
+      "id": "documentNode-holy-butterfly-qs3bn",
+      "width": 290,
+      "height": 116,
+      "zIndex": 1000,
+      "position": {
+        "x": 39.207451846611434,
+        "y": 62.193501563725874
+      },
+      "parentId": "groupNode-winter-beach-e1UQD",
+      "extent": "parent",
+      "data": {
+        "isCopying": false,
+        "userName": "Robin Grundfelt",
+        "createdAt": "May 27, 2025 10:43 AM",
+        "userEmail": "user@example.com",
+        "userId": "2IsJr0QScvQvTwMLsXjlJgAg2nm2",
+        "connectionId": 4,
+        "transcriptSavedOnDB": true,
+        "createdAtTimestamp": "2025-05-27T07:43:26.105Z",
+        "isDetaching": false,
+        "type": "documentNode",
+        "notes": "List of Viral Hooks ",
+        "status": "done",
+        "title": "Viral Hook Ideas",
+        "mimeType": "application/pdf",
+        "convertedUUID": "f6cafd9c-2419-49d2-8d68-9e639cac4f2f",
+        "name": "100ViralHooks.pdf",
+        "uuid": "a0309da8-4c0d-40d0-8f93-da6dae91a18b",
+        "cdnUrl": "https://ucarecdn.com/a0309da8-4c0d-40d0-8f93-da6dae91a18b/"
+      },
+      "style": {
+        "height": 116,
+        "width": 290
+      },
+      "measured": {
+        "width": 290,
+        "height": 116
+      }
+    },
+    {
+      "convertedUUID": "3136f7b5-9058-4e37-9ede-c48d6ee21b72",
+      "token": 54387488,
+      "transcript": "Viral Scripting Framework\r\n\r\nThis framework is designed to help you craft short-form video scripts that capture attention, build\r\nengagement, and drive action. Each section plays a crucial role in keeping viewers hooked and\r\nensuring your content performs well.\r\n\r\n\r\n\r\n\r\nFramework Breakdown\r\n1. Hook\r\n\r\nThe opening line of your video is the most critical part. Its purpose is to immediately capture\r\nattention and generate curiosity.\r\n\r\nBest Practices for Hooks:\r\n\r\n   ●​ Use Emotion – Humor, surprise, curiosity, or pain points work best.\r\n   ●​ Indicate Value – Viewers should instantly know what’s in it for them.\r\n   ●​ Start Strong\r\n         ○​ Controversial Statement\r\n         ○​ Surprising Fact\r\n         ○​ Thought-Provoking Question\r\n   ●​ Enhance with Visual & Audio Effects\r\n         ○​ Graphics (e.g., bold text overlays, engaging visuals)\r\n         ○​ Sound Effects (e.g., dramatic thuds, risers, cha-chings)\r\n   ●​ Be Authentic – The best hook will fail if it feels fake or forced.\r\n\r\nExamples of Strong Hooks:\r\n\r\n   ●​ “Did you know Logan Paul is worth about $245M? What’s fascinating is where it comes\r\n      from.” – Codie Sanchez (2.7M views)\r\n   ●​ “If you’re American and think the U.S. is the best country, give me a genuine reason\r\n      why.” – Jordan Belfort (26M views)\r\n   ●​ “He makes $10K a month operating vending machines remotely.” – Codie Sanchez\r\n      (19.8M views)\r\n\r\nKey Objective: Get viewers to stay by making them curious about the resolution.\r\n\r\n\r\n\r\n\r\n2. Build-Up\r\n\r\nThe build-up section creates anticipation for the value you’re about to deliver.\r\nTechniques for a Strong Build-Up:\r\n\r\n   ●​ 0 Risk Positioning – Make it seem like the viewer has nothing to lose and everything to\r\n      gain.\r\n          ○​ “And the crazy thing? This takes just a minute to set up and costs less than a\r\n             subway sandwich.”\r\n   ●​ Authority – Reference people or brands that validate your point.\r\n          ○​ “This is the exact strategy Ali Abdaal and Iman Gadzhi use to crush content\r\n             creation.”\r\n   ●​ Controversial Angle – Challenge a popular belief or opinion.\r\n          ○​ “And I know this will upset people, but… ads aren’t the best way to grow a\r\n             brand.”\r\n   ●​ Personal Story – Use your own experiences or social proof.\r\n          ○​ “I tried this method, and it made me $10K in six months. Here’s how.”\r\n   ●​ Mind Read Technique – Predict and immediately counter the audience’s doubts.\r\n          ○​ “And NO, this isn’t about dropshipping or Amazon FBA.”\r\n\r\nKey Objective: Build suspense and keep them watching.\r\n\r\n\r\n\r\n\r\n3. Value\r\n\r\nThis is the core of your video. Make sure it’s actionable, specific, and something viewers find\r\ngenuinely useful.\r\n\r\nElements of a Strong Value Section:\r\n\r\n   ●​   Step-by-step breakdown – Clear and easy-to-follow instructions.\r\n   ●​   Tools & Resources – Provide links, websites, or software recommendations.\r\n   ●​   Actionable Advice – Not just theory, but something they can implement immediately.\r\n   ●​   Would they pay $5 for this info? If yes, it’s strong value.\r\n\r\nKey Objective: Deliver useful insights that make viewers feel they’ve gained something\r\nvaluable.\r\n\r\n\r\n\r\n\r\n4. Main Point / Payoff\r\n\r\nThis is where you tie everything back to the hook and deliver on your promise.\r\n\r\nBest Practices for a Strong Payoff:\r\n\r\n   ●​ Resolve the curiosity gap – Make sure it’s satisfying and conclusive.\r\n   ●​ Relate back to the hook – Keep it focused.\r\n   ●​ Keep it concise – Avoid dragging it out.\r\n\r\nKey Objective: Provide a satisfying resolution that rewards viewers for watching.\r\n\r\n\r\n\r\n\r\n5. Call-To-Action (CTA)\r\n\r\nYour CTA should guide viewers on what to do next.\r\n\r\nBest CTA Approaches:\r\n\r\n   ●​ Engagement CTAs – Likes, comments, shares.\r\n         ○​ “Save this post to remember next time you post on IG.”\r\n         ○​ “Comment ‘SEND’ and I’ll connect you with my team.”\r\n   ●​ Monetization CTAs – Direct to a product or service.\r\n         ○​ “Check out my free guide linked in my bio.”\r\n   ●​ Community-Building CTAs – Grow your audience.\r\n         ○​ “Follow for more tips on growing your personal brand.”\r\n\r\nKey Objective: Convert attention into action.\r\n\r\n\r\n\r\n\r\nFull Example Scripts\r\nExample #1: Instagram Posting Hack (1.3M Views)\r\n\r\nHook:​\r\n“Are you still manually posting on Instagram from your phone?”\r\n\r\nBuild-Up:​\r\n“I’ve gained 10K followers in 2 months without ever opening the Instagram app. In fact, all my\r\nposts are scheduled in advance.”\r\n\r\nValue:\r\n\r\n   1.​ Go to business.facebook.com\r\n   2.​ Log in with your Instagram\r\n   3.​ Use the planner to schedule posts\r\n\r\nPayoff:​\r\n“Now you can plan weeks of content in 30 minutes.”\r\nCTA:​\r\n“Save this post to remember next time you post on IG.”\r\n\r\n\r\n\r\n\r\nExample #2: The Spotlight Effect (2.5M Views)\r\n\r\nHook:​\r\n“Have you ever heard of the spotlight effect?”\r\n\r\nBuild-Up:​\r\n “Well in 1999, psychologists Thomas Gilovich and Kenneth Sowinski discovered this now\r\nfamous phenomenon. They conducted a study asking participants to wear this Barry Manilow\r\nT-shirt. He’s a famously hated musician. While walking around the college campus, they were\r\nthen asked to estimate how many people noticed their embarrassing shirt.\r\n\r\nNow the participants constantly overestimated the number of people who noticed the shirt, and\r\nthe researchers found similar data in other studies they conducted. They concluded that people\r\noften think that others are paying way more attention to them than they actually are.”\r\n\r\nValue:​\r\n “So this is the spotlight effect—the idea that we often feel like there’s a spotlight on us, and\r\neveryone is watching and judging our every move. Some people find the spotlight effect\r\nparticularly overwhelming, becoming very self-conscious and anxious in social situations, which\r\ncan lead to negative self-talk and low self-esteem.\r\n\r\nSo, how can we overcome this? Well, there’s a famous quote from Eleanor Roosevelt that might\r\nhelp: ‘You wouldn’t worry so much about what others think of you if you realized how seldom\r\nthey do.’\r\n\r\nThe secret to overcoming the spotlight effect is realizing how rarely others are actually thinking\r\nabout you, because ironically, they are usually far too busy thinking about themselves—thinking\r\nthat the spotlight is, in fact, on them.”\r\n\r\nCTA:​\r\nNone.\r\n\r\n\r\n\r\n\r\nFinal Takeaways:\r\n   ●​   Keep your scripts punchy and engaging.\r\n   ●​   Focus on curiosity and value.\r\n   ●​   Deliver a strong resolution.\r\n   ●​   Test different hooks to see what resonates best.\r\n    ●​ Optimize for watch time—the longer people watch, the better your content performs.\r\n\r\n\r\n🚀\r\nThis framework will help you create viral-worthy scripts that engage audiences and drive results.\r\n",
+      "status": "converted",
+      "createdAt": "2026-10-07T12:13:13.706Z",
+      "notes": "Script Framework to Reference",
+      "title": "Viral Video Script Framework",
+      "updatedAt": "2026-10-07T12:13:13.706Z",
+      "userId": "86f5b982-23fa-452a-9017-f246391688b4",
+      "boardId": "polished-sea-2LmlU",
+      "graphId": "BNW7aGRhauOFL1L5SKFi",
+      "id": "documentNode-fragrant-darkness-q0iAS",
+      "type": "documentNode",
+      "width": 290,
+      "height": 116,
+      "parentId": "groupNode-winter-beach-e1UQD",
+      "extent": "parent",
+      "position": {
+        "y": 59.9748306649642,
+        "x": 353.75160368987974
+      },
+      "data": {
+        "connectionId": 4,
+        "userName": "Robin Grundfelt",
+        "createdAt": "May 27, 2025 10:44 AM",
+        "transcriptSavedOnDB": true,
+        "type": "documentNode",
+        "userEmail": "user@example.com",
+        "isDetaching": false,
+        "isCopying": false,
+        "userId": "2IsJr0QScvQvTwMLsXjlJgAg2nm2",
+        "createdAtTimestamp": "2025-05-27T07:44:03.664Z",
+        "status": "done",
+        "notes": "Script Framework to Reference",
+        "mimeType": "application/pdf",
+        "title": "Viral Video Script Framework",
+        "convertedUUID": "3136f7b5-9058-4e37-9ede-c48d6ee21b72",
+        "name": "ViralScriptingFramework.pdf",
+        "cdnUrl": "https://ucarecdn.com/b5e81ebf-495e-44f4-aef3-b1a1a9752560/",
+        "uuid": "b5e81ebf-495e-44f4-aef3-b1a1a9752560"
+      },
+      "style": {
+        "width": 290,
+        "height": 116
+      },
+      "measured": {
+        "width": 290,
+        "height": 116
+      }
+    },
+    {
+      "type": "textNode",
+      "title": "textNode-tender-frost-7yX9j",
+      "tokenCount": 0,
+      "createdAt": "2026-10-07T12:13:13.706Z",
+      "isCopied": true,
+      "transcript": "<div class=\"bn-block-group\" data-node-type=\"blockGroup\"><div class=\"bn-block-outer\" data-node-type=\"blockOuter\" data-id=\"538271e7-9b57-4680-9e1c-c86405ec30e9\"><div class=\"bn-block\" data-node-type=\"blockContainer\" data-id=\"538271e7-9b57-4680-9e1c-c86405ec30e9\"><div class=\"bn-block-content\" data-content-type=\"heading\"><h1 class=\"bn-inline-content\">My Voice &amp; Content 👉</h1></div></div></div><div class=\"bn-block-outer\" data-node-type=\"blockOuter\" data-id=\"4d586cef-3706-4638-a4e7-020d3e19b674\"><div class=\"bn-block\" data-node-type=\"blockContainer\" data-id=\"4d586cef-3706-4638-a4e7-020d3e19b674\"><div class=\"bn-block-content\" data-content-type=\"numberedListItem\" data-index=\"1\"><p class=\"bn-inline-content\"><strong>The Goal: </strong>to teach Poppy your unique voice tone and style.</p></div></div></div><div class=\"bn-block-outer\" data-node-type=\"blockOuter\" data-id=\"c6ee8e1a-52c9-49a0-bbfc-a56851516128\"><div class=\"bn-block\" data-node-type=\"blockContainer\" data-id=\"c6ee8e1a-52c9-49a0-bbfc-a56851516128\"><div class=\"bn-block-content\" data-content-type=\"numberedListItem\" data-index=\"2\"><p class=\"bn-inline-content\"><strong>Paste: </strong>Any Content you have from YT, IG, or TikTok where it's YOU TALKING</p></div></div></div><div class=\"bn-block-outer\" data-node-type=\"blockOuter\" data-id=\"daef6705-0c7a-4510-a5c3-f231cbd433b6\"><div class=\"bn-block\" data-node-type=\"blockContainer\" data-id=\"daef6705-0c7a-4510-a5c3-f231cbd433b6\"><div class=\"bn-block-content\" data-content-type=\"paragraph\"><p class=\"bn-inline-content\"></p></div></div></div><div class=\"bn-block-outer\" data-node-type=\"blockOuter\" data-id=\"eda69182-1801-4f2e-8641-a2ccd117985d\"><div class=\"bn-block\" data-node-type=\"blockContainer\" data-id=\"eda69182-1801-4f2e-8641-a2ccd117985d\"><div class=\"bn-block-content\" data-content-type=\"paragraph\"><p class=\"bn-inline-content\"><strong><em>Now Poppy knows your voice and keep your content authentic to you!</em></strong></p></div></div></div><div class=\"bn-block-outer\" data-node-type=\"blockOuter\" data-id=\"a16b8e17-2bbd-4bc0-9736-7d6a16fa2665\"><div class=\"bn-block\" data-node-type=\"blockContainer\" data-id=\"a16b8e17-2bbd-4bc0-9736-7d6a16fa2665\"><div class=\"bn-block-content\" data-content-type=\"paragraph\"><p class=\"bn-inline-content\"></p></div></div></div><div class=\"bn-block-outer\" data-node-type=\"blockOuter\" data-id=\"440a9045-37d9-4c61-8fc6-e063cceb5adf\"><div class=\"bn-block\" data-node-type=\"blockContainer\" data-id=\"440a9045-37d9-4c61-8fc6-e063cceb5adf\"><div class=\"bn-block-content\" data-content-type=\"paragraph\"><p class=\"bn-inline-content\"><strong>Tip: </strong>No content? No problem! Hit record on the left side (microphone) and talk about a concept you want to teach that you're passionate about.</p></div></div></div><div class=\"bn-block-outer\" data-node-type=\"blockOuter\" data-id=\"b4343182-ece7-4c8e-b383-9a6755f1bab0\"><div class=\"bn-block\" data-node-type=\"blockContainer\" data-id=\"b4343182-ece7-4c8e-b383-9a6755f1bab0\"><div class=\"bn-block-content\" data-content-type=\"paragraph\"><p class=\"bn-inline-content\"></p></div></div></div></div>",
+      "graphId": "BNW7aGRhauOFL1L5SKFi",
+      "copiedAt": "2025-11-13T07:14:20.198Z",
+      "boardId": "polished-sea-2LmlU",
+      "userId": "86f5b982-23fa-452a-9017-f246391688b4",
+      "updatedAt": "2026-10-07T12:13:13.706Z",
+      "id": "textNode-tender-frost-7yX9j",
+      "width": 530,
+      "height": 508,
+      "position": {
+        "x": -1269.1344842222907,
+        "y": -316.7730505999198
+      },
+      "data": {
+        "notes": "",
+        "createdAt": "November 12, 2025 11:14 PM",
+        "userName": "Nazariy Dumanskyy",
+        "isDetaching": false,
+        "userId": "CyaIAVe8DYc5x0Uyy50CfnIrtOi2",
+        "isCopiedAnalytics": true,
+        "createdAtTimestamp": "2025-11-13T07:14:19.754Z",
+        "connectionId": 1,
+        "originalId": "textNode-hidden-rock-npx8r",
+        "transcriptSavedOnDB": true,
+        "userEmail": "user@example.com",
+        "type": "textNode",
+        "text": null,
+        "isCopying": false
+      },
+      "style": {
+        "width": 561,
+        "height": 428
+      },
+      "measured": {
+        "width": 530,
+        "height": 508
+      }
+    },
+    {
+      "type": "textNode",
+      "title": "textNode-thankful-glitter-Wr1lq",
+      "tokenCount": 0,
+      "createdAt": "2026-10-07T12:13:13.706Z",
+      "graphId": "BNW7aGRhauOFL1L5SKFi",
+      "isCopied": true,
+      "transcript": "<div class=\"bn-block-group\" data-node-type=\"blockGroup\"><div class=\"bn-block-outer\" data-node-type=\"blockOuter\" data-id=\"538271e7-9b57-4680-9e1c-c86405ec30e9\"><div class=\"bn-block\" data-node-type=\"blockContainer\" data-id=\"538271e7-9b57-4680-9e1c-c86405ec30e9\"><div class=\"bn-block-content\" data-content-type=\"heading\"><h1 class=\"bn-inline-content\">Expert Brain 👉</h1></div></div></div><div class=\"bn-block-outer\" data-node-type=\"blockOuter\" data-id=\"58d22c2a-763c-44f3-802a-8879e06f45d0\"><div class=\"bn-block\" data-node-type=\"blockContainer\" data-id=\"58d22c2a-763c-44f3-802a-8879e06f45d0\"><div class=\"bn-block-content\" data-content-type=\"numberedListItem\" data-index=\"1\"><p class=\"bn-inline-content\"><strong>The Goal: </strong>to give Poppy everything it needs to know to write viral content.</p></div></div></div><div class=\"bn-block-outer\" data-node-type=\"blockOuter\" data-id=\"93d8e114-6a3b-4cf9-ae9c-e51217ba085d\"><div class=\"bn-block\" data-node-type=\"blockContainer\" data-id=\"93d8e114-6a3b-4cf9-ae9c-e51217ba085d\"><div class=\"bn-block-content\" data-content-type=\"numberedListItem\" data-index=\"2\"><p class=\"bn-inline-content\"><strong>Load Up: </strong>Any resources to train Poppy on how to be the best viral content creator for you</p></div></div></div><div class=\"bn-block-outer\" data-node-type=\"blockOuter\" data-id=\"91a17a39-3a57-4fa3-8a2f-9fab1016ab25\"><div class=\"bn-block\" data-node-type=\"blockContainer\" data-id=\"91a17a39-3a57-4fa3-8a2f-9fab1016ab25\"><div class=\"bn-block-content\" data-content-type=\"paragraph\"><p class=\"bn-inline-content\"></p></div><div class=\"bn-block-group\" data-node-type=\"blockGroup\"><div class=\"bn-block-outer\" data-node-type=\"blockOuter\" data-id=\"c5ece37c-0375-400a-9351-c2fe1ac56c9c\"><div class=\"bn-block\" data-node-type=\"blockContainer\" data-id=\"c5ece37c-0375-400a-9351-c2fe1ac56c9c\"><div class=\"bn-block-content\" data-content-type=\"paragraph\"><p class=\"bn-inline-content\"><strong>Tip: </strong>Only load videos with high view counts ie. 25k-1M</p></div></div></div></div></div></div><div class=\"bn-block-outer\" data-node-type=\"blockOuter\" data-id=\"a6b75dec-c940-4551-85ee-2c8f759a40a4\"><div class=\"bn-block\" data-node-type=\"blockContainer\" data-id=\"a6b75dec-c940-4551-85ee-2c8f759a40a4\"><div class=\"bn-block-content\" data-content-type=\"paragraph\"><p class=\"bn-inline-content\"></p></div></div></div><div class=\"bn-block-outer\" data-node-type=\"blockOuter\" data-id=\"f450f09e-632a-4904-9cf5-30f0e819c716\"><div class=\"bn-block\" data-node-type=\"blockContainer\" data-id=\"f450f09e-632a-4904-9cf5-30f0e819c716\"><div class=\"bn-block-content\" data-content-type=\"paragraph\"><p class=\"bn-inline-content\"></p></div></div></div></div>",
+      "copiedAt": "2025-10-26T23:17:26.225Z",
+      "boardId": "polished-sea-2LmlU",
+      "userId": "86f5b982-23fa-452a-9017-f246391688b4",
+      "updatedAt": "2026-10-07T12:13:13.706Z",
+      "width": 500,
+      "id": "textNode-thankful-glitter-Wr1lq",
+      "height": 459,
+      "position": {
+        "x": -1262.1981187928686,
+        "y": 511.0799488215756
+      },
+      "data": {
+        "userName": "Nate Yeske",
+        "userEmail": "user@example.com",
+        "connectionId": 0,
+        "createdAtTimestamp": "2025-10-26T23:17:25.241Z",
+        "userId": "94e9e629-a3fb-4487-8295-249efa9cfc19",
+        "createdAt": "October 26, 2025 4:17 PM",
+        "isDetaching": false,
+        "notes": "",
+        "text": null,
+        "type": "textNode",
+        "isCopying": false,
+        "transcriptSavedOnDB": true,
+        "originalId": "textNode-billowing-leaf-jtUlA",
+        "isCopiedAnalytics": true
+      },
+      "style": {
+        "width": 500,
+        "height": 300
+      },
+      "measured": {
+        "width": 500,
+        "height": 459
+      }
+    },
+    {
+      "graphId": "BNW7aGRhauOFL1L5SKFi",
+      "type": "textNode",
+      "title": "textNode-elegant-morning-IIeam",
+      "tokenCount": 0,
+      "createdAt": "2026-10-07T12:13:13.706Z",
+      "transcript": "<div class=\"bn-block-group\" data-node-type=\"blockGroup\"><div class=\"bn-block-outer\" data-node-type=\"blockOuter\" data-id=\"538271e7-9b57-4680-9e1c-c86405ec30e9\"><div class=\"bn-block\" data-node-type=\"blockContainer\" data-id=\"538271e7-9b57-4680-9e1c-c86405ec30e9\"><div class=\"bn-block-content\" data-content-type=\"heading\"><h1 class=\"bn-inline-content\">My Business (Required)👉</h1></div></div></div><div class=\"bn-block-outer\" data-node-type=\"blockOuter\" data-id=\"4d586cef-3706-4638-a4e7-020d3e19b674\"><div class=\"bn-block\" data-node-type=\"blockContainer\" data-id=\"4d586cef-3706-4638-a4e7-020d3e19b674\"><div class=\"bn-block-content\" data-content-type=\"numberedListItem\" data-index=\"1\"><p class=\"bn-inline-content\"><strong>The Goal: </strong>to give Poppy everything it needs to know about your business.</p></div></div></div><div class=\"bn-block-outer\" data-node-type=\"blockOuter\" data-id=\"355e21c4-7d45-46f2-bf85-0e46d533db4d\"><div class=\"bn-block\" data-node-type=\"blockContainer\" data-id=\"355e21c4-7d45-46f2-bf85-0e46d533db4d\"><div class=\"bn-block-content\" data-content-type=\"numberedListItem\" data-index=\"2\"><p class=\"bn-inline-content\"><strong>Load Up: </strong>Any Docs or Text on your business ie. Ideal Client Profile, Offers, Brand, Vision etc.</p></div></div></div><div class=\"bn-block-outer\" data-node-type=\"blockOuter\" data-id=\"440a9045-37d9-4c61-8fc6-e063cceb5adf\"><div class=\"bn-block\" data-node-type=\"blockContainer\" data-id=\"440a9045-37d9-4c61-8fc6-e063cceb5adf\"><div class=\"bn-block-content\" data-content-type=\"paragraph\"><p class=\"bn-inline-content\"><strong>Tip: </strong>No docs? No problem! Hit record on the left side (microphone) and talk about your business...</p></div></div></div><div class=\"bn-block-outer\" data-node-type=\"blockOuter\" data-id=\"da6ede20-ac4c-4b79-9756-f11484c0e135\"><div class=\"bn-block\" data-node-type=\"blockContainer\" data-id=\"da6ede20-ac4c-4b79-9756-f11484c0e135\"><div class=\"bn-block-content\" data-content-type=\"numberedListItem\" data-index=\"1\"><p class=\"bn-inline-content\">What is your niche?</p></div></div></div><div class=\"bn-block-outer\" data-node-type=\"blockOuter\" data-id=\"c11ac276-84d9-4e63-bbd3-b4fc7ad24a2e\"><div class=\"bn-block\" data-node-type=\"blockContainer\" data-id=\"c11ac276-84d9-4e63-bbd3-b4fc7ad24a2e\"><div class=\"bn-block-content\" data-content-type=\"numberedListItem\" data-index=\"2\"><p class=\"bn-inline-content\">Who is your target audience?</p></div></div></div><div class=\"bn-block-outer\" data-node-type=\"blockOuter\" data-id=\"59b733a0-7389-4db2-b3b9-7b384adbae4f\"><div class=\"bn-block\" data-node-type=\"blockContainer\" data-id=\"59b733a0-7389-4db2-b3b9-7b384adbae4f\"><div class=\"bn-block-content\" data-content-type=\"numberedListItem\" data-index=\"3\"><p class=\"bn-inline-content\">What do you hate about your current niche?</p></div></div></div><div class=\"bn-block-outer\" data-node-type=\"blockOuter\" data-id=\"cbbbffba-aa55-483d-b82a-135345b66edf\"><div class=\"bn-block\" data-node-type=\"blockContainer\" data-id=\"cbbbffba-aa55-483d-b82a-135345b66edf\"><div class=\"bn-block-content\" data-content-type=\"numberedListItem\" data-index=\"4\"><p class=\"bn-inline-content\">Tell us why are you making content? (Personal Background)</p></div></div></div><div class=\"bn-block-outer\" data-node-type=\"blockOuter\" data-id=\"a6b75dec-c940-4551-85ee-2c8f759a40a4\"><div class=\"bn-block\" data-node-type=\"blockContainer\" data-id=\"a6b75dec-c940-4551-85ee-2c8f759a40a4\"><div class=\"bn-block-content\" data-content-type=\"paragraph\"><p class=\"bn-inline-content\"></p></div></div></div><div class=\"bn-block-outer\" data-node-type=\"blockOuter\" data-id=\"f450f09e-632a-4904-9cf5-30f0e819c716\"><div class=\"bn-block\" data-node-type=\"blockContainer\" data-id=\"f450f09e-632a-4904-9cf5-30f0e819c716\"><div class=\"bn-block-content\" data-content-type=\"paragraph\"><p class=\"bn-inline-content\"></p></div></div></div><div class=\"bn-block-outer\" data-node-type=\"blockOuter\" data-id=\"e455aad3-ab43-432b-95b1-4b440f7d2882\"><div class=\"bn-block\" data-node-type=\"blockContainer\" data-id=\"e455aad3-ab43-432b-95b1-4b440f7d2882\"><div class=\"bn-block-content\" data-content-type=\"paragraph\"><p class=\"bn-inline-content\"></p></div></div></div></div>",
+      "boardId": "polished-sea-2LmlU",
+      "userId": "86f5b982-23fa-452a-9017-f246391688b4",
+      "updatedAt": "2026-10-07T12:13:13.706Z",
+      "height": 503,
+      "id": "textNode-elegant-morning-IIeam",
+      "width": 549,
+      "position": {
+        "y": -942.0610139379958,
+        "x": -1262.1981187928686
+      },
+      "data": {
+        "isDetaching": false,
+        "connectionId": 0,
+        "text": null,
+        "type": "textNode",
+        "userName": "Nate Yeske",
+        "isCopying": false,
+        "userEmail": "user@example.com",
+        "transcriptSavedOnDB": true,
+        "createdAtTimestamp": "2025-10-26T23:15:13.573Z",
+        "createdAt": "October 26, 2025 4:15 PM",
+        "userId": "94e9e629-a3fb-4487-8295-249efa9cfc19",
+        "notes": ""
+      },
+      "style": {
+        "height": 300,
+        "width": 500
+      },
+      "measured": {
+        "width": 549,
+        "height": 503
+      }
+    },
+    {
+      "type": "textNode",
+      "tokenCount": 0,
+      "createdAt": "2026-10-07T12:13:13.706Z",
+      "transcript": "<div class=\"bn-block-group\" data-node-type=\"blockGroup\"><div class=\"bn-block-outer\" data-node-type=\"blockOuter\" data-id=\"7bc2b671-c057-48b8-86b4-bcbfd0fb1e47\"><div class=\"bn-block\" data-node-type=\"blockContainer\" data-id=\"7bc2b671-c057-48b8-86b4-bcbfd0fb1e47\"><div class=\"bn-block-content\" data-content-type=\"heading\"><h1 class=\"bn-inline-content\">Viral Short Form Hooks Prompt</h1></div></div></div><div class=\"bn-block-outer\" data-node-type=\"blockOuter\" data-id=\"fe839913-9745-4413-b92b-213f39a32497\"><div class=\"bn-block\" data-node-type=\"blockContainer\" data-id=\"fe839913-9745-4413-b92b-213f39a32497\"><div class=\"bn-block-content\" data-content-type=\"paragraph\"><p class=\"bn-inline-content\"><strong>Copy this into the Poppy Chat:</strong></p></div></div></div><div class=\"bn-block-outer\" data-node-type=\"blockOuter\" data-id=\"c0f9e646-b852-4b02-a2f7-8365ac1ee950\"><div class=\"bn-block\" data-node-type=\"blockContainer\" data-id=\"c0f9e646-b852-4b02-a2f7-8365ac1ee950\"><div class=\"bn-block-content\" data-content-type=\"paragraph\"><p class=\"bn-inline-content\">Create for me 10 viral hooks for m business for Short Form Content.<br>1. Use Expert Brain content as the frameworks for hooks and storytelling<br>2. Use my Voice &amp; Content group as tone of voice for the scripts<br>3. Use Inspiration content as inspiration content I want to model when necessary<br>4. Use my Business Group to create content based on the goal defined in there.<br><br>For each hook explain why and identify the framework or inspiration content you used.</p></div></div></div><div class=\"bn-block-outer\" data-node-type=\"blockOuter\" data-id=\"c61d5e68-6349-421f-b65d-e3897d70ceec\"><div class=\"bn-block\" data-node-type=\"blockContainer\" data-id=\"c61d5e68-6349-421f-b65d-e3897d70ceec\"><div class=\"bn-block-content\" data-content-type=\"paragraph\"><p class=\"bn-inline-content\"></p></div></div></div></div>",
+      "notes": "COPY & PASTE THIS INTO POPPY",
+      "title": "textNode-festive-brook-WUkNh",
+      "updatedAt": "2026-10-07T12:13:13.706Z",
+      "userId": "86f5b982-23fa-452a-9017-f246391688b4",
+      "boardId": "polished-sea-2LmlU",
+      "graphId": "BNW7aGRhauOFL1L5SKFi",
+      "width": 538,
+      "id": "textNode-festive-brook-WUkNh",
+      "height": 461,
+      "position": {
+        "x": -595.1478248290562,
+        "y": 2528.4368481759275
+      },
+      "data": {
+        "isCopying": false,
+        "userEmail": "user@example.com",
+        "type": "textNode",
+        "isDetaching": false,
+        "createdAtTimestamp": "2025-10-27T23:16:44.448Z",
+        "text": null,
+        "createdAt": "October 27, 2025 4:16 PM",
+        "transcriptSavedOnDB": true,
+        "connectionId": 5,
+        "userId": "94e9e629-a3fb-4487-8295-249efa9cfc19",
+        "userName": "Nate Yeske",
+        "notes": "COPY & PASTE THIS INTO POPPY",
+        "title": "Text"
+      },
+      "style": {
+        "width": 500,
+        "height": 300
+      },
+      "measured": {
+        "width": 538,
+        "height": 461
+      }
+    },
+    {
+      "type": "textNode",
+      "title": "textNode-lively-meadow-8L3Uq",
+      "tokenCount": 0,
+      "createdAt": "2026-10-07T12:13:13.706Z",
+      "isCopied": true,
+      "graphId": "BNW7aGRhauOFL1L5SKFi",
+      "transcript": "<div class=\"bn-block-group\" data-node-type=\"blockGroup\"><div class=\"bn-block-outer\" data-node-type=\"blockOuter\" data-id=\"538271e7-9b57-4680-9e1c-c86405ec30e9\"><div class=\"bn-block\" data-node-type=\"blockContainer\" data-id=\"538271e7-9b57-4680-9e1c-c86405ec30e9\"><div class=\"bn-block-content\" data-content-type=\"heading\"><h1 class=\"bn-inline-content\">New Video Ideas 👉</h1></div></div></div><div class=\"bn-block-outer\" data-node-type=\"blockOuter\" data-id=\"58d22c2a-763c-44f3-802a-8879e06f45d0\"><div class=\"bn-block\" data-node-type=\"blockContainer\" data-id=\"58d22c2a-763c-44f3-802a-8879e06f45d0\"><div class=\"bn-block-content\" data-content-type=\"numberedListItem\" data-index=\"1\"><p class=\"bn-inline-content\"><strong>The Goal: </strong>to give Poppy your new video idea or concept to then run through the previous groups to make your viral scripts!</p></div></div></div><div class=\"bn-block-outer\" data-node-type=\"blockOuter\" data-id=\"93d8e114-6a3b-4cf9-ae9c-e51217ba085d\"><div class=\"bn-block\" data-node-type=\"blockContainer\" data-id=\"93d8e114-6a3b-4cf9-ae9c-e51217ba085d\"><div class=\"bn-block-content\" data-content-type=\"numberedListItem\" data-index=\"2\"><p class=\"bn-inline-content\"><strong>Load Up: </strong>Record your idea using the microphone button to the left or add a viral reel that you is talking about the content you want to write a script for.</p></div></div></div><div class=\"bn-block-outer\" data-node-type=\"blockOuter\" data-id=\"91a17a39-3a57-4fa3-8a2f-9fab1016ab25\"><div class=\"bn-block\" data-node-type=\"blockContainer\" data-id=\"91a17a39-3a57-4fa3-8a2f-9fab1016ab25\"><div class=\"bn-block-content\" data-content-type=\"paragraph\"><p class=\"bn-inline-content\"></p></div><div class=\"bn-block-group\" data-node-type=\"blockGroup\"><div class=\"bn-block-outer\" data-node-type=\"blockOuter\" data-id=\"c5ece37c-0375-400a-9351-c2fe1ac56c9c\"><div class=\"bn-block\" data-node-type=\"blockContainer\" data-id=\"c5ece37c-0375-400a-9351-c2fe1ac56c9c\"><div class=\"bn-block-content\" data-content-type=\"paragraph\"><p class=\"bn-inline-content\"><strong>Tip: </strong>you can also paste in Voice Memos from your Mac or Drag &amp; Drop any audio recording into here</p></div></div></div></div></div></div><div class=\"bn-block-outer\" data-node-type=\"blockOuter\" data-id=\"a6b75dec-c940-4551-85ee-2c8f759a40a4\"><div class=\"bn-block\" data-node-type=\"blockContainer\" data-id=\"a6b75dec-c940-4551-85ee-2c8f759a40a4\"><div class=\"bn-block-content\" data-content-type=\"paragraph\"><p class=\"bn-inline-content\"></p></div></div></div><div class=\"bn-block-outer\" data-node-type=\"blockOuter\" data-id=\"f450f09e-632a-4904-9cf5-30f0e819c716\"><div class=\"bn-block\" data-node-type=\"blockContainer\" data-id=\"f450f09e-632a-4904-9cf5-30f0e819c716\"><div class=\"bn-block-content\" data-content-type=\"paragraph\"><p class=\"bn-inline-content\"></p></div></div></div></div>",
+      "copiedAt": "2025-10-27T23:13:09.888Z",
+      "boardId": "polished-sea-2LmlU",
+      "userId": "86f5b982-23fa-452a-9017-f246391688b4",
+      "updatedAt": "2026-10-07T12:13:13.706Z",
+      "height": 466,
+      "id": "textNode-lively-meadow-8L3Uq",
+      "width": 520,
+      "position": {
+        "y": 1926.8194733666387,
+        "x": -1249.1981187928686
+      },
+      "data": {
+        "userEmail": "user@example.com",
+        "userName": "Nate Yeske",
+        "connectionId": 5,
+        "transcriptSavedOnDB": true,
+        "originalId": "textNode-proud-bird-qYCXm",
+        "isCopiedAnalytics": true,
+        "isCopying": false,
+        "text": null,
+        "notes": "",
+        "type": "textNode",
+        "isDetaching": false,
+        "createdAt": "October 27, 2025 4:13 PM",
+        "userId": "94e9e629-a3fb-4487-8295-249efa9cfc19",
+        "createdAtTimestamp": "2025-10-27T23:13:09.509Z"
+      },
+      "style": {
+        "height": 300,
+        "width": 500
+      },
+      "measured": {
+        "width": 520,
+        "height": 466
+      }
+    },
+    {
+      "type": "textNode",
+      "title": "textNode-hidden-firefly-7KZbW",
+      "tokenCount": 0,
+      "createdAt": "2026-10-07T12:13:13.706Z",
+      "isCopied": true,
+      "graphId": "BNW7aGRhauOFL1L5SKFi",
+      "transcript": "<div class=\"bn-block-group\" data-node-type=\"blockGroup\"><div class=\"bn-block-outer\" data-node-type=\"blockOuter\" data-id=\"538271e7-9b57-4680-9e1c-c86405ec30e9\"><div class=\"bn-block\" data-node-type=\"blockContainer\" data-id=\"538271e7-9b57-4680-9e1c-c86405ec30e9\"><div class=\"bn-block-content\" data-content-type=\"heading\"><h1 class=\"bn-inline-content\">Inspiration 👉</h1></div></div></div><div class=\"bn-block-outer\" data-node-type=\"blockOuter\" data-id=\"58d22c2a-763c-44f3-802a-8879e06f45d0\"><div class=\"bn-block\" data-node-type=\"blockContainer\" data-id=\"58d22c2a-763c-44f3-802a-8879e06f45d0\"><div class=\"bn-block-content\" data-content-type=\"numberedListItem\" data-index=\"1\"><p class=\"bn-inline-content\"><strong>The Goal: </strong>to give Poppy 3-5 examples of content you want to learn from</p></div></div></div><div class=\"bn-block-outer\" data-node-type=\"blockOuter\" data-id=\"93d8e114-6a3b-4cf9-ae9c-e51217ba085d\"><div class=\"bn-block\" data-node-type=\"blockContainer\" data-id=\"93d8e114-6a3b-4cf9-ae9c-e51217ba085d\"><div class=\"bn-block-content\" data-content-type=\"numberedListItem\" data-index=\"2\"><p class=\"bn-inline-content\"><strong>Paste: </strong>3-5 Reels or TikToks from creators you love</p></div></div></div><div class=\"bn-block-outer\" data-node-type=\"blockOuter\" data-id=\"91a17a39-3a57-4fa3-8a2f-9fab1016ab25\"><div class=\"bn-block\" data-node-type=\"blockContainer\" data-id=\"91a17a39-3a57-4fa3-8a2f-9fab1016ab25\"><div class=\"bn-block-content\" data-content-type=\"paragraph\"><p class=\"bn-inline-content\"></p></div><div class=\"bn-block-group\" data-node-type=\"blockGroup\"><div class=\"bn-block-outer\" data-node-type=\"blockOuter\" data-id=\"c5ece37c-0375-400a-9351-c2fe1ac56c9c\"><div class=\"bn-block\" data-node-type=\"blockContainer\" data-id=\"c5ece37c-0375-400a-9351-c2fe1ac56c9c\"><div class=\"bn-block-content\" data-content-type=\"paragraph\"><p class=\"bn-inline-content\"><strong>Tip: </strong>sometimes we see people load up 10-20 pieces of content in here. 25k-1M - more views the better the content!</p></div></div></div></div></div></div><div class=\"bn-block-outer\" data-node-type=\"blockOuter\" data-id=\"a6b75dec-c940-4551-85ee-2c8f759a40a4\"><div class=\"bn-block\" data-node-type=\"blockContainer\" data-id=\"a6b75dec-c940-4551-85ee-2c8f759a40a4\"><div class=\"bn-block-content\" data-content-type=\"paragraph\"><p class=\"bn-inline-content\"></p></div></div></div><div class=\"bn-block-outer\" data-node-type=\"blockOuter\" data-id=\"f450f09e-632a-4904-9cf5-30f0e819c716\"><div class=\"bn-block\" data-node-type=\"blockContainer\" data-id=\"f450f09e-632a-4904-9cf5-30f0e819c716\"><div class=\"bn-block-content\" data-content-type=\"paragraph\"><p class=\"bn-inline-content\"></p></div></div></div></div>",
+      "copiedAt": "2025-10-27T02:22:22.613Z",
+      "boardId": "polished-sea-2LmlU",
+      "userId": "86f5b982-23fa-452a-9017-f246391688b4",
+      "updatedAt": "2026-10-07T12:13:13.706Z",
+      "height": 300,
+      "width": 500,
+      "id": "textNode-hidden-firefly-7KZbW",
+      "position": {
+        "y": 1341.5401261629024,
+        "x": -1262.1981187928686
+      },
+      "data": {
+        "notes": "",
+        "userEmail": "user@example.com",
+        "createdAtTimestamp": "2025-10-27T02:22:22.225Z",
+        "userId": "94e9e629-a3fb-4487-8295-249efa9cfc19",
+        "connectionId": 2,
+        "type": "textNode",
+        "isDetaching": false,
+        "transcriptSavedOnDB": true,
+        "text": null,
+        "userName": "Nate Yeske",
+        "isCopying": false,
+        "createdAt": "October 26, 2025 7:22 PM",
+        "originalId": "textNode-weathered-reef-sNKE6",
+        "isCopiedAnalytics": true
+      },
+      "style": {
+        "height": 300,
+        "width": 500
+      },
+      "measured": {
+        "width": 500,
+        "height": 300
+      }
+    },
+    {
+      "type": "youtubeNode",
+      "title": "Use These 3 Hooks If You Want to Actually Go Viral",
+      "tokenCount": 0,
+      "createdAt": "2026-10-07T12:13:13.706Z",
+      "transcript": "today we're talking about hooks if you want to get more views on your videos you need to create better hooks but here's the thing i'm not just going to give you the basic advice like make your hooks negative or any of the other generic horse that is not what you need what you need is three viral hook frameworks that you can follow step by step and use instantly to get more views and if you use any of the three viral hook frameworks that I'm going to give you in today's video I guarant tee you that your videos will perform better and I'm so confident in that because I've been using these three hook frameworks for the past 2 years and built my own Instagram to over 300,000 followers with them and helped hundreds of other business owners go viral as well and these are the exact same three hook frameworks that I'm going to give you today starting with hook framework number one cost narration now I perfected this hook framework about 18 months ago whenever I posted this video that got over a million views and for you to use this framework for you to do the same you must first understand what cost narration is so cost narration is just whenever you increase the perceived value of the information you're going to share in your video by either highlighting the time money or both that you invested to gain the knowledge expertise that you're introducing so for example instead of saying \"Here's what I learned from Alex Hermoszy's event,\" you could automatically make your hook 10 times better in your video scene 10 times more valuable by just saying \"This weekend I flew all the way to Chicago and spent close to $20,000 to have been the Alex Mosy event and these are my top three valuable takeaways.\" I just said the same thing but all of the sudden you have so much more buyin into the information that I'm about to give because I increased the perceived value by highlighting the money I invested to gain that set information so for the viewer it now feels like it's a $20,000 video here's another example of a hook cost narrating with time so instead of if you get nervous on stage right before every speech always do this ritual you would swap that for if you have anxiety when you have to present or speak in front of a large audience this will change your life i've given almost a thousand speeches within my lifetime and right before every single one of my speeches I do a ritual that slows down time removes all the nerves and makes you feel like you're the only person in the room do you see the difference your hook just miraculously goes from here's a tip to fill us nervous to here's 1,000 speeches worth of wisdom distilled down into a singular ritual that will solve all of your problems here's one more example but this time cost narrating with time and money here are the top five things to look out for on your next family vacation i've visited over a 100 countries spent over $100,000 on travel in the last decade and here are my five hidden gems for your family to visit that you will not find in any travel guide see how powerful that is literally you're just taking whatever your base hook is and instead of just saying \"Here's what I'm going to give you,\" you narrate your hook and highlights either the time money or both that you had to spend to acquire that information and it will instantly make your video perform better and make your video perceived as more valuable hook framework number two the train bloom framework now if you have not seen this guy's content recently then you're living under a rock within the past 35 videos that this guy's posted to his account he has averaged 3.8 million views within the past 35 videos he is averaging 3.8 million views and the strategy that he's using to do it is this hook framework so let's go and take a look at an example from the man himself now this video in particular got 16 million views so let's go and take a look is when I see somebody wearing an Apple Watch and they post it after their workout really you burned 1,500 calories in an hour exactly how inaccurate are these well lucky for us Stanford researchers wanted to find out did you see that he followed a very methodical structure he found a viral video and then after finding said viral video and reacting to it he sparked your curiosity by posing a question in the viewer's mind and then after your curiosity is peaked he immediately moved into satisfying your curiosity by introducing a third-party authority let's take a look at another example so you can notice it this video got 7.3 million views pay attention they're actually talking about school opening up again in a few days what the are you talking about she is right your metabolism isn't slowing down but something else might be researchers at Duke University recently finished one of the biggest studies on our metabolisms ever done he just did the same so he started with a viral video that is already proven to get people's attention then he peaked curiosity by saying \"Your metabolism isn't slowing down but something else might be all of a sudden you want to know well what else is slowing down my metabolism?\" And then he immediately moves into the third party authority by saying \"Researchers at Duke University recently finished one of the biggest studies on our metabolism.\" Are you starting to notice a pattern here let's take a look at one more so this one gets 6 million views let's take a look does how long you rest between sets matter probably more than you think here's why researchers wanted to know so they took two groups of people and put them on the exact same workout routine so as you can notice he's obviously using the same structure starting with a viral video and then he moves into peing your curiosity so how he did that is he said does how long you rest in between sets matter probably more than you think here's why and then he immediately moves into a third party authority by saying researchers wanted to know so obviously we can see the structure is what he's using and you can see how well it's working so how do you implement it into your content and use this hook framework well first things first you need to find a viral video and react to it now it is important that you pick a viral video if you pick a video that didn't get views in the first place then you are not going to get views either because you're literally just borrowing the hook from a video that is proven to be ineffective however if you choose a viral video then you're almost guaranteeing that your video will perform well at least within the first 3 to 5 seconds because you're borrowing the hook from a video that is already proven to be effective so go out and find a viral video and then whenever you find a viral video to react to watch the viral video and then cut it as soon as the juicy part is over and then pose a question in the viewer's mind and then once you pose that question and their curiosity is peaked then you immediately transition into satisfying the viewer's curiosity by transitioning immediately into introducing a third party authority that found the answer and the third party authority meaning either maybe it might be a reference to a study maybe it's a quote from a well-known individual or figure within your niche and maybe it's just a statistic from an article just any third party authority so if I was going to make a video using the chain bloom framework to give you a vision on what it would look like it would look something like this over the last 14 years I read over 400 books no cap this would be the top five that you have to read if getting your together is on the agenda damn that hook was good but why does him being in prison make it so much better well Princeton University actually studied this they're hooked that's all it takes now all you have to do after you you hook them with that is walk them through the third party authority well what the third party author authority found and break down how this translates into the viewers's life then bada bing bada boom bada bam you have yourself a viral video the third hook framework the RSV framework now I have a short form video that explains this RSB in hook framework so let's go and watch it together now as you watch the video together what you'll notice is that I used the train bloom strategy inside the video that easier for the hook no but I still used it so look out for that as well let's go and take a look 100 views hook versus 1 million views hook here's five side hustles to make 5K per month in passive income if you want to wake up to notifications like this even while you're on vacation then here are five side hustles that allow you to do just that damn that hook was good but what made it so much better princeton University actually studied this whenever you just mention the result in your hook it only activates two parts of your viewer's brain but whenever you describe the story of what it's like to experience that result it lights up seven which makes it three times more neurologically engaging than just mentioning the result itself so how do you implement this into your hooks simple with RSV not HSV RSV result scene and vehicle so your hook needs to mention the desirable result of your viewer you need to create a scene in the viewer's mind of what it's like to achieve said result and you need to tell them the vehicle that's going to allow them to create that said result so for example instead of just saying \"Here's how to make 30 videos in less than an hour.\" Imagine it's only 10:00 a.m and you batched a full month's worth of content in less than an hour this is the exact system that I use to do it now instead of just mentioning a result we describe the scene in the vehicle the scene being that it's only 10:00 a.m and a full month's worth of content is done and the vehicle being my system that allowed me to do it beautiful video if I do say so myself but to the point rsv so result scene vehicle this framework is so effective because when you create the scene of the desirable experience that your viewer wants they're able to or they more so begin to imagine themselves in that experience and get drawn into learning how to turn it into a reality aka getting hooked into your video but if you start off with just selling a desirable result then the viewer can't see themselves inside of it they just see the result that you're promising them so whenever you're creating a hook around a desire make sure that you are in no particular order using RSVP are you making the results of your video known are you creating the scene in your viewers's mind on how the results feels and what the experience is going to be like and are you making it clear that your video has the vehicle to get them there there are your three hook frameworks so you had C narration framework you had the train bloom framework then lastly you had the RSV framework now if you want a two-page document that has examples and templates of each hook framework to where you can pretty much just copy and paste proven hooks following one of the three frameworks that I mentioned today I had my lead content researcher spend 9 hours to make that happen so if you want access to this PDF all you have to do is go to Instagram and message me the word candle and I will send it to you for free until next time subscribe for more",
+      "visualAnalysis": "Of course. Here is a detailed description of the video.\n\n### Overall Flow and Main Message\n\nThe video is a high-energy tutorial explaining three \"viral hook frameworks\" to help content creators get more views. The presenter, Devin Jatho, argues that generic advice is insufficient and offers three specific, actionable frameworks he has personally used to achieve viral success for himself and his clients. The core message is that by structuring the first few seconds of a video according to these frameworks, creators can significantly increase its perceived value and viewer retention. The three frameworks are: The Cost-Narration Framework, The Trainbloom Framework, and the RSV Framework.\n\n### Opening Hook\n\nThe video opens with the presenter directly addressing the camera, stating, \"Today, we're talking about hooks.\" Within two seconds, four animated, glowing yellow cards appear on the screen, each showing a thumbnail of a different viral video with its high view count displayed prominently (e.g., 948K, 3.5M, 578K, 1.4M). This immediately establishes the presenter's credibility and visually hooks the viewer with the promise of achieving similar results.\n\n### Visual Style\n\nThe video has a very modern, sleek, and high-production visual style.\n\n*   **Color Palette:** The primary colors are black and a dark, textured gray, accented with a bold, glowing gold/yellow for key elements like the framework cards and important text. Emphasis is added with vibrant colors like red, green, teal, and purple for highlights and comparisons.\n*   **Background:** The presenter sits in front of a clean, minimalist white and gray marble wall.\n*   **Transitions & Effects:** The editing is fast-paced, utilizing many digital effects such as animated text overlays, glitches, glows, subtle light leaks, and smooth transitions that make graphics feel integrated with the presenter's actions.\n\n### How Information is Presented Visually\n\nInformation is presented in a highly dynamic and engaging way.\n\n*   **Pointing and Interaction:** The presenter frequently gestures towards and \"interacts\" with the graphics that appear on screen, such as pointing to comparison videos or holding up his hands to frame text.\n*   **A/B Comparisons:** The core teaching method is showing a \"bad\" hook versus a \"good\" hook side-by-side. The bad hook is labeled with a \"100 Views\" icon and is typically shown in black-and-white with a red tint, while the good hook is labeled with a \"1M Views\" icon and shown in full color with a teal tint.\n*   **Highlighting Text:** When explaining concepts, on-screen text appears, and key words are highlighted in a different color (e.g., green for \"money\" or red for \"time\") to emphasize their importance.\n*   **Framework Cards:** Each of the three frameworks is introduced with a unique, animated black and gold card featuring a representative icon: a price tag with a watch for \"Cost-Narration,\" an anchor for \"Trainbloom,\" and crossed fishing hooks for \"RSV.\"\n*   **Demonstrations:** For the \"RSV Framework,\" the presenter demonstrates the concept by acting out the \"bad\" hook and then the improved \"good\" hook, with visuals that support the story he is telling (e.g., a phone with payment notifications, a beach background).\n\n### Graphs or Charts Shown\n\nThe video features a visual breakdown that functions like a chart or graph when explaining the **Trainbloom Framework**.\n\n*   **Description:** A horizontal, color-coded timeline appears at the bottom of the screen. It is divided into three distinct segments:\n    1.  **Viral Video (Yellow):** The first section of the timeline.\n    2.  **Peaked Curiosity (Green):** The middle section.\n    3.  **Third Party Authority (Purple):** The final section.\n*   **Function:** As the example video plays above the timeline, the corresponding segment on the timeline lights up, visually demonstrating the structure and timing of each part of the framework.\n\n### On-Screen Text\n\nKey text appears throughout the video to reinforce the main points:\n\n*   **0:07:** \"MAKE YOUR HOOKS\"\n*   **0:12 - 0:17:** The three frameworks are introduced with animated cards: \"COST-NARRATION FRAMEWORK,\" \"TRAINBLOOM FRAMEWORK,\" \"RSV FRAMEWORK.\"\n*   **0:56 - 1:07:** A definition appears: \"COST NARRATION: When you increase the perceived value of the information you're about to share in your video by highlighting **the time, money, or both** you invested to gain the knowledge or experience you're introducing.\"\n*   **1:09 - 1:26:** The A/B comparison text for the first example is shown.\n*   **2:58 - 3:00:** The second framework is introduced with its card: \"TRAINBLOOM FRAMEWORK.\"\n*   **3:46 - 3:59:** The Trainbloom video structure is labeled on the timeline: \"Viral Video,\" \"Peaked Curiosity,\" \"Third Party Authority.\"\n*   **6:32 - 6:39:** The definition of Third Party Authority appears with bullet points: \"Reference a study,\" \"Quote from a well known figure,\" \"Statistic from an article.\"\n*   **7:22 - 7:25:** The third framework card appears: \"RSV FRAMEWORK.\"\n*   **8:22 - 8:38:** The RSV acronym is broken down: \"Result,\" \"Scene,\" \"Vehicle.\"\n*   **10:17 - 10:20:** A call-to-action appears inside an Instagram DM screen: \"message me the word **CANDLE**\".\n\n### Audio Elements\n\n*   **Background Music:** An upbeat, modern, and slightly motivational electronic track plays consistently in the background. It's rhythmic and helps drive the video's fast pace without being distracting.\n*   **Sound Effects:** Digital sound effects are used frequently to enhance the visuals. These include whooshes for text animations, clicks for highlights, deep impact sounds for the A/B comparisons, and shimmering tones when the framework cards appear.\n*   **Presenter's Voice:** The speaker's delivery is confident, clear, and energetic. He speaks at a quick but understandable pace, matching the video's dynamic editing style.",
+      "notes": "Viral Hooks Reference This",
+      "updatedAt": "2026-10-07T12:13:13.706Z",
+      "userId": "86f5b982-23fa-452a-9017-f246391688b4",
+      "boardId": "polished-sea-2LmlU",
+      "graphId": "BNW7aGRhauOFL1L5SKFi",
+      "id": "youtubeNode-shy-grass-8M8IZ",
+      "height": 206,
+      "width": 290,
+      "position": {
+        "x": 49.70474199094724,
+        "y": 250.0179566981339
+      },
+      "parentId": "groupNode-winter-beach-e1UQD",
+      "extent": "parent",
+      "processes": {
+        "transcript": "COMPLETED",
+        "visualAnalysis": "COMPLETED"
+      },
+      "data": {
+        "connectionId": 0,
+        "type": "youtubeNode",
+        "userName": "Nate Yeske",
+        "isDetaching": false,
+        "userId": "94e9e629-a3fb-4487-8295-249efa9cfc19",
+        "text": null,
+        "userEmail": "user@example.com",
+        "createdAtTimestamp": "2025-10-26T23:11:12.872Z",
+        "isCopying": false,
+        "transcriptSavedOnDB": true,
+        "createdAt": "October 26, 2025 4:11 PM",
+        "url": "https://youtu.be/Y32YR4RsNpg?si=OOinOXK6pheRMXsI",
+        "uploadStatus": "uploaded",
+        "title": "Use These 3 Hooks If You Want to Actually Go Viral",
+        "notes": "Viral Hooks Reference This"
+      },
+      "style": {
+        "height": 206,
+        "width": 290
+      },
+      "measured": {
+        "width": 290,
+        "height": 206
+      }
+    },
+    {
+      "type": "youtubeNode",
+      "title": "How to Create Irresistible Hooks (and blow up your content)",
+      "transcript": "today we're talking about hooks if you want your videos to perform better you have to make better hooks but here's the thing I'm not going to give you a list of 25 proven viral hooks cuz that's not what you need what you need is to understand the psychology behind why those hooks worked and then the tactics for how to use that psychology in your own stuff so these are going to be the six best ways to improve your hooks immediately and if you do all of these I guarantee your videos will perform better I know this works cuz content is all I do I have almost a million followers billions of views and these are the secrets for how I go viral whenever I want all right tip number one is actually the mega tip it's my full three-step hook formula and this is how I look at social media you are driving down the highway at 70 mph I need you to see something stop turn around and come back the other way so how do I get you to do that the way I do that is by building a curiosity Loop and this is one of the base Commandments in storytelling if you want to tell a great story you need the viewer to watch the first line and feel so compelled that they can't dream of doing anything else then watching the second line and the third line and so on the domino effect this is the Curiosity Loop and the deeper the loop the more Curious you are The more I've hooked you so the question is how do I do that in just three or four sentences and the answer is that I built a formula that does this every single time it's three steps the first step is what I call the context lean in the first line or two I need to do two things one I need to be super clear about what the video is actually about topic Clarity and this is so you as the viewer can self- select in in or out based on your interest if I'm talking about investing and you don't care about investing I actually don't want to trick you into watching the video because you're not my target viewer but if you do care about investing I want to Signal this to you as soon as possible so I need to give you immediate context about the topic the second thing I need to do is get you leaning in context lean the more you lean in the more Curious you are these are the easiest ways to get somebody to lean in establish Common Ground reference a benefit or pain point they may have use a metaphor to simplify a complex idea or tell them something so interesting it blows their mind you need them to be connected and feel like what you're talking about relates to them in some way let's go through an example one of my videos this is the sphere video I made that got 8 million views I want you to just watch the first two lines the tech in the Vegas sphere is insane biggest screen ever built 20 times bigger than an IMAX right away I'm telling you exactly what the context of the video is the sphere and the tech inside and I'm getting you to lean in by talking about the SC screen showing it and referencing to how much bigger it is than an IMAX something you may have known now this is taking the show you something interesting to blow your mind route of the options and of course not everyone is going to be interested in this video but if you heard about the sphere or care about tech in venues you're going to be leaning in okay so that's step one now step two is what I call the scroll stop interjection this is a single line meant to act like a stun gun I need you to start leaning in and then immediately I need you to stop being able to move forward like you ran into a window and the best way to do this in practice is is by using a contrasting word I like to use the word but but you could use things like however yet although therefore on the other hand things like that and this is more just meant to be a setup line for the haym maker that's coming in step three but in order for them to accept the hay maker you need to stun them first now back in the sphere example let's watch both the context lean and the scroll stop interjection together the tech in the Vegas sphere is insane biggest screen ever built 20 times bigger than an IMAX but get this the screen is actually the least impressive part of the whole thing so at this point I've kind of stunned you right I first established context and got you leaning in about how interesting the sphere is talking about the TCH and the screen but then I stunned you and told you the screen is actually not impressive at all at this point you're like what could possibly be coming next I the screen looks huge I can see it in the visuals and this is the Curiosity Loop that is building you wondering what is coming next is replacing any thought that could be distracting you and send you anywhere else all right time for step three this is the haym maker I call it the contrarian Snapback now the contrarian Snapback is a sentence that goes in the opposite direction of the initial lean it's still on topic but it snaps the viewer back on a different path and the bigger the shock the bigger the snap the better the effect so let's finish the sphar example now with all three parts the tech in the Vegas sphere is insane biggest screen ever built 20 times bigger than an IMAX but get this the screen is actually the least impressive part of the whole thing because the most impressive part is the audio this is going to blow your mind at this point I've got you hookline and sinker I established context immediately I got you leaning in the case that you were interested in something about the screen or something new you hadn't seen before then I stunned you and played the Uno reverse card snapping you back in a different direction instead of talking about the screen now I'm talking about the audio that is the Snapback at this point you are fully hooked and fully curious about what comes next you can't dream of doing anything else other than learning how this audio is more impressive than the biggest screen ever built that's hookline and sinker now it turns out if you go back and you analyze best performing content from any Creator across any medium a lot of it follows this exact same formula and it doesn't just have to be the big new style entertainment Style video type content if I'm making content as a real estate agent and I'm purely looking to drive leads to my real estate practice pure B2B I could say something like this there are three massive mistakes people are making with their mortgage the average person pays an extra $122,000 per year now most people think it's because of high interest rates but it turns out it has nothing to do with that because the biggest waste of money is actually coming from see what I did there now I don't know anything about real estate I don't know what the right answer to that is but just that hook setup even without me knowing any context I can get you leaning one way and then the other and if you're a real estate agent and you make content in that format I guarantee that would drive so many leads it would build you as Authority in your category that's what you want to do that hook format works every category every space and if you don't believe it works I'm going to do a magic trick because I use the same psychology formula on you for the hook in this video and if you're still watching that proves it worked let me show you exactly what I did so I started off by saying this today we're talking about hooks if you want your videos to perform better you have to make better hooks so right away this was me giving context on exactly what the video is about hooks but also creating common ground and getting you to lean in around the benefit of making better videos If you figure out how to make better hooks this started building the Curiosity Loop in your mind now if you watch just those two sentences and you don't really care about making videos or making content then that didn't really apply to you and you've probably bounced anyway but if you're at this point right now I guarantee it's because you're trying to figure out how to make videos to perform better so this built common ground with you which is my target viewer okay so that's step one so context about the video and I got you leaning in so now what's next the next thing I said was this but here's the thing I'm not going to give you a list of 25 proven viral hooks cuz that's not what you need this is the scroll stop interjection the stop sign the red light the stun gun and this stops you in your tracks because I'm reiterating what you've ially heard in the past typically you see creators talk about the list of the 40 best proven Hooks and then they give you the list but you know this isn't the answer I know that's not the answer so I'm using that embedded belief in your head that you know it's not the answer to stun you into waiting to see what comes next this is just the setup line to give the contrarian Snapback but it works especially well here because you and I both know that conventional wisdom doesn't work and so I'm playing on that embedded subconscious belief okay so so far you've stopped the car and you've exited off the highway now how do I get you to turn around that is step three so what did I do next this is the last thing I said what you need is to understand the psychology behind why those hooks worked and then the tactics for how to use that psychology in your own stuff and this is the contrarian Snapback because most people have heard the word psychology whether you study psychology or not you've heard the word psychology and you have a suspicion as I delivered it that that actually would result in some surprise or secret information that's way deeper than the conventional wisdom you hear that and you believe that to be true so I've snapped you back off the conventional wisdom back to this psychology frame which is what I'm talking about so when I say hey if you want to achieve X don't do y do Z and if you want to achieve X you're going to listen it works every time the key though is that you need Z to actually be compelling which in this case I think it is this is actually the formula I use and I know it's proven to work if you just do this game but then you don't actually have anything at the end of the rainbow people would just churn and you're a fraud so this formula Works in all types of videos it's not just short form long form and it works everywhere else anytime of content in conversation in life this is BAS psychology 101 context lean scroll stop interjection contrarian Snapback now implementing this in every different video and every different use case that's what takes reps in practice that is not easy and because it's so hard I'm actually building a software that's going to do all this for you automatically not just the hooks but the entire script you'll just put in the topic and I will take all the content Frameworks and psychology baselines that I understand and we'll just write the script and the hook for you to make the video compelling 60 Minutes of script writing work distill down into 60 seconds that's what we're going for it's called sand castles now we haven't launched it yet it's coming soon the beta is going to drop soon we have a massive weight list make sure you're on that weight list because we're going to have a launch price that's going to be lower than we ever offer and anyone on that weight list is going to get it so sand castle. we're going to help with all this automated script writing and hooking all right so now that we walk through the base psychology and the formula which is really important to cover up first let me go through some extra things that will really help you sauce up your hooks on top of that Foundation cuz I promised six and that formula was technically one so here's the other five all right the second thing is visual hooks I say this a lot but visual hooks are so so so critical in the video I cannot overstate the importance visual hooks are probably 100 times more powerful than just spoken word Hooks and it's because people read faster than they can hear or that they can visually comprehend a full video scene I've said this on many other videos but if you just put title text your videos will do so much better so Step One is put three to five words on the screen in a big bold font that helps build that context lean if you can speak it in one to two sentences can you write three to five words and distill that message down a good example of this is in my video about life siiz floor plans this video got like 15 million views check this out these are called life-size floor plans I use the text future of Home Design and life-sized floor plans with arrows to quickly establish the context and I used future of Home Designs instead of Life-Size floor plans at the beginning because lify floor plans is kind of the name of the thing and I didn't want to risk misunderstanding that is how critical and in detail I get get with these visual hooks that's how important they are now the second piece of the visual Hook is the visual itself you want the most compelling visual possible with enough motion to hold their attention it's like when a deer sees something out of the corner of their eye in their Woods they're going to stop and they're going to look and they're going to see it you want that same effect with your visual too much motion and you're going to overwhelm them and it'll miss the context too little motion and you're going to bore them and they may churn you need just enough motion sometimes this motion could be a girl in a get ready with me putting their hair up kind of leaning forward and leaning back that sometimes is just enough motion to stun the viewer into holding and watching for more this famous Colin and Samir video about the Rayband metas this has 60 million views the reason this went so viral in my opinion is because the initial clip has the perfect amount of Rapid motion and then him in the mirror that motion holds and allows them to talk about the point which eventually convinces them that the ray band metas are cool so motion is so critical in the visual hook the combo of text on screen plus the motion in the video plus the spoken word that combo is way more power F than just a spoken word now the third and fourth tips are about helping you build that common ground that I talked about in the context lean the third piece is also based psychology it's that people like hearing things that they're already interested in but they're open to hearing New Perspectives on it if they think that New Perspective will unlock a benefit or solve a pain point that they have in the category so if you make a video about magnesium as a supplement an average way to write that hook would be something like you should be taking magnesium because it's one of 21 core building block minerals it's kind of decent but it requires a previous understanding about magnesium and doesn't really talk about a benefit or pain point a better context lean here would be something like if you want better sleep you need to be taking magnesium this leads with the benefit of talking about better sleep and then introduces magnesium as a potential solve even if someone is against supplements or against magnesium they will likely wait and hear you out because their desire to solve the pain of not sleeping well is so strong when you're riding hooks you always want to think about what the benefit fit or paino solve is to the Target viewer and then work that in if you can all right now the fourth piece to building the common ground is cult hopping and I've talked about this before when people hear something that they've heard before it unlocks a comfort in their subconscious and the opposite is true it sounds weird but if you hear a bunch of stuff You' never heard before you start to feel dumb and you don't like that feeling so you bounce away this is why if you tried to listen to an advanced physics lecture and you've never taken a physics class you would likely feel super dumb and not want to listen to it so when you're making videos about com complex or Niche topics you need to find a way to wrap the unknown idea in something that is known some common layer and one way to do this is what I call cult hopping this is taking a known brand or a celebrity or a movement or some cultural reference and using it as a metaphor or a comparison around your point for example if you make videos about complex tax planning maybe you talk about how Taylor Swift's financial advisor would plan her estate around the arist Tor earnings she just made or maybe you just reference her in a group of celebrities when you talk about the elite level of wealth that you serve using these references is a really easy way to establish that common ground and it's subconscious but it creates comfort for the viewer and you don't need to make your full piece of content around that celebrity or brand but this will help you draft off The credibility and the popularity of something that already exists when you're still smaller and growing all right tip number five is to compress speed to value and this is a say I use a lot especially when I'm talking about short form video when you make a piece of content you should feel like you have a timer Counting down in your head before that content explodes and no one pays attention to it for short form that timer is about 4 seconds for YouTube videos that timer is maybe 1 to 2 minutes so you need to find a way to compress the time to demonstrate initial value to before that explosion line and that applies to both educational and entertainment content the best way to do this is to give a little hit of value right at the front either in the hook or right after the hook because you don't want to bury your best stuff think of it like this anything you make after they click off might as well be a black screen cuz they're not going to see it you should frontload the value as much as possible you're not going for full completion your super fans will watch the full video you want to frontload the value as much as possible to eek out an extra 30 seconds at a time now I find that as long as that first hit of value is unique and helpful they will typically stay around long enough to give you a chance to show your second hit of value that same logic that we apply with a curiosity Loop should apply to this value Loop give context immediate value give context immediate value frontload that as much as possible ideally you can inject that first hit of value within the hook that's when you're really masterful but if you can't do it in the hook do it right after the hook to keep them all right now the sixth super tactical tip is to make your hook sentences staccato and if you don't know what staccato means staccato is a type of note in music that is short T that's staccato now I talked about in my storytelling video which I'll link at the end of this how it's good to vary the length of your sentences to create a diverse Rhythm and that is true for the whole video but for the hook up front you want to compress short sentences as much as you can and the reason why you do this is because shorter sentences force you to achieve Max Clarity it increases the density of value per word at the beginning and when time is at a premium at the beginning of the video you want to increase density value per word as much as you can go shorter initially and then expand to medium and longer as the video extends all right as you can tell a lot of this is just getting the Reps in and continuing to iterate and learn how to do this make this subconscious there are dozens of other tips that I didn't have time for in this video that I also try to infuse as well it's all about the Reps now this takes time I've spent thousands of hours doing this myself what you really need are reps and then guidance from somebody who has more reps than you and this is the type of thing that I help people with in short form Academy right now the academy is closed but make sure if this is the thing you need help with and you're interested in be on the wait list short form. Academy we'll let you know first when we reopen and also guys check out all the free resources that I have in the description I'm not lying when I say this I put almost all of my best stuff out for free it's all in the description you just have to click subscribe and I will send the stuff to you so make sure to check that out if you're you're struggling make sure you're on the wait list for sand castles and we'll see you guys on the next video peace",
+      "tokenCount": 4189,
+      "createdAt": "2026-10-07T12:13:13.706Z",
+      "notes": "Storytelling Expert",
+      "updatedAt": "2026-10-07T12:13:13.706Z",
+      "userId": "86f5b982-23fa-452a-9017-f246391688b4",
+      "boardId": "polished-sea-2LmlU",
+      "graphId": "BNW7aGRhauOFL1L5SKFi",
+      "id": "youtubeNode-black-lake-dSKUh",
+      "height": 206,
+      "width": 290,
+      "position": {
+        "x": 374.3809888979226,
+        "y": 539.227219157809
+      },
+      "parentId": "groupNode-winter-beach-e1UQD",
+      "extent": "parent",
+      "data": {
+        "text": null,
+        "isDetaching": false,
+        "transcriptSavedOnDB": true,
+        "userId": "2IsJr0QScvQvTwMLsXjlJgAg2nm2",
+        "isCopying": false,
+        "createdAt": "May 27, 2025 10:49 AM",
+        "createdAtTimestamp": "2025-05-27T07:49:41.730Z",
+        "userEmail": "user@example.com",
+        "type": "youtubeNode",
+        "userName": "Robin Grundfelt",
+        "notes": "Storytelling Expert",
+        "connectionId": 4,
+        "title": "How to Create Irresistible Hooks (and blow up your content)",
+        "uploadStatus": "uploaded",
+        "url": "https://www.youtube.com/watch?v=LmXpbP7dD48&t=5s"
+      },
+      "style": {
+        "width": 290,
+        "height": 206
+      },
+      "measured": {
+        "width": 290,
+        "height": 206
+      }
+    },
+    {
+      "type": "youtubeNode",
+      "title": "The Secret to Telling a Great Story — in Less Than 60 Seconds | Jenny Hoyos | TED",
+      "transcript": "Have you ever wondered how much ice cream you can get for a dollar? Or what's the cheapest thing in an airport? Or if it's faster to go inside or a drive-through? Probably not. But somehow, answering these weird questions and sharing those experiences have become my life's work. Now even though I only have five minutes to share my viral storytelling framework, great stories should be told in less than 60 seconds. And it's not just about becoming a viral social media star. It's about making your conversations better, whether you’re with friends, family or trying to convince your boss for a raise. So here's how to make every second count. Many great stories start with a question, because it will make people stick until the end to find out the answer. And remember, you want to get your audience's attention immediately, so you want to start by asking something shocking. And one of the things I've always wondered was if fast food was really as fast as they say. So I answered just this in a video and got over 45 million views. Let's check out how I hooked my viewers. (Video) Can I have a burger? Can you put cheese, lettuce and tomatoes? This thing's not hot enough. (Laughter) (Stage) That thing really wasn't hot enough. But as you can see, I took this question very seriously. And after you've hooked your audience, you want to take them on a journey, building up to your answer, where you want them to feel constant progression, so we're moving closer and closer to our answer so we feel like we can't stop listening. And in my case, I did just this by saying that I’ll be adding tomatoes, lettuce and cheese to the burger, so now we know how close I am to finishing the competition, thus the video. But if everything is smooth sailing, then nobody cares, which is why we need to add conflict before getting to our answer. So here's how I did that. (Video) Yes, please. And cheese. Mother: There's smoke in here. Jenny Hoyos: This thing is still raw. Good thing there's a line. Oh my goodness. Mother: What are you doing? You're going to burn that car. JH: I'll cut the tomatoes while this cooks. Mother: I hope I don't have to eat that. JH: Tell them to slow down. Mother: You're doing all this for one subscriber? You're going to make a mess. JH: Put the ketchup on the buns. (Stage) As you saw, without conflict, the audience just isn’t as invested, which is why I used my mom as the B plot. So you’re now not only invested in the competition but also curious to see what's going to happen between my mom and I. And after enough buildup, we finally need our answers. Will I cook the burger faster? Will I accidentally set my mom’s car on fire? The key here is to build tension by making the answer feel uncertain to make a satisfying ending. Here's how I did just that. (Video) We’re one person away. We just need the burger to cook faster. Mother: We're moving, we're moving. JH: No, my burger is not done yet. You're driving too crazy. It needs to cook faster. Mother: We're next. (Music) JH: We're pulling up to the window. (Music) And, oh my goodness! (Music) We cooked faster and better. (Laughter) (Applause) And that's it. We cooked faster than the drive-through. Does it matter that my burger was basically raw? Absolutely not. Because the viewers wanted an answer, so I gave it to them quickly and concisely, in an engaging way, which led our video to getting over 45 million views. And you might be impressed to know that instead of telling this talk in five minutes, I actually did it in four, so you now have an extra minute to practice your 60-second story. (Laughter) Because if it takes longer to tell your story than it does to make a burger, then you're probably overcooking both. (Laughter) Thank you. (Cheers and applause)",
+      "tokenCount": 879,
+      "createdAt": "2026-10-07T12:13:13.706Z",
+      "notes": "Story telling Expert 3",
+      "updatedAt": "2026-10-07T12:13:13.706Z",
+      "userId": "86f5b982-23fa-452a-9017-f246391688b4",
+      "boardId": "polished-sea-2LmlU",
+      "graphId": "BNW7aGRhauOFL1L5SKFi",
+      "id": "youtubeNode-frosty-waterfall-klGye",
+      "height": 206,
+      "width": 290,
+      "parentId": "groupNode-winter-beach-e1UQD",
+      "extent": "parent",
+      "position": {
+        "x": 58.611785891287354,
+        "y": 542.748407688975
+      },
+      "data": {
+        "connectionId": 4,
+        "isDetaching": false,
+        "transcriptSavedOnDB": true,
+        "createdAtTimestamp": "2025-05-27T07:53:49.983Z",
+        "text": null,
+        "type": "youtubeNode",
+        "isCopying": false,
+        "userId": "2IsJr0QScvQvTwMLsXjlJgAg2nm2",
+        "createdAt": "May 27, 2025 10:53 AM",
+        "userEmail": "user@example.com",
+        "userName": "Robin Grundfelt",
+        "notes": "Story telling Expert 3",
+        "title": "The Secret to Telling a Great Story — in Less Than 60 Seconds | Jenny Hoyos | TED",
+        "url": "https://www.youtube.com/watch?v=ZmNpeXTj2c4",
+        "uploadStatus": "uploaded"
+      },
+      "style": {
+        "width": 290,
+        "height": 206
+      },
+      "measured": {
+        "width": 290,
+        "height": 206
+      }
+    },
+    {
+      "type": "youtubeNode",
+      "title": "How Storytelling Can Make Your Business Go Viral!",
+      "tokenCount": 0,
+      "createdAt": "2026-10-07T12:13:13.706Z",
+      "transcript": "storytelling is the most powerful tool to make your business go viral if you want to attract clients and grow your brand you just absolutely need to master it hi I'm Brendan Kane and over the past two decades I've helped creators go from zero to millions of followers and worked with names such as Taylor Swift MTV and Rihanna i've also built frameworks that have been leveraged to generate over 60 billion views across platforms my own system helped me gain a million followers in just 30 days and now I teach it to others now I'm sure you've seen videos promising a fast track to success or some kind of secret method well this isn't it today I'm going to show you one method that consistently works across any niche budget or skill level and what makes this gold is that anyone can do this once they understand how it works but before you can even begin telling a story there's something you need to be aware of a mistake that so many creators make on the journey to going viral and it all comes down to one piece of advice and that is to create content for a specific niche audience now following this might be their number one reason for struggling to create viral content so we can't just rely on targeting audience avatars or buyer personas anymore platforms they don't just hand out free reach even your own followers are seeing content from hundreds and sometimes thousands of other creators when you open your favorite app algorithms are choosing from over 150,000 pieces of content to fill your feed unless your content hold attention it just doesn't matter who you're trying to reach you have to earn that view every single time instead focus on what we at Hookpoint call the generalist principle most people end up niching too hard they define an ultra specific target audience and create content only that narrow group would appreciate and while that sounds strategic it usually backfires platforms they don't just push content to your followers they also push it to strangers if your video only makes sense to a tiny group it just won't travel you're not giving the algorithm a chance to do its job you end up becoming the inside joke that just nobody gets and that it kills reach the goal isn't to go broad for the sake of it it's to create content with clear universal entry points something that still speaks to your niche audience but also makes sense to someone who's never heard of you before so to truly go viral your story must resonate beyond your niche audience and this is where the general's principle comes in this all comes down to framing you want to take your niche subject and present it in a way that the widest possible audience can relate to in other words make niche content universal you don't lose your expertise or niche appeal you layer it underneath a broader theme when we started working with Tanner Leatherstein a small business owner and leather craftsman he was creating videos specifically for people who are interested in leather but his first video went viral when he discovered a format called \"Is it worth it?\" This showed Tanner breaking apart items bought from famous fashion brands and breaking down how much it would have taken the company to make and whether it was worth the money you pay for it this opens up the question to a broader audience his first video hit 1.9 million views because people would tune in to find out if the biggest brands were lying to them so start with a concept that speaks to your niche and then ask yourself how can I connect this to something more familiar or relevant to a wider audience that's what creators like Dr mike does when he reacts to Grey's Anatomy he's not just talking about medicine he's tapping into a show that millions already care about then asking \"Is this actually accurate?\" Each of these examples take niche expertise and ties it to a broader curiosity gap they hook viewers in by triggering a question that they already want answered now a recent study on curiosity and consumer behavior backs this up when people feel a knowledge gap they're far more likely to keep watching to resolve it so don't just think about what you want to say also think about what your viewers already wondering and then build your hook from there remember it wasn't the fact that Tanner was a leather craftsman it was because the audience were wondering if they had been ripped off and that is what got people interested in watching it's all about creating that compelling hook but what separates a good hook from a bad one think of the hook as the gateway into your content we live in a scrollhappy world if your hook doesn't stop someone in their tracks as they're scrolling within the first one to three seconds well the rest of your story it might as well not exist so how do you actually craft a magnetic hook well we just talked about the power of curiosity but that's only one half of a strong hook now there are two core ways to pull someone into your content number one is curiosity and then number two is the promise of value so let's start with curiosity this is all about creating what's called a curiosity gap the space between what your audience knows and what they want to know now great storytellers keep that gap open just long enough to keep people watching without frustrating them now in practice this means hinting at the payoff without giving it away too soon so for example you might say \"By the end of this video you'll know that one framework that can help your content go viral.\" That line tells the viewer there's something valuable coming just not yet that uncertainty keeps them watching now author Lee Child best known for the Jack Reacher book series uses this technique in every single novel that he writes he poses a gripping question in the opening pages and withholds the answer until the very end that underlying mystery drives the entire story forward you also see the same technique in Steven Bartlett's content he may open with office versus remote where do you stand or every successful person I know does this now these hooks don't just state facts they create questions in your mind what does every successful person do where do I stand on that issue now you're a part of the conversation another master of this is Jenny Hoyos in one of her YouTube shorts she opens with McDonald's banned this item so I made it at home she follows that with a quick tease of the ending raising the stakes even further and that's all within just 5 seconds next let's look at a second way to hook your viewer the promise of value at the beginning of any piece of content you must set expectations for the payoff it can be explicit or implicit but it needs to be there if you fail to set up a promise viewers might enjoy the ride for a bit but then wonder why are they actually watching so make the stakes and rewards clear early on take a Mangazi's viral YouTube video for example he opens up by saying \"Here's how I made $1 million by the age of 18.\" That one line instantly tells the viewer what they'll get if they stick around there's no guesswork just a clear highstakes payoff now when you lead with a compelling promise like that you give your audience a reason to invest their attention without it even a great piece of content can fall flat at Hookpoint we've generated a five-step method which allows us to create viral hooks it goes like this first we study what's working i always begin by studying content in and outside my industry that has massive high engagement i'm searching for videos or posts with millions of views or likes the idea is to identify content that has already hooked the audience successfully this datadriven approach is about understanding the patterns behind viral content before I even create anything myself why reinvent the wheel if you can learn from what's out there already next I look at qualitative elements we're talking things like tone pacing the presence of a question now let's say that many viral clips in a niche use a mythbusting hook like you've been told X but here's why that's wrong if that element works I'll consider using a similar approach once I have a bunch of examples I analyze them to find common threads for instance maybe I notice a lot of top performing videos that start with a shocking statistic or a personal confession or a big what if now it's time for the third step brainstorming my own ideas for hooks by using those successful elements as inspiration I consider my audience and the message I like to present and consider how I can package it with a hook that fits one of these proven elements for example if I'm in the fitness industry and I saw that question hooks do well I might craft a hook like this what if I told you that 90% of your workouts are wasting time or a bold statement hook like this this is the reason your glutes aren't growing try this instead the key is that I'm not guessing blindly i'm ideating based on the elements I know work once I've generated at least 20 solid ideas then I move on to step four which is choosing the single idea that I'm going to produce now it's important not to muddle your content with multiple big ideas or hooks at once one hook one piece of content finally we test and learn once the content is out or even in a small scale test group we review the performance did the hook do its job now the primary metric here is the audience retention in the first 3 seconds we rinse and repeat this process to ensure that we're delivering a great hook this covers the first few seconds but how do you keep the audience watching right through to the end of the video now that you've got your audience's attention well how do you actually keep it and deliver a satisfying story the answer to this lies in the structure while we might not know it us humans crave structure in stories we've been consuming that for so long that our brains are literally wired to look for patterns and progressions when a story flows logically from one beat to the next it feels rewarding when it's disjointed or aimless we feel uneasy or bored so what is the structure that works now I want you to think about your favorite movie or novel almost all of them follow the same version of the three-act structure in act one we establish the world the characters and inciting incident which is the problem or the goal then in act two we see rising action conflicts challenges twists the stakes get higher this is the progress and the struggle and then in act three we get the climax and the resolution the problem is resolved and we get the answers to all of our questions this structure has been around since as long as we can remember that's because it resonates with the way that we as human beings process stories the brain finds comfort in this progression setup struggle resolution it gives us a sense of rhythm and completion hollywood screenwriters often break down the three acts into even more granular beats now there's a famous book called Save the Cat by Blake Snyder which maps out 15 specific beats from opening image to finale then there's also Dan Harmon's story circle a simplified eight-step story structure used in everything from sitcoms to viral videos it goes something like this a character they're in a zone of comfort but they really want something then they enter an unfamiliar situation adapt to it get what they wanted pay a significant price return to comfort having changed now these aren't just steps for fiction they're powerful for content too when your video follows summer beats setup tension change payoff it keeps viewers engaged from start to finish it's not about being cinematic it's about telling a story that moves now a lot of social media and business content ignores story structure and it shows ever watched a webinar or a video that just seems to ramble on or a piece of content that seems to go into circles you end up confused or zoning out right well that's because our brains are subconsciously waiting for the structure that isn't there even in a 60-second Instagram reel structure matters in fact shorter content needs structure even more because you have no time for tangents or fluff now the good news is that structure it can be simple now at Hookpoint we've developed our own storytelling structure which I'm going to break down for you using Dylan Pa's viral video africa is splitting apart he starts with a visual and verbal hook showing us a mysterious crack in the ground with people around it while saying out loud that there is an apocalyptic vibe about what is going on this prompts audiences to ask questions as to how the two connect because the apocalyptic event implies that well we're all going to be affected but he doesn't leave people hanging for long because the next step is to provide context and bring us back to the beginning of the story which Dylan does perfectly by telling us that scientists believe that Africa might be splitting apart he gives even further context on the fact that this has been happening for millions of years then he moves on to the next point which is throwing in a second hook or twist that introduces us to a new part of the story in this case he mentions that in millions of years of time this could create an entirely new ocean at this point the audience will still be wondering why all of this is happening that's when Dylan moves on to the fourth stage of the story by revealing the answer and explaining the science behind why this is happening to finish up he tells us the exact rate it is supposed to be splitting and ends with a tongue-in-cheek line that suggests that it's a lot more than it sounds leaving the audiences with something to discuss the story is built on real world facts but it follows a dramatic arc that makes it impossible to click away that is the power of using storytelling beats even in educational or news content even if you didn't consciously realize it your brain just experience a full story cycle you feel the satisfaction as the viewer of seeing a problem resolved and a question answered so how can you use this in your own content well you can be as detailed in your plan as you like but it's really important that your video contains these three sections first you need the setup hook them in and introduce the situation or question now we've already been through this in detail if you're making short form but in long form this section can be used to build upon that problem and increase the tension next you'll have to show the journey this is where you deliver on the hook's promise bit by bit introducing obstacles or insights then keep things moving and related with no random off-topic digressions finally you want to have a moment of payoff answering the burning question reveal the outcome give the lesson learned or the result achieved but if you want to get even more granular with your storytelling you're going to have to understand the most important rhythm in storytelling we've got the attention with a hook and we've structured our story with solid beats now we need to talk about momentum so how do you keep your story engaging every second along the way well this is about ensuring that there is no dead air no dull moments there's a famous quote by Kurt Vonagget that I absolutely love it says every sentence must do one of two things reveal character or advance the action now Vonagget was talking about writing fiction but it absolutely applies to any form of storytelling in our context every sentence and every shot should either add information give insight or move the story forward if it's not doing that consider cutting it i know it's brutal but it's necessary in an age of short attention spans so think of your content as a tightly wound coil always springing forward the moment it slackens viewers they slip away now best-selling author and record-breaking Kickstart campaigner Brandon Sanderson likes to understand what the purpose of each of his scenes are he likes to know what payoffs he will be presenting and then go back to ensure that he is offering a decent payoff but the journey in between needs to feel like progress youtube script writer George Blackman often points out that we shouldn't starve the audience of payoffs he likes to break down content in many payoffs progressing through one curiosity gap at a time as he makes his way towards what he calls the grand payoff to connect this with a bit of science Stuart Firestein a neuroscientist has a great perspective on the value of questions he said in science every answer should raise new smarter questions that science never solves a problem without creating 10 more in his words the answers that really count are the ones that generate new questions because it's really the questions that it's about i find this so relevant to storytelling when your story answers a question it should spark the next curiosity that keeps audiences engaged and thinking it's the questions that drive their interest forward not just the answers we enjoy getting an answer but what truly keeps us watching is wanting to get the next answer which means we should always be planting the next question as we deliver an answer so how can you ensure that your content hits the right beats during every second of the video look through your script or your edit and ask yourself does it do any of the following three things number one promising this doesn't just happen at the start you make big promises at the beginning but also throughout your content you can make smaller promises or reminders as the story progresses now these are little hooks and setups that keep people interested it's like planting a mini mystery or objective constantly number two progressing in the middle of your story you need to show that things are moving along if it's a narrative the character should be taking action overcoming a mini challenge or learning something if it's informational you should be building on top of your points not repeating yourself both visually or narratively something should be changing even a simple progress indicator can signal to the brain that the story is advancing progress gives a sense of momentum that things are happening and we're headed toward that promised payoff and number three paying off these are the moments of revelation or reward crucially you shouldn't just have one payoff at the end scatter a few along the way for example in a video about five tips each tip is a payoff of its own you promise value and then you deliver one valuable tip at a time or in a story perhaps there are multiple reveals one piece of information creates another question which when answered creates the next question all leading up to that final moment but once you've mastered all of this it's time to add in the heart of great storytelling this is the element that truly separates forgettable content from unforgettable content in business especially it's something that we sometimes shy away from thinking that we should be all professionalism and facts well that's a mistake because in order to truly connect your content with the audience you need to elicit an emotion within them emotion is the fuel behind the structure that we discussed it's what truly gives your story power but why is emotion such a critical factor well when you tell a story that resonates emotionally you aren't just conveying information you're actually lighting up the listener's brain in a unique way research has shown that when we hear a compelling story our brains release oxytocin often called the empathy or trust hormone oxytocin makes us feel connected to the people in the story and the storyteller it's the same chemical that bonds mothers to babies in a story context it bonds your audience to you additionally neuroscientists have found that listening to narratives can cause a listener's brain patterns to synchronize with the storytellers in other words a great emotional story literally gets the audience's brain in sync with your brain if you describe a frightening situation the parts of their brain that process fear light up if your story has a joyful triumph their brain's reward centers activate now when I say emotional arc I mean the journey of feelings that guide your audience through from the beginning of the story till the end of it just like a plot has a shape so does the emotional experience great storytellers are very intentional about this when crafting your business story aligning it with a clear emotional arc can significantly enhance its impact take Ryan Tran's ventures into the candy industry with Joyide as an example instead of shoving the brand into your face he has inserted moments in his video that integrate perfectly with the story itself now as the viewer has already connected to Ryan through the content the second he starts describing his emotions behind the chance to eat one of his joy ride sweets he makes you tempted to buy some as well now this doesn't feel like marketing as it's a part of something much bigger and as a result it is far more effective now just like Ryan you must also make a deliberate choice about emotional beats one of the simplest emotional arcs is triumph over adversity it's timeless you start with a challenge or pain so the audience feels worry or empathy and end with success or solution so the audience feels relief and triumph that contrast makes the ending emotion much more potent because it sets up the initial emotion so if you want the audience to feel inspired show them some despair first so that inspiration at the end is earned and meaningful in practice whatever emotion you want them to feel by the end of the story have them feel the opposite at the start so to ensure an emotional arc I often outline it like this at the start of my story I want the audience to feel X midway I want them to feel Y and at the end I want them to feel Z for example X equals shocked y equals intrigued or empathetic z equals motivated then I craft the content to hit those marks so you might even explicitly say these things that cue emotions such as \"I was devastated,\" or \"This terrified me.\" Then later \"I couldn't believe what happened next it was like a miracle.\" Finally it goes to show that if you persevere you can overcome anything by planning it you're more likely to actually convey it but beware of trying to fake it authenticity is key the emotions they have to be genuine audiences can sniff out force sentiment so even if you're adding storytelling flare make sure it's rooted in truth one technique I found useful is to focus on personal anecdotes or analogies that carry emotional weight data is important but wrap that data in a human story instead of 25% of our clients see X result maybe share one of the clients personal stories with ups and downs people extrapolate the data themselves because the story of that one client it just felt real to them by mastering the emotional arc you will then transform your stories from fleeting to timeless and once you've nailed this you are ready to unlock some of the greatest virality secrets I have found that will explode your business this year now you can find them in this 29minute presentation where I dive deep into some of the best things that I have found to work in my 20- yearlong career and don't forget to check that out",
+      "visualAnalysis": "Of course. Here is a detailed, concise description of the video.\n\n### Opening Hook\nThe video opens with the speaker, Brendan Kane, energetically stating, \"Storytelling is the most powerful tool to make your business go viral.\" Simultaneously, the word \"STORYTELLING|\" appears in large, glowing white letters over the footage, immediately establishing the video's central theme and grabbing the viewer's attention.\n\n### Visual Style\nThe video has a polished, modern, and high-energy visual style.\n*   **Color Palette:** The primary palette is a dark blue and black grid background, which makes the bright, high-contrast graphic elements pop. On-screen text and highlights frequently use glowing red, green, and white neon effects.\n*   **Transitions & Effects:** The editing is fast-paced, utilizing quick cuts, zooms, and split screens to present information dynamically. A recurring motif is the framing of example videos and key text with a neon glow.\n*   **Information Presentation:** The speaker is the central figure, but his points are constantly supported by visual aids. He uses hand gestures to emphasize points, while on-screen, red boxes and highlights are used to draw the eye to specific data (like view counts) or text. The video frequently uses short clips as direct demonstrations of the concepts being discussed.\n\n### Audio Elements\n*   **Background Music:** A consistent, upbeat, and modern electronic track plays in the background throughout the video. It's motivational and keeps the pace energetic without being distracting.\n*   **Sound Effects:** Subtle \"whoosh\" and \"click\" sound effects are used to punctuate the appearance of on-screen text and graphics, reinforcing the visual information and maintaining a dynamic feel.\n\n### On-screen Text, Graphs, and Charts\n\nThe video makes extensive use of on-screen text and graphics to illustrate its points. Here is a chronological breakdown:\n\n*   **0:00:** \"STORYTELLING|\"\n*   **0:02:** \"AFTER\" and \"BEFORE\" labels on a grid comparing short-form videos. The \"after\" videos show view counts like **10.1M, 21.4M, and 59.7M**, while the \"before\" videos show much lower counts like **88.7K, 6647, and 108K**.\n*   **0:08:** \"BRENDAN KANE\" with his Instagram profile displayed.\n*   **0:10:** \"OVER THE PAST TWO DECADES\" is displayed over a graph showing a follower count starting at **0** and climbing rapidly to **3,650,000**.\n*   **0:19:** \"60 BILLION VIEWS\" appears in large, green, glowing text.\n*   **0:23:** A line graph shows the speaker's own follower growth, starting at **6,397** and climbing to **1,000,000** over a period labeled \"30 DAYS.\"\n*   **0:57:** \"CREATE CONTENT FOR A SPECIFIC NICHE AUDIENCE\" appears, which the speaker identifies as a common mistake.\n*   **1:30:** \"THE GENERALIST PRINCIPLE\" is shown in a neon box.\n*   **1:35:** A graphic illustrates the \"ULTRA SPECIFIC TARGET AUDIENCE\" concept by showing a line of person-icons, with only a small fraction lighting up in red, leaving the majority un-engaged.\n*   **2:28:** A graphic shows \"NICHE CONTENT\" being put into a larger \"UNIVERSAL\" frame.\n*   **2:46:** A video example is shown, and the text \"IS IT WORTH IT?\" and \"1.9 MILLION VIEWS\" are highlighted.\n*   **4:07:** Two neon boxes appear side-by-side: a green one for \"GOOD HOOK\" and a red one for \"BAD HOOK.\"\n*   **4:34:** A title card reads \"HOOK: TWO CORE WAYS,\" followed by two glowing red boxes: \"CURIOSITY\" and \"PROMISE OF VALUE.\"\n*   **4:46:** A graphic illustrates the \"CURIOSITY GAP\" as the space between two points labeled \"WHAT YOUR AUDIENCE KNOWS\" and \"WHAT THEY WANT TO KNOW.\"\n*   **6:52:** A title card appears: \"FIVE-STEP METHOD TO CREATE VIRAL HOOKS,\" followed by a blurred list of five steps.\n*   **9:18:** \"STRUCTURE\" is displayed in a neon box.\n*   **9:50:** A classic three-act story structure graph is displayed.\n    *   **Act 1:** The line starts, rises, and falls slightly. It's labeled \"WORLD,\" \"CHARACTERS,\" and \"INCITING INCIDENT.\"\n    *   **Act 2:** The line dips, rises higher than in Act 1, and falls again. It's labeled \"RISING ACTION,\" \"CONFLICTS,\" \"CHALLENGES,\" and \"TWISTS.\"\n    *   **Act 3:** The line rises to its highest peak and then falls to a conclusion. It's labeled \"CLIMAX\" and \"RESOLUTION.\"\n*   **10:50:** Dan Harmon's Story Circle is shown as a pie chart divided into 8 segments, demonstrating an 8-step storytelling structure.\n*   **11:19:** Five neon boxes appear, labeled \"BEATS,\" \"SETUP,\" \"TENSION,\" \"CHANGE,\" and \"PAYOFF.\"\n*   **17:56:** Three key elements of storytelling are shown in glowing red boxes with icons: \"PROMISING\" (two hands shaking), \"PROGRESSING\" (a bar chart with an upward arrow), and \"PAYING OFF\" (a hand holding a star).\n*   **18:54:** \"WHY IS EMOTION SUCH A CRITICAL FACTOR?\"\n*   **21:20:** A graphic shows a simple emotional arc with three points on a line, labeled \"X,\" \"Y,\" and \"Z,\" which are then defined as \"SHOCKED,\" \"INTRIGUED/EMPATHETIC,\" and \"MOTIVATED.\"\n\n### Overall Flow and Main Message\nThe video is a masterclass on storytelling for viral content, structured like the very stories it describes.\n\n1.  **The Hook & Introduction (The Setup):** The video opens by establishing the power of storytelling with bold claims and social proof (celebrity names, huge view counts, impressive follower growth). The speaker, Brendan Kane, positions himself as an expert.\n2.  **The Problem & The Principle (The Journey/Struggle):** Kane debunks the common advice of \"niching down,\" calling it a mistake. He introduces his core concept: **The Generalist Principle**, which is about making niche topics universally appealing by framing them with broader, relatable themes like \"am I getting ripped off?\" or \"is this show accurate?\".\n3.  **The How-To (The Payoff/Resolution):** The second half of the video provides the \"how.\" It breaks down the two main types of hooks (Curiosity and Promise of Value) and introduces a five-step method for creating them. It then explains the importance of familiar story structures (like the 3-Act Structure) and the power of creating an emotional arc for the audience (moving them from one feeling to another). It emphasizes that every part of the story must have a purpose, either revealing character or advancing the plot.\n\nThe main message is that to create viral content, you must move beyond simply targeting a niche. Instead, you must use proven storytelling structures and emotional arcs to frame your niche expertise in a way that is universally engaging, creating curiosity and promising value to the broadest possible audience.",
+      "notes": "Story Telling Framework",
+      "updatedAt": "2026-10-07T12:13:13.706Z",
+      "userId": "86f5b982-23fa-452a-9017-f246391688b4",
+      "boardId": "polished-sea-2LmlU",
+      "graphId": "BNW7aGRhauOFL1L5SKFi",
+      "id": "youtubeNode-blue-pine-PPFxs",
+      "height": 206,
+      "width": 290,
+      "position": {
+        "x": 376.3964567946548,
+        "y": 251.5921467348507
+      },
+      "parentId": "groupNode-winter-beach-e1UQD",
+      "extent": "parent",
+      "processes": {
+        "transcript": "COMPLETED",
+        "visualAnalysis": "COMPLETED"
+      },
+      "data": {
+        "isDetaching": false,
+        "isCopying": false,
+        "transcriptSavedOnDB": true,
+        "text": null,
+        "createdAt": "October 26, 2025 4:12 PM",
+        "userName": "Nate Yeske",
+        "createdAtTimestamp": "2025-10-26T23:12:37.936Z",
+        "userId": "94e9e629-a3fb-4487-8295-249efa9cfc19",
+        "userEmail": "user@example.com",
+        "type": "youtubeNode",
+        "connectionId": 0,
+        "notes": "Story Telling Framework",
+        "title": "How Storytelling Can Make Your Business Go Viral!",
+        "url": "https://youtu.be/OP0PUxN5BoI?si=IwlyidH7R_DjGPW3",
+        "uploadStatus": "uploaded"
+      },
+      "style": {
+        "height": 206,
+        "width": 290
+      },
+      "measured": {
+        "width": 290,
+        "height": 206
+      }
+    },
+    {
+      "type": "youtubeNode",
+      "title": "From Idea to Viral Video — These Are The 5 Tools That I Use",
+      "tokenCount": 0,
+      "visualAnalysis": "",
+      "createdAt": "2026-10-07T12:13:13.706Z",
+      "transcript": "today we're talking about five scripting softwares that will help you in renting viral scripts for your organic content in less time with less effort and guaranteed to get you more views if you want to consistently go viral on social media and not just throw [ __ ] at the wall then you need to script your videos but without the right scripting toolkit scripting is extremely timeconuming and wasteful if you do not have the right strategy put in place but whenever you have the right scripting toolkit and strategy put in place not only will you get consistent viral results but you will get them in half the time i know this for a fact because well I might not be good at much but I'm from damn sure a world-class script writer when it comes to creating organic content that goes viral i consistently get millions of views for my own personal brand and for hundreds of students inside my private educational content platform called Nexus i've spent my entire life dedicated towards scripting predictable and profitable content and in 7,000 scripts later I've distilled my scripting toolkit into five softwares and if you use these five softwares I guarantee that you'll be able to write better scripts in half the time but to also bring double if not 10x the result so to kick off this list of five softwares we're going to start with software number one which is actually a two in one package so the two inside of salt number one is dovetail combined with any view sorter of your choice so dovetail is just a transcription tool that will give you the exact script to any viral video of your choice and then the view sortter is just a tool that will sort any creator's account on Instagram or Tik Tok from most utilities viewed showing you their best performing content and no I'm not going to go tell you to [ __ ] go sort the competitor's account for most you and then copy their video that is amateur you want these two tools in your scripting belt to help you find patterns in scripts that are performing well on a particular topic so before I even think about writing a single word for any one of my scripts I'll always sit down search about the topic of my video and then look at the best performing videos that are somewhat relevant to that said topic and then I'll study their scripts to extract patterns so to give you an example two years ago I scripted this video for one of my private clients Brian Mark and this video got the collective over 4 million views on Brian Mark's account so for context this video is about says you're too expensive first don't try to justify the price shut the up and then ask them \"Expensive compared to what?\" They'll probably say something like \"No.\" Whenever I scripted this video do you think that I just made up the [ __ ] structure and told Brian to record it of course not i remember doing the research for this video and back then there were two videos that were consistently popping off uh whenever it comes to sales content these two people were BBC aka Brandon Carter and Alex Emozi so with that knowledge in mind I went over to Instagram i searched up both of their accounts and I sorted their content from most viewed to least viewed and watched every single video that was relevant to sales and you can see that I still have to research from 2 years later from the six videos that I studied and that I found from these two creators so what I did is I downloaded all of their sales videos that went viral at the time and studied the script and took two key patterns that allowed me to create that viral video for Brian in fact Brian's video got even more views than all the videos that I noticed these patterns from i was able to do this because I could dissect the viral video scripts find all the patterns across the two different creators and then combine them into one video all by using a view sourcer to find the best performing videos on the topic and dovetailed to get the script breakdown of each video now to do this for yourself you need these two softwares so first is going to be the view shorter now the best view sorder for Instagram and Tik Tok right now is a view sorder called Sort Reels and it is currently on the Google extension store so go ahead and head over to the Google extension store go ahead and download the extension and then once you have the extension downloaded you can head back to Instagram and begin sorting your competitor's accounts from most viewed to least viewed and then once you have an account sorted from most viewed to least viewed then what you want to do is you want to look for topics around your video that you're trying to cover and then once you finally find videos that you want to inspire from and study then you can go ahead and just download the video and take it to Dubttow now to download the video all you have to do is copy the link to the video and then take it to a website called cobalt.tools and then just download it from there once you have the downloaded video then from here all you have to do is take it to dovetail and upload it and then Dovetail will transcribe your entire video for free and then now you have the script to the viral video to begin studying and inspiring from so at this point now that I have patterns from viral videos it is now time to begin scripting these set of viral videos however while I'm scripting I always want to use the best language that I can and there's a reason on why the saying goes it's not always what you say it's how you say it the reason why that's a saying is because it's [ __ ] obvious that what you say matters and there's two tools that I use to help with making sure that I use the best possible language in my script the first tool being Google Trends and the second tool being Chat GBT and whenever I say chat GBT I do not mean it in the way that you think I do but before we can even get to chat GT I always start with software number two which is going to be Google Trends now whenever it comes to using particular words and especially phrases in my script especially in my hook I always make sure that I use the broadest words and phrases I can possible because the broader your language the more people it's going to resonate with and the more people it's going to resonate with the more views that your video gets so to go and give you an example if we go back to whenever I was scripting for Brian Mark I remember him sending me the base versions of his script and almost all the times he always used the term fitness coach cuz you know he's a he his niche is is that he coaches fitness coaches he's a business coach for fitness coaches so he teaches fitness coaches how to make more money and the first time that I read that [ __ ] out loud I questioned uh myself what is the more widespread term is it going to be fitness coach or is it going to be personal trainer now at the time I couldn't [ __ ] tell you but instead of just guessing like an amateur I took both of those terms over to Google Trends now what Google Trends will do is it will basically peel back the curtain on what the search volume is for a particular phrase and you can take advantage of that by comparing two different phrases to see which one is being searched more aka which one is broader aka which one will get you more views so if we head over to Google Trends and then we type in personal trainer and then we put it up against fitness coach and then compare we'll see that personal trainer gets a significant amount of more searches therefore personal trainer it is and every single time that I wrote to scripts for Brian Mark I always from there on out use the term personal trainer so whenever you're scripting and there's two different ways that you can say something but you just don't know which one is more popular then you use Google Trends to tell you that's why you always use broader language and get more views however now that I'm sure that I'm using the broadest language in my script I want to now use the sexiest language that I possibly can within my script and that is where software number three chat GBT comes into play now at the time of this recording there is no AI model out there that's just going to spit out a perfect [ __ ] script uh whenever it does then expect a video from me updating you on that new tool but right now the quality of use case uh of AI while scripting is solely dependent on the person that is using it and the person's skill level so for example if you suck at scripting and you have no knowledge on scripting then you're not going to even know what a good output from AI actually is going to be but that's okay because even if you're not a master script writer there are still some tricks that you can use that won't replace scripting all together for you but they will optimize your scripts and I have a library of like a hundred of these inside Nexus but one of my favorite use cases I'll use for chat GBT while scripting is for word swaps so more specifically swapping power words for what I call unique power words i should have a short form video coming out on this sometime soon but it's basically a unique power word is a power word that is used within a unique context now if you don't know what a power word is uh power word is basically just a word that strikes a psychological response in a viewer so words like secret words like ultimate hack tricks those kinds of words but the problem with these is is that these words are too common and they're kind of expected and boring it just kind of makes your video seem like it's uh one of those advertisements on a website the viewer is already trained to ignore them because they've heard it so many times but unique power words on the other hand is what's going to be the game changer in your video either getting 100 or 100,000 views so to give you a couple of examples um here's two different hooks so the first hook is going to be I'm going to teach you the proven ultimate secret on how to create viral videos with this one scripting hack versus right now your viewers are suffering but don't worry I'm going to impregnate you with the ability to create on command viral videos with this one single scripting technique now both of these hooks that I just mentioned have the same amount of power words however hook number two's power words are unique within their context which is exactly how you should be utilizing your power words in your content so instead of saying \"If you need to make money fast,\" you would say \"If you need to make money ASAP.\" Instead of saying \"Here are three secret hacks to go viral,\" you would say \"Here are three FBI confidential psychology secrets that I should not be sharing with you but will help you go viral.\" And you shouldn't only be using these unique power words in your hook you should be using them all throughout your video throughout every single script that I create I always try to find these little word swaps that mean the exact same thing but are slightly more unique that way my script never gets boring or predictable now how can you use Chat GBT to help you with utilizing more unique powers within your scripts well I thought you would never ask so you can do one of two things you can either open up Chat GBT give it the word or phrase and then ask for multiple different synonyms and different ways on how to say the exact same thing or you can use my unique phrase swapper GPT that will give you the perfect unique power words in different ways to say the same exact thing that actually will peique your viewers interest and keep them engaged into your script so if you want that you can find the link to it in the description and to use it it is really [ __ ] easy i'll show you right now all righty we are now on the Nexus phrase swapper and how you use it is actually pretty [ __ ] simple all you have to do is literally just copy copy and paste your script into the GBT that way it gives the GBT context on what your shift is about and then from that you copy and paste any phrase or word from that script and then the GBT will give you 15 alternatives for you to swap that are more unique more engaging and that keep your viewers on your videos for longer so if we go ahead and go over to the script real quick here is a script for one of my clients what we can do is we can just go ahead and copy and paste this over into the GPT bada bing bada boom bada bam next thing you know it'll ask me to give them one word or a phrase that I want to change let's say I want to change while still eating your favorite foods don't get me wrong that sounds good but I've heard that on like a thousand different fitness videos so if I want to swap this out all I have to do is copy and paste that there and it gives me 15 alternatives for that line so instead of saying while still eating your favorite foods you can say while still enjoying your favorite foods while still devouring your favorite foods while still indulging in your favorite foods or let's just even say hey I want to change out favorite foods so while still eating favorite foods what I'll do is focus on favorite foods cool so now it's going to give me unique phrases for not while still eating your favorite foods but just favorite foods so while still eating your cravew worthy foods or while still eating your guilty pleasures your beloved foods your irresistible favorites your favorite junk danger foods diet killers craving foods whatever the [ __ ] you want basically the main thing is that it'll give you a bunch of things that you can select from and now you can say things in a more unique manner that is going to be completely different than what your viewers currently experiencing on their timeline from all the other competitors in your niche that way you stand out and you keep the viewer there for longer and that is the Nexus phrase swapper again if you want it you can look in the description below and there will be a link to the Nexus phrase swapper and that is software number three Chat GBT so once my script is as broad and as sexy as possible then the last thing that I have to do is I have to make my script as simple and as short as possible and there's two different softwares that I use to help me with both of those which brings me to the fourth software on this list himmingwayapp.com so what this also will allow you to do is basically all you have to do is copy and paste your script into this website and then it will show you exactly how easy and simple your script is to understand by assigning a grade level to it so for context the reading level or the reading grade level on average in America is grade seven so that's a good baseline to base your scripts off of with that said for all of my scripts I try I try to aim at least one grade level below that so grade six grade six is the golden standard of making your script as easy as possible to understand so after I pasted my script into Hemingway if it's anything above a grade six then what I'll do is I'll look at it with my naked eye and I'll try to manually make it simpler because I'm not a part of the statistic I have a decent vocabulary so if I see that I wrote out the word polyypsia then I'll just manually change it to the word thirsty however if I do my manual eye scan and my scripts reading level still isn't a six or if I want it to even be a little bit lower to like a a five due to the complexity of the topic then I'll go ahead and draw my ego and head back to chatbt to help me make the script simpler and luckily for you I also have a GBT for this as well so you can find the link to this one in the description as well so let me go and walk you through how to use it all right so this GBT is called the Nexus Script Simplifier Light so all you have to do is just go and copy and paste your script the same way like we did before that way you can get the GPT some context on what your video is about cool so once you go and paste your script you want to go back to Hemingway editor it's where you pasted your script into the Hemingway editor now on Hemingway app it'll basically tell you which parts of the scripts are the hardest to read and it'll color code them accordingly so as you can see I have a couple red text here i currently have a grade 10 reading level i need to get that to grade six ASAP so let's go ahead and choose a sentence that I want to make simpler to understand let's go this one so copy and paste the sentence that is a red or a yellow that is hard to understand take it back to the GPT and then from there the GBT will just basically make your script simpler and give you three different suggestions to do so and it'll also make it shorter as well which is a plus so the first thing I do after I finish a script for a client or me is copy and paste it into this text box and for however long the video is going to be I will not leave the website until I can lower that number by 10 seconds so I can swap that original saying with what chatg suggesting so after I finish a script for myself or a client I copy and paste it into this text box and I stay on the website until I cut the video time by 10 seconds perfect that is much simpler now there's three other versions of this however let's just go and go with this version we'll take it back to Hemingway we'll go and replace this version uh we're going to replace this version and then all of the sudden our reading our reading level is now removed down to a grade eight so we're pretty close so all we have to do is just continuously do this so I would copy and paste this one as well go back to chatbt wait for it to give me an answer and then it'll give me my suggestions so I'll go ahead and copy and paste whatever the suggestion is i'll go back to Hemingway go ahead and copy and paste this bad boy and then all of a sudden we're now grade seven and you continuously do this until you become a great six now of course are you going to get a 100% amazing response or amazing first version from Chad CBT of course not maybe maybe some sometimes you will but you definitely want to make sure that everything still sounds similar to what you were trying to say to begin with but um overall it'll give you a lot of clarity on what you should change and what word swaps that you need to make to be able to lower the grade level to at least grade level seven however again I aim for grade level six if you can get it down to five even better now will the output that it gives you be perfect every single time no will it lower the grade level every single time 100% however of course it's going to change some rewarding it'll remove some things that might be important and all that good jazz so again you must have the skill to be able to recognize what good is if you want to use SHBT to the best of its ability now yes it will give you multiple different outputs that you can choose from for the three different suggestions but you need to have this skill to be able to select the best suggestion that is going to allow your video to still hit now mastering the skill of scripting is a topic for a different day instead of Nexus but for right now this will get you really really close to a really good [ __ ] script that is below a reading grade level of grade six and then once I get done uh going back and forth with chat GBT and my script is like at a fifth or sixth grade reading level then the last step is to take it to the fifth software called script timer which is software number five this software Vidyard Script Timer what it will do is it'll basically give you a rough estimate on how long it will take you to read out your script now there is not a time that I will not use this software after writing a script this is a non-negotiable for every single script that I create so without fail I will always take my script to videoard script timer i'll paste it in and then after that I will see how long it will take for me to read the script and after I get that number I will guesstimate a number in my head that I want to lower it to and then begin chopping it sound a little confusing so for example if I pasted my script into Vidyard script timer and then it says it will take me 90 seconds to read out that script then what I will do is I'll make a commitment in my head to get that number down to 75 seconds just as a guesstimate of what I could do and then I will not move my ass from this chair until it is at 75 seconds because remember your content well in your content you're not optimizing for the highest value per video you're optimizing for the highest value per second do not let that go over your head you're optimizing not for the highest value per video but for the highest value per second so with that being said I will sit there and I will get that number down to whatever number I committed to getting it down to and then afterwards if I feel as if I cut some important [ __ ] I'll add it back in uh but once I'm at the number that I committed to whenever it comes to the length of my script that I'll take for me to read it out and I believe is just the value per second of my video is as high as humanly possible then I now have the perfect script and that is my five softwares that I currently use within my tool belt for my scripting process what I want you to do is I want you to take my years of trial and error with every single type of different single scripting software out there and still my exact scripting software stack that I just gave to you number one using a few shorter plus dovetail to find the patterns to your videos number two using Google trains to find the most broad terms available number three using chat tvt to use unique powers to ensure that your video stays fresh and engaging all the way throughout number four use himmingway app.com that way you can always make sure that your script is as simple as possible then last but for damn sure not least number five Vidyard script timer to make sure that your videos not as valuable as possible but the video's value per second is as high as possible and that ends off today's video now if you want to work with me to help you and your business get richer through building a personal brand then the first link in the description will walk you through exactly how we can do just that until then subscribe for more",
+      "notes": "Viral Video Framework",
+      "updatedAt": "2026-10-07T12:13:13.706Z",
+      "userId": "86f5b982-23fa-452a-9017-f246391688b4",
+      "boardId": "polished-sea-2LmlU",
+      "graphId": "BNW7aGRhauOFL1L5SKFi",
+      "id": "youtubeNode-divine-grassland-mPFhE",
+      "width": 290,
+      "height": 206,
+      "position": {
+        "x": 691.2552145630088,
+        "y": 259.19671122044036
+      },
+      "parentId": "groupNode-winter-beach-e1UQD",
+      "extent": "parent",
+      "processes": {
+        "transcript": "COMPLETED",
+        "visualAnalysis": "FAILED"
+      },
+      "data": {
+        "text": null,
+        "isDetaching": false,
+        "createdAtTimestamp": "2025-10-26T23:13:27.038Z",
+        "createdAt": "October 26, 2025 4:13 PM",
+        "type": "youtubeNode",
+        "transcriptSavedOnDB": true,
+        "isCopying": false,
+        "userName": "Nate Yeske",
+        "userId": "94e9e629-a3fb-4487-8295-249efa9cfc19",
+        "userEmail": "user@example.com",
+        "connectionId": 0,
+        "notes": "Viral Video Framework",
+        "uploadStatus": "uploaded",
+        "url": "https://youtu.be/_9RPSvax3EQ?si=pp0fSf-VJO4uB8M3",
+        "title": "From Idea to Viral Video — These Are The 5 Tools That I Use"
+      },
+      "style": {
+        "width": 290,
+        "height": 206
+      },
+      "measured": {
+        "width": 290,
+        "height": 206
+      }
+    },
+    {
+      "id": "webScrapperNode-damp-moon-C337Z",
+      "type": "webScrapperNode",
+      "position": {
+        "x": -1402.946896546926,
+        "y": -1299.56745573045
+      },
+      "width": 290,
+      "height": 116,
+      "data": {
+        "type": "webScrapperNode",
+        "userId": "86f5b982-23fa-452a-9017-f246391688b4",
+        "userEmail": "user@example.com",
+        "userName": "Alex Vy",
+        "createdAt": "October 7, 2026 8:14 PM",
+        "createdAtTimestamp": "2026-10-07T12:14:37.539Z",
+        "connectionId": 2,
+        "isDetaching": false,
+        "uploadStatus": "uploaded",
+        "url": "https://example.com/",
+        "isCopying": false,
+        "description": "",
+        "screenshotUrl": "https://poppyai-website-screenshots.nyc3.digitaloceanspaces.com/renders/2026/10/7/5a298cad-371f-455d-88e3-a19a3d3e249e.jpeg",
+        "lastScrapedAt": "2026-10-07T12:14:49.512Z",
+        "transcriptSavedOnDB": true,
+        "text": null
+      },
+      "style": {
+        "height": 116,
+        "width": 290
+      },
+      "measured": {
+        "width": 290,
+        "height": 116
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "groupNode-crimson-lightning-Et72X-copied-chatNode-empty-rock-C6TZJ-copied-quiet-frost-KLPwA",
+      "targetHandle": "chat-connector",
+      "source": "groupNode-wonderful-wave-lu9jW",
+      "type": "connectionEdge",
+      "animated": true,
+      "sourceHandle": "connector",
+      "target": "chatNode-young-thunder-FnpUb",
+      "graphId": "BNW7aGRhauOFL1L5SKFi"
+    },
+    {
+      "target": "chatNode-young-thunder-FnpUb",
+      "targetHandle": "chat-connector",
+      "source": "groupNode-black-summit-8yTqw",
+      "animated": true,
+      "type": "connectionEdge",
+      "id": "groupNode-patient-cherry-yH2wE-copied-chatNode-empty-rock-C6TZJ-copied-weathered-canyon-0aCBM",
+      "sourceHandle": "connector",
+      "graphId": "BNW7aGRhauOFL1L5SKFi"
+    },
+    {
+      "animated": true,
+      "targetHandle": "chat-connector",
+      "source": "groupNode-lively-dream-aqvOB",
+      "target": "chatNode-young-thunder-FnpUb",
+      "sourceHandle": "connector",
+      "type": "connectionEdge",
+      "id": "groupNode-holy-forest-bIkGv-copied-chatNode-empty-rock-C6TZJ-copied-small-water-n35SW",
+      "graphId": "BNW7aGRhauOFL1L5SKFi"
+    },
+    {
+      "sourceHandle": "connector",
+      "id": "groupNode-vivacious-fog-iepSS-copied-chatNode-empty-rock-C6TZJ-copied-billowing-wind-16W04",
+      "target": "chatNode-young-thunder-FnpUb",
+      "animated": true,
+      "targetHandle": "chat-connector",
+      "source": "groupNode-winter-beach-e1UQD",
+      "type": "connectionEdge",
+      "graphId": "BNW7aGRhauOFL1L5SKFi"
+    },
+    {
+      "type": "connectionEdge",
+      "source": "groupNode-dark-river-aru_P",
+      "animated": true,
+      "id": "groupNode-silent-cloud-iqt9i-copied-chatNode-empty-rock-C6TZJ-copied-holy-glacier-H5s3f",
+      "target": "chatNode-young-thunder-FnpUb",
+      "targetHandle": "chat-connector",
+      "sourceHandle": "connector",
+      "graphId": "BNW7aGRhauOFL1L5SKFi"
+    }
+  ]
+}

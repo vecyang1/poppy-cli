@@ -1,0 +1,734 @@
+{
+  "id": 255707,
+  "slug": "poppy-ai",
+  "public_name": "Poppy AI",
+  "product_url": "https://getpoppy.ai/",
+  "appsumo_url": "https://appsumo.com/products/poppy-ai/",
+  "deal_status": "Ended",
+  "refundable_days": 60,
+  "money_back_callout_type": "money-back",
+  "media_url": "https://appsumo2-cdn.appsumo.com/media/deals/images/poppy-ai-as-Header-Poppy_AI-16_9_uuid_79c78e35-16ca-40cf-8208-acff38d98b7b.png",
+  "featured_image_url": "https://appsumo2-cdn.appsumo.com/media/deals/images/poppy-ai-as-Header-Poppy_AI-16_9_cL05fsd_uuid_4ff8c812-51b8-4447-a13d-eeba8f097510.png",
+  "product_logo": "https://appsumo2-cdn.appsumo.com/media/deals/images/poppy-ai-icon-1_uuid_76022803-c81d-4b5f-a4a9-862be59171a2.png",
+  "ratings": {
+    "review_count": 161,
+    "average_rating": "4.83",
+    "distribution": {
+      "1": 5,
+      "2": 1,
+      "3": 2,
+      "4": 0,
+      "5": 153
+    }
+  },
+  "overview_media": [
+    {
+      "html_body": "\u003cp class=\"\"\u003e\u003c/p\u003e\u003ch4\u003e\u003cb style=\"font-size: 14px; color: rgb(0, 0, 0);\"\u003ePull in videos, PDFs, and voice notes to write on-brand scripts, posts, and emails on a visual canvas\u003c/b\u003e\u003c/h4\u003e\u003cp class=\"\"\u003e\u003cb style=\"color:#000000; text-decoration:none\"\u003eBring all your sources into one place\u003c/b\u003e\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cb\u003eDrag and drop YouTube videos, TikToks, IG Reels, PDFs, images, and voice notes\u003c/b\u003e\u0026nbsp;directly onto your board\u003c/li\u003e\u003cli\u003e\u003cb\u003eConnect websites and documents\u003c/b\u003e\u0026nbsp;so Poppy AI can pull insights without you copying and pasting anything\u003c/li\u003e\u003cli\u003e\u003cb\u003eOrganize everything on a persistent visual canvas\u003c/b\u003e\u0026nbsp;that holds your sources, notes, and AI outputs together\u003c/li\u003e\u003c/ul\u003e\u003cp class=\"\"\u003e\n        \u003cdiv\n          class=\"story-img-container open-carousel-modal-on-click\"\n          data-story-image-id=\"Poppy-AI-img-60b8e68b-copy-2\"\n        \u003e\n            \u003cimg\n                class=\"story-inline-image z-depth-2\"\n                src=\"https://appsumo2-cdn.appsumo.com/media/stories/images/image1_skkVllI_uuid_259e2b23-95ec-4620-ad6f-323900afb68f.png?optimizer=gif\"\n                alt=\"All boards\"\n                srcset=\"https://appsumo2-cdn.appsumo.com/media/stories/images/image1_skkVllI_uuid_259e2b23-95ec-4620-ad6f-323900afb68f.png?width=495\u0026optimizer=gif 450w,\n                         https://appsumo2-cdn.appsumo.com/media/stories/images/image1_skkVllI_uuid_259e2b23-95ec-4620-ad6f-323900afb68f.png?width=654\u0026optimizer=gif 595w,\n                         https://appsumo2-cdn.appsumo.com/media/stories/images/image1_skkVllI_uuid_259e2b23-95ec-4620-ad6f-323900afb68f.png?width=935\u0026optimizer=gif 850w\"\n                sizes=\"(min-width: 950px) 1045px, 100vw\"\n                width=\"850\" height=\"500\"\n                loading=\"lazy\"\n            /\u003e\n            \u003csvg\n              aria-hidden=\"true\"\n              focusable=\"false\"\n              data-prefix=\"fas\"\n              data-icon=\"search-plus\"\n              role=\"img\"\n              xmlns=\"http://www.w3.org/2000/svg\"\n              viewBox=\"0 0 512 512\"\n              class=\"hover-mag-glass svg-inline--fa fa-search-plus fa-w-16\"\n            \u003e\n                \u003cpath\n                  fill=\"currentColor\"\"\n                  d=\"M304 192v32c0 6.6-5.4 12-12 12h-56v56c0 6.6-5.4 12-12 12h-32c-6.6                   0-12-5.4-12-12v-56h-56c-6.6 0-12-5.4-12-12v-32c0-6.6 5.4-12 12-12h56v-56c0-6.6 5.4-12                   12-12h32c6.6 0 12 5.4 12 12v56h56c6.6 0 12 5.4 12 12zm201 284.7L476.7 505c-9.4 9.4-24.6                   9.4-33.9 0L343 405.3c-4.5-4.5-7-10.6-7-17V372c-35.3 27.6-79.7 44-128 44C93.1 416 0 322.9 0                   208S93.1 0 208 0s208 93.1 208 208c0 48.3-16.4 92.7-44 128h16.3c6.4 0 12.5 2.5 17 7l99.7                   99.7c9.3 9.4 9.3 24.6 0 34zM344 208c0-75.2-60.8-136-136-136S72 132.8 72 208s60.8 136 136 136                   136-60.8 136-136z\"\n                /\u003e\n           \u003c/svg\u003e\n        \u003c/div\u003e\n    \u003c/p\u003e\u003cp class=\"\"\u003e\u003cb style=\"color:#000000; text-decoration:none\"\u003eWrite faster without losing your voice\u003c/b\u003e\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cb\u003eChat with ChatGPT and Claude in the same workspace\u003c/b\u003e\u0026nbsp;without switching tabs or losing your thread\u003c/li\u003e\u003cli\u003e\u003cb\u003eGenerate scripts, posts, and emails\u003c/b\u003e\u0026nbsp;directly from the sources on your board—not from a blank prompt\u003c/li\u003e\u003cli\u003e\u003cb\u003eLet Poppy AI learn your style\u003c/b\u003e\u0026nbsp;so every output sounds like you wrote it, not a language model\u003c/li\u003e\u003c/ul\u003e\u003cp class=\"\"\u003e\n        \u003cdiv\n          class=\"story-img-container open-carousel-modal-on-click\"\n          data-story-image-id=\"Poppy-AI-img-89b58c33-copy-2\"\n        \u003e\n            \u003cimg\n                class=\"story-inline-image z-depth-2\"\n                src=\"https://appsumo2-cdn.appsumo.com/media/stories/images/image3_0EzxNJU_uuid_bda55ced-d73c-4488-9852-d18f7b919410.png?optimizer=gif\"\n                alt=\"Poppy Chat\"\n                srcset=\"https://appsumo2-cdn.appsumo.com/media/stories/images/image3_0EzxNJU_uuid_bda55ced-d73c-4488-9852-d18f7b919410.png?width=495\u0026optimizer=gif 450w,\n                         https://appsumo2-cdn.appsumo.com/media/stories/images/image3_0EzxNJU_uuid_bda55ced-d73c-4488-9852-d18f7b919410.png?width=654\u0026optimizer=gif 595w,\n                         https://appsumo2-cdn.appsumo.com/media/stories/images/image3_0EzxNJU_uuid_bda55ced-d73c-4488-9852-d18f7b919410.png?width=935\u0026optimizer=gif 850w\"\n                sizes=\"(min-width: 950px) 1045px, 100vw\"\n                width=\"850\" height=\"500\"\n                loading=\"lazy\"\n            /\u003e\n            \u003csvg\n              aria-hidden=\"true\"\n              focusable=\"false\"\n              data-prefix=\"fas\"\n              data-icon=\"search-plus\"\n              role=\"img\"\n              xmlns=\"http://www.w3.org/2000/svg\"\n              viewBox=\"0 0 512 512\"\n              class=\"hover-mag-glass svg-inline--fa fa-search-plus fa-w-16\"\n            \u003e\n                \u003cpath\n                  fill=\"currentColor\"\"\n                  d=\"M304 192v32c0 6.6-5.4 12-12 12h-56v56c0 6.6-5.4 12-12 12h-32c-6.6                   0-12-5.4-12-12v-56h-56c-6.6 0-12-5.4-12-12v-32c0-6.6 5.4-12 12-12h56v-56c0-6.6 5.4-12                   12-12h32c6.6 0 12 5.4 12 12v56h56c6.6 0 12 5.4 12 12zm201 284.7L476.7 505c-9.4 9.4-24.6                   9.4-33.9 0L343 405.3c-4.5-4.5-7-10.6-7-17V372c-35.3 27.6-79.7 44-128 44C93.1 416 0 322.9 0                   208S93.1 0 208 0s208 93.1 208 208c0 48.3-16.4 92.7-44 128h16.3c6.4 0 12.5 2.5 17 7l99.7                   99.7c9.3 9.4 9.3 24.6 0 34zM344 208c0-75.2-60.8-136-136-136S72 132.8 72 208s60.8 136 136 136                   136-60.8 136-136z\"\n                /\u003e\n           \u003c/svg\u003e\n        \u003c/div\u003e\n    \u003c/p\u003e\u003cp class=\"\"\u003e\u003cb style=\"color:#000000; text-decoration:none\"\u003eSummarize, analyze, and steal angles\u003c/b\u003e\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cb\u003eSummarize hours of video and podcast content\u003c/b\u003e\u0026nbsp;by asking Poppy AI exactly what you need to know\u003c/li\u003e\u003cli\u003e\u003cb\u003eAnalyze competitor content, websites, and documents\u003c/b\u003e\u0026nbsp;to pull angles, hooks, and insights for campaigns\u003c/li\u003e\u003cli\u003e\u003cb\u003eExtract key takeaways from any source\u003c/b\u003e\u0026nbsp;without watching, reading, or listening to the whole thing\u003c/li\u003e\u003c/ul\u003e\u003cp class=\"\"\u003e\n        \u003cdiv\n          class=\"story-img-container open-carousel-modal-on-click\"\n          data-story-image-id=\"Poppy-AI-img-5a3e4cf6-copy-2\"\n        \u003e\n            \u003cimg\n                class=\"story-inline-image z-depth-2\"\n                src=\"https://appsumo2-cdn.appsumo.com/media/stories/images/image4_hk8iYpZ_uuid_019234e6-2997-4bc1-b1b8-70c8d58137fc.png?optimizer=gif\"\n                alt=\"Content discovery\"\n                srcset=\"https://appsumo2-cdn.appsumo.com/media/stories/images/image4_hk8iYpZ_uuid_019234e6-2997-4bc1-b1b8-70c8d58137fc.png?width=495\u0026optimizer=gif 450w,\n                         https://appsumo2-cdn.appsumo.com/media/stories/images/image4_hk8iYpZ_uuid_019234e6-2997-4bc1-b1b8-70c8d58137fc.png?width=654\u0026optimizer=gif 595w,\n                         https://appsumo2-cdn.appsumo.com/media/stories/images/image4_hk8iYpZ_uuid_019234e6-2997-4bc1-b1b8-70c8d58137fc.png?width=935\u0026optimizer=gif 850w\"\n                sizes=\"(min-width: 950px) 1045px, 100vw\"\n                width=\"850\" height=\"500\"\n                loading=\"lazy\"\n            /\u003e\n            \u003csvg\n              aria-hidden=\"true\"\n              focusable=\"false\"\n              data-prefix=\"fas\"\n              data-icon=\"search-plus\"\n              role=\"img\"\n              xmlns=\"http://www.w3.org/2000/svg\"\n              viewBox=\"0 0 512 512\"\n              class=\"hover-mag-glass svg-inline--fa fa-search-plus fa-w-16\"\n            \u003e\n                \u003cpath\n                  fill=\"currentColor\"\"\n                  d=\"M304 192v32c0 6.6-5.4 12-12 12h-56v56c0 6.6-5.4 12-12 12h-32c-6.6                   0-12-5.4-12-12v-56h-56c-6.6 0-12-5.4-12-12v-32c0-6.6 5.4-12 12-12h56v-56c0-6.6 5.4-12                   12-12h32c6.6 0 12 5.4 12 12v56h56c6.6 0 12 5.4 12 12zm201 284.7L476.7 505c-9.4 9.4-24.6                   9.4-33.9 0L343 405.3c-4.5-4.5-7-10.6-7-17V372c-35.3 27.6-79.7 44-128 44C93.1 416 0 322.9 0                   208S93.1 0 208 0s208 93.1 208 208c0 48.3-16.4 92.7-44 128h16.3c6.4 0 12.5 2.5 17 7l99.7                   99.7c9.3 9.4 9.3 24.6 0 34zM344 208c0-75.2-60.8-136-136-136S72 132.8 72 208s60.8 136 136 136                   136-60.8 136-136z\"\n                /\u003e\n           \u003c/svg\u003e\n        \u003c/div\u003e\n    \u003c/p\u003e\u003cp class=\"\"\u003e\u003cb style=\"color:#000000; text-decoration:none\"\u003ePlan and structure your content\u003c/b\u003e\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cb\u003eBuild mind maps to brainstorm narratives and campaign structures\u003c/b\u003e\u0026nbsp;before you start writing\u003c/li\u003e\u003cli\u003e\u003cb\u003eTurn connected nodes into outlines, scripts, and tasks\u003c/b\u003e\u0026nbsp;without leaving the canvas\u003c/li\u003e\u003cli\u003e\u003cb\u003eSee all your assets and ideas in one view\u003c/b\u003e, so nothing falls through the cracks\u003c/li\u003e\u003c/ul\u003e\u003cp class=\"\"\u003e\n        \u003cdiv\n          class=\"story-img-container open-carousel-modal-on-click\"\n          data-story-image-id=\"Poppy-AI-img-3f840bb2-copy-2\"\n        \u003e\n            \u003cimg\n                class=\"story-inline-image z-depth-2\"\n                src=\"https://appsumo2-cdn.appsumo.com/media/stories/images/image2_Bs8XCpi_uuid_15573f19-9edc-46d6-b585-39a5c1de6a04.png?optimizer=gif\"\n                alt=\"YouTube script creation\"\n                srcset=\"https://appsumo2-cdn.appsumo.com/media/stories/images/image2_Bs8XCpi_uuid_15573f19-9edc-46d6-b585-39a5c1de6a04.png?width=495\u0026optimizer=gif 450w,\n                         https://appsumo2-cdn.appsumo.com/media/stories/images/image2_Bs8XCpi_uuid_15573f19-9edc-46d6-b585-39a5c1de6a04.png?width=654\u0026optimizer=gif 595w,\n                         https://appsumo2-cdn.appsumo.com/media/stories/images/image2_Bs8XCpi_uuid_15573f19-9edc-46d6-b585-39a5c1de6a04.png?width=935\u0026optimizer=gif 850w\"\n                sizes=\"(min-width: 950px) 1045px, 100vw\"\n                width=\"850\" height=\"500\"\n                loading=\"lazy\"\n            /\u003e\n            \u003csvg\n              aria-hidden=\"true\"\n              focusable=\"false\"\n              data-prefix=\"fas\"\n              data-icon=\"search-plus\"\n              role=\"img\"\n              xmlns=\"http://www.w3.org/2000/svg\"\n              viewBox=\"0 0 512 512\"\n              class=\"hover-mag-glass svg-inline--fa fa-search-plus fa-w-16\"\n            \u003e\n                \u003cpath\n                  fill=\"currentColor\"\"\n                  d=\"M304 192v32c0 6.6-5.4 12-12 12h-56v56c0 6.6-5.4 12-12 12h-32c-6.6                   0-12-5.4-12-12v-56h-56c-6.6 0-12-5.4-12-12v-32c0-6.6 5.4-12 12-12h56v-56c0-6.6 5.4-12                   12-12h32c6.6 0 12 5.4 12 12v56h56c6.6 0 12 5.4 12 12zm201 284.7L476.7 505c-9.4 9.4-24.6                   9.4-33.9 0L343 405.3c-4.5-4.5-7-10.6-7-17V372c-35.3 27.6-79.7 44-128 44C93.1 416 0 322.9 0                   208S93.1 0 208 0s208 93.1 208 208c0 48.3-16.4 92.7-44 128h16.3c6.4 0 12.5 2.5 17 7l99.7                   99.7c9.3 9.4 9.3 24.6 0 34zM344 208c0-75.2-60.8-136-136-136S72 132.8 72 208s60.8 136 136 136                   136-60.8 136-136z\"\n                /\u003e\n           \u003c/svg\u003e\n        \u003c/div\u003e\n    \u003c/p\u003e"
+    }
+  ],
+  "default_plan_terms": [
+    {
+      "id": 464308,
+      "text": "Lifetime access to Poppy AI"
+    },
+    {
+      "id": 464309,
+      "text": "All future custom AppSumo plan updates"
+    },
+    {
+      "id": 464310,
+      "text": "If Plan name changes, deal will be mapped to the new Plan name with all accompanying updates"
+    },
+    {
+      "id": 464311,
+      "text": "No codes, no stacking—just choose the plan that’s right for you"
+    },
+    {
+      "id": 464312,
+      "text": "You must activate your license within 60 days of purchase"
+    },
+    {
+      "id": 464313,
+      "text": "Ability to upgrade between 6 license tiers while the deal is available"
+    },
+    {
+      "id": 464314,
+      "text": "Ability to downgrade between 6 license tiers within 60 days of purchase"
+    }
+  ],
+  "common_features": [
+    {
+      "id": 31614,
+      "text": "MCPs"
+    },
+    {
+      "id": 30853,
+      "text": "Credits (depending on the plan)"
+    },
+    {
+      "id": 30852,
+      "text": "Create unlimited boards"
+    },
+    {
+      "id": 30851,
+      "text": "Write viral scripts"
+    },
+    {
+      "id": 30850,
+      "text": "Write viral ads"
+    },
+    {
+      "id": 30849,
+      "text": "Write viral images"
+    },
+    {
+      "id": 30848,
+      "text": "Collaborative workspace"
+    },
+    {
+      "id": 30847,
+      "text": "Access the best AI models"
+    },
+    {
+      "id": 30846,
+      "text": "Import anything"
+    },
+    {
+      "id": 30845,
+      "text": "Import YouTube content"
+    },
+    {
+      "id": 30844,
+      "text": "Import Instagram content"
+    },
+    {
+      "id": 30843,
+      "text": "Import Tiktok content"
+    },
+    {
+      "id": 30842,
+      "text": "Import LinkedIn content"
+    },
+    {
+      "id": 30841,
+      "text": "Import Twitter content"
+    },
+    {
+      "id": 30840,
+      "text": "Import ads"
+    }
+  ],
+  "plans": [
+    {
+      "id": 287128,
+      "tier": 1,
+      "plan_type": "Lifetime Deal",
+      "price": "279.00",
+      "original_price": "649.00",
+      "is_active": true,
+      "plan_features": [
+        {
+          "feature": "\u003cb\u003e500\u003c/b\u003e Monthly credits"
+        },
+        {
+          "feature": "\u003cb\u003e500\u003c/b\u003e One-time bonus credits"
+        },
+        {
+          "feature": "\u003cb\u003e3\u003c/b\u003e Brands"
+        },
+        {
+          "feature": "\u003cb\u003e1\u003c/b\u003e Seat(s)"
+        }
+      ]
+    },
+    {
+      "id": 287129,
+      "tier": 2,
+      "plan_type": "Lifetime Deal",
+      "price": "539.00",
+      "original_price": "1289.00",
+      "is_active": true,
+      "plan_features": [
+        {
+          "feature": "\u003cb\u003e1,000\u003c/b\u003e Monthly credits"
+        },
+        {
+          "feature": "\u003cb\u003e1,000\u003c/b\u003e One-time bonus credits"
+        },
+        {
+          "feature": "\u003cb\u003e3\u003c/b\u003e Brands"
+        },
+        {
+          "feature": "\u003cb\u003e1\u003c/b\u003e Seat(s)"
+        }
+      ]
+    },
+    {
+      "id": 287130,
+      "tier": 3,
+      "plan_type": "Lifetime Deal",
+      "price": "989.00",
+      "original_price": "2199.00",
+      "is_active": true,
+      "plan_features": [
+        {
+          "feature": "\u003cb\u003e2,000\u003c/b\u003e Monthly credits"
+        },
+        {
+          "feature": "\u003cb\u003e1,500\u003c/b\u003e One-time bonus credits"
+        },
+        {
+          "feature": "\u003cb\u003e3\u003c/b\u003e Brands"
+        },
+        {
+          "feature": "\u003cb\u003e1\u003c/b\u003e Seat(s)"
+        }
+      ]
+    },
+    {
+      "id": 287131,
+      "tier": 4,
+      "plan_type": "Lifetime Deal",
+      "price": "1379.00",
+      "original_price": "3867.00",
+      "is_active": true,
+      "plan_features": [
+        {
+          "feature": "\u003cb\u003e3,000\u003c/b\u003e Monthly credits"
+        },
+        {
+          "feature": "\u003cb\u003e1,500\u003c/b\u003e One-time bonus credits"
+        },
+        {
+          "feature": "\u003cb\u003e5\u003c/b\u003e Brands"
+        },
+        {
+          "feature": "\u003cb\u003e2\u003c/b\u003e Seat(s)"
+        },
+        {
+          "feature": "BYOK"
+        }
+      ]
+    },
+    {
+      "id": 287132,
+      "tier": 5,
+      "plan_type": "Lifetime Deal",
+      "price": "2259.00",
+      "original_price": "4445.00",
+      "is_active": true,
+      "plan_features": [
+        {
+          "feature": "\u003cb\u003e5,000\u003c/b\u003e Monthly credits"
+        },
+        {
+          "feature": "\u003cb\u003e1,500\u003c/b\u003e One-time bonus credits"
+        },
+        {
+          "feature": "\u003cb\u003e10\u003c/b\u003e Brands"
+        },
+        {
+          "feature": "\u003cb\u003e3\u003c/b\u003e Seat(s)"
+        },
+        {
+          "feature": "BYOK"
+        },
+        {
+          "feature": "API access (with white-glove support)"
+        }
+      ]
+    },
+    {
+      "id": 287133,
+      "tier": 6,
+      "plan_type": "Lifetime Deal",
+      "price": "4459.00",
+      "original_price": "8890.00",
+      "is_active": true,
+      "plan_features": [
+        {
+          "feature": "\u003cb\u003e10,000\u003c/b\u003e Monthly credits"
+        },
+        {
+          "feature": "\u003cb\u003e1,500\u003c/b\u003e One-time bonus credits"
+        },
+        {
+          "feature": "\u003cb\u003eUnlimited\u003c/b\u003e Brands"
+        },
+        {
+          "feature": "\u003cb\u003e5\u003c/b\u003e Seat(s)"
+        },
+        {
+          "feature": "BYOK"
+        },
+        {
+          "feature": "API access (with white-glove support)"
+        },
+        {
+          "feature": "Chatbot access"
+        },
+        {
+          "feature": "White-labelled chatbots"
+        }
+      ]
+    }
+  ],
+  "dealfeatures": [
+    {
+      "feature": "Monthly credits",
+      "order": 0,
+      "tooltip": null,
+      "entries": [
+        {
+          "entry": "1,000",
+          "plan_id": 287129
+        },
+        {
+          "entry": "500",
+          "plan_id": 287128
+        },
+        {
+          "entry": "2,000",
+          "plan_id": 287130
+        },
+        {
+          "entry": "3,000",
+          "plan_id": 287131
+        },
+        {
+          "entry": "5,000",
+          "plan_id": 287132
+        },
+        {
+          "entry": "10,000",
+          "plan_id": 287133
+        }
+      ]
+    },
+    {
+      "feature": "One-time bonus credits",
+      "order": 1,
+      "tooltip": null,
+      "entries": [
+        {
+          "entry": "500",
+          "plan_id": 287128
+        },
+        {
+          "entry": "1,000",
+          "plan_id": 287129
+        },
+        {
+          "entry": "1,500",
+          "plan_id": 287130
+        },
+        {
+          "entry": "1,500",
+          "plan_id": 287131
+        },
+        {
+          "entry": "1,500",
+          "plan_id": 287132
+        },
+        {
+          "entry": "1,500",
+          "plan_id": 287133
+        }
+      ]
+    },
+    {
+      "feature": "Brands",
+      "order": 2,
+      "tooltip": "Poppy can now remember your voice, style, and context throughout boards",
+      "entries": [
+        {
+          "entry": "Unlimited",
+          "plan_id": 287133
+        },
+        {
+          "entry": "10",
+          "plan_id": 287132
+        },
+        {
+          "entry": "5",
+          "plan_id": 287131
+        },
+        {
+          "entry": "3",
+          "plan_id": 287130
+        },
+        {
+          "entry": "3",
+          "plan_id": 287129
+        },
+        {
+          "entry": "3",
+          "plan_id": 287128
+        }
+      ]
+    },
+    {
+      "feature": "Seat(s)",
+      "order": 3,
+      "tooltip": null,
+      "entries": [
+        {
+          "entry": "1",
+          "plan_id": 287128
+        },
+        {
+          "entry": "1",
+          "plan_id": 287129
+        },
+        {
+          "entry": "1",
+          "plan_id": 287130
+        },
+        {
+          "entry": "2",
+          "plan_id": 287131
+        },
+        {
+          "entry": "3",
+          "plan_id": 287132
+        },
+        {
+          "entry": "5",
+          "plan_id": 287133
+        }
+      ]
+    },
+    {
+      "feature": "BYOK",
+      "order": 4,
+      "tooltip": null,
+      "entries": [
+        {
+          "entry": false,
+          "plan_id": 287128
+        },
+        {
+          "entry": false,
+          "plan_id": 287129
+        },
+        {
+          "entry": false,
+          "plan_id": 287130
+        },
+        {
+          "entry": true,
+          "plan_id": 287131
+        },
+        {
+          "entry": true,
+          "plan_id": 287132
+        },
+        {
+          "entry": true,
+          "plan_id": 287133
+        }
+      ]
+    },
+    {
+      "feature": "API access (with white-glove support)",
+      "order": 5,
+      "tooltip": null,
+      "entries": [
+        {
+          "entry": false,
+          "plan_id": 287128
+        },
+        {
+          "entry": false,
+          "plan_id": 287129
+        },
+        {
+          "entry": false,
+          "plan_id": 287130
+        },
+        {
+          "entry": false,
+          "plan_id": 287131
+        },
+        {
+          "entry": true,
+          "plan_id": 287132
+        },
+        {
+          "entry": true,
+          "plan_id": 287133
+        }
+      ]
+    },
+    {
+      "feature": "Chatbot access",
+      "order": 6,
+      "tooltip": null,
+      "entries": [
+        {
+          "entry": true,
+          "plan_id": 287133
+        },
+        {
+          "entry": false,
+          "plan_id": 287128
+        },
+        {
+          "entry": false,
+          "plan_id": 287129
+        },
+        {
+          "entry": false,
+          "plan_id": 287130
+        },
+        {
+          "entry": false,
+          "plan_id": 287131
+        },
+        {
+          "entry": false,
+          "plan_id": 287132
+        }
+      ]
+    },
+    {
+      "feature": "White-labelled chatbots",
+      "order": 7,
+      "tooltip": null,
+      "entries": [
+        {
+          "entry": true,
+          "plan_id": 287133
+        },
+        {
+          "entry": false,
+          "plan_id": 287132
+        },
+        {
+          "entry": false,
+          "plan_id": 287131
+        },
+        {
+          "entry": false,
+          "plan_id": 287130
+        },
+        {
+          "entry": false,
+          "plan_id": 287129
+        },
+        {
+          "entry": false,
+          "plan_id": 287128
+        }
+      ]
+    }
+  ],
+  "founders": {
+    "data": {
+      "company_size": "11-50",
+      "headquarters": "San Francisco, US",
+      "founded_at": "2024-05-11",
+      "product_stage": {
+        "label": "Expansion",
+        "value": "expansion",
+        "description": "5-7 years, market/product diversification"
+      },
+      "financial_stage": {
+        "label": "Bootstrapped",
+        "value": "bootstrapped",
+        "description": "Built without external funding"
+      },
+      "is_verified": true
+    },
+    "links": [
+      {
+        "id": 22870,
+        "type": "product_information",
+        "title": "Poppy AI Terms \u0026 Conditions",
+        "url": "https://getpoppy.ai/terms-conditions"
+      },
+      {
+        "id": 22871,
+        "type": "other",
+        "title": "Blog",
+        "url": "https://blog.getpoppy.ai/"
+      },
+      {
+        "id": 22872,
+        "type": "youtube",
+        "title": "YouTube",
+        "url": "https://www.youtube.com/@PoppyAI"
+      },
+      {
+        "id": 22873,
+        "type": "twitter",
+        "title": "Twitter",
+        "url": "https://x.com/getPoppyAI"
+      },
+      {
+        "id": 22874,
+        "type": "other",
+        "title": "Instagram",
+        "url": "https://www.instagram.com/getpoppyai/"
+      }
+    ],
+    "posts": [
+      {
+        "id": 16357,
+        "title": "Poppy Day is back and better than ever!",
+        "message": "\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003ePoppy Day is back. 🎉\u003c/span\u003e\u003c/p\u003e\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003e\u003cb\u003eMonday, August 10th at 12pm CT\u003c/b\u003e — and we've been cooking hard this past month.\u003c/span\u003e\u003c/p\u003e\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003eHere's what we're showing you:\u003c/span\u003e\u003c/p\u003e\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003e🔍 \u003cb\u003eDiscover Content just got better.\u003c/b\u003e You already know it for finding outlier YouTube content and researching creators. We've made it smarter. Come see what's new.\u003c/span\u003e\u003c/p\u003e\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003e📥 \u003cb\u003eIf you hate building funnels, this one's for you.\u003c/b\u003e I'm not going to say too much — that would ruin the surprise. But if you've ever wished launching an offer was easier, you'll want to be there for this.\u003c/span\u003e\u003c/p\u003e\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003e🧩 \u003cb\u003eNo more copy-pasting across boards.\u003c/b\u003e If you've ever had to duplicate nodes and groups across multiple boards and then update each one manually — you'll never have to do that again.\u003c/span\u003e\u003c/p\u003e\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003eWe're going live on Zoom and I'll walk you through everything so you get the most out of it.\u003c/span\u003e\u003c/p\u003e\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003eRegister here: \u003ca href=\"https://www.addevent.com/event/xm5pvhp886hd\" target=\"_blank\"\u003e\u003cb\u003ehttps://www.addevent.com/event/xm5pvhp886hd\u003c/b\u003e\u003c/a\u003e\u003c/span\u003e\u003c/p\u003e\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003e\u003cb\u003eMonday, August 10th at 12pm CT.\u003c/b\u003e See you there.\u003c/span\u003e\u003c/p\u003e\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003e-Amaanath\u003c/span\u003e\u003c/p\u003e",
+        "created": "2026-08-04T13:09:10.271643-05:00",
+        "user": {
+          "username": "Amaanath_PoppyAI",
+          "first_name": "Amaanath",
+          "last_name": "Mumtaz",
+          "avatar": "https://appsumo2-cdn.appsumo.com/media/users/avatars/pfp_2_Medium.png",
+          "linkedin_url": "https://www.linkedin.com/in/amaanath"
+        }
+      },
+      {
+        "id": 14644,
+        "title": "We just wrapped Poppy Day — and the features are live!",
+        "message": "\u003cp\u003ePoppy Day is here — and everything we teased is now live. 🎉\u003c/p\u003e\u003cp\u003eHere's what just shipped:\u003c/p\u003e\u003cp\u003e\u003cspan style=\"font-weight: 700;\"\u003e🧠 Brands\u003c/span\u003e\u003c/p\u003e\u003cp\u003ePoppy now remembers your voice, style, and context across all your boards. Set it once, and every output you create stays on-brand automatically.\u003c/p\u003e\u003cp\u003e👉 Tier 1–3: 3 brands\u003c/p\u003e\u003cp\u003e👉 Tier 4: 5 brands\u003c/p\u003e\u003cp\u003e👉 Tier 5: 10 brands\u003c/p\u003e\u003cp\u003e👉 Tier 6: Unlimited brands\u003c/p\u003e\u003cp\u003e\u003cspan style=\"font-weight: 700;\"\u003e🤖 White-labelled chatbots (Tier 6)\u003c/span\u003e\u003c/p\u003e\u003cp\u003eBuild and deploy your own AI chatbot under your name and brand. Your clients, your experience, your clone.\u003c/p\u003e\u003cp\u003e\u003cspan style=\"font-weight: 700;\"\u003e🔌 MCPs (All tiers)\u003c/span\u003e\u003c/p\u003e\u003cp\u003ePoppy now connects to Higgsfield, Notion, Slack, Gmail, Google Calendar, and more. Your tools, talking to each other.\u003c/p\u003e\u003cp\u003eThis is the biggest single-day release we've ever done. Go explore it and let us know what you think.\u003c/p\u003e\u003cp\u003e-Amaanath\u003c/p\u003e",
+        "created": "2026-07-02T14:21:16.297531-05:00",
+        "user": {
+          "username": "Amaanath_PoppyAI",
+          "first_name": "Amaanath",
+          "last_name": "Mumtaz",
+          "avatar": "https://appsumo2-cdn.appsumo.com/media/users/avatars/pfp_2_Medium.png",
+          "linkedin_url": "https://www.linkedin.com/in/amaanath"
+        }
+      },
+      {
+        "id": 14606,
+        "title": "July 2nd is Poppy Day",
+        "message": "\u003cp\u003e\u003cspan style=\"font-weight: 700;\"\u003eTomorrow is Poppy Day. 🎉\u003c/span\u003e\u003c/p\u003e\u003cp\u003eOur developers have been building hard for the past couple of months, and on July 2nd at 1pm CT we're going live on Zoom to show you everything.\u003c/p\u003e\u003cp\u003eI'm not giving it all away here, but here's what's coming:\u003c/p\u003e\u003cp\u003e🧠 Your brand will live inside Poppy. Voice, style, guidelines, colors — all of it stored and shared across your account so Poppy knows who you are every time you open it.\u003c/p\u003e\u003cp\u003e🔌 Something that sounds like \"empty sea\" is coming. If you know, you know.\u003c/p\u003e\u003cp\u003e🖼 A big update to image generation that will make your designers nervous.\u003c/p\u003e\u003cp\u003e🤖 Agency owners and coaches — you'll be able to have your own AI clone, with your name and brand, that your clients think is actually you.\u003c/p\u003e\u003cp\u003eThis is the biggest launch day we've ever done. Show up live and see it for yourself.\u003c/p\u003e\u003cp\u003e👉 Register here: \u003cspan style=\"font-weight: 700;\"\u003e\u003ca href=\"https://www.addevent.com/event/hhzgrkcjbk1q\" target=\"_blank\"\u003ehttps://www.addevent.com/event/hhzgrkcjbk1q\u003c/a\u003e\u003c/span\u003e\u003c/p\u003e\u003cp\u003eThursday, July 2nd at 1pm CT. See you there.\u003c/p\u003e\u003cp\u003e-Amaanath\u003c/p\u003e",
+        "created": "2026-07-01T10:56:36.304237-05:00",
+        "user": {
+          "username": "Amaanath_PoppyAI",
+          "first_name": "Amaanath",
+          "last_name": "Mumtaz",
+          "avatar": "https://appsumo2-cdn.appsumo.com/media/users/avatars/pfp_2_Medium.png",
+          "linkedin_url": "https://www.linkedin.com/in/amaanath"
+        }
+      },
+      {
+        "id": 14477,
+        "title": "Join us June 25 at 12 pm CT for another webinar!",
+        "message": "\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003eYou've been wondering how Poppy AI actually works for content creation.\u003c/span\u003e\u003c/p\u003e\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003eI get it.\u003c/span\u003e\u003c/p\u003e\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003eMaking videos for YouTube, Instagram, or TikTok that people actually watch — and share — feels hard. It feels like something big creators with big teams do.\u003c/span\u003e\u003c/p\u003e\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003eThat's exactly why I'm doing this webinar.\u003c/span\u003e\u003c/p\u003e\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003e\u003cb\u003eOn Thursday, June 25 at 12pm CT\u003c/b\u003e, I'm hosting a live Zoom session: \u003cb\u003e\u003ca href=\"https://www.addevent.com/event/0lm660jkpdly\" target=\"_blank\"\u003eHow To Create Viral Content With Poppy AI\u003c/a\u003e\u003c/b\u003e\u003ca href=\"https://www.addevent.com/event/0lm660jkpdly\" target=\"_blank\"\u003e.\u003c/a\u003e\u003c/span\u003e\u003c/p\u003e\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003eHere's what we're covering:\u003c/span\u003e\u003c/p\u003e\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003e👉 Step-by-step how to get started with Poppy and everything it can do\u003c/span\u003e\u003c/p\u003e\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003e👉 How to use Poppy to make viral content for YouTube, Instagram, and TikTok\u003c/span\u003e\u003c/p\u003e\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003e👉 Write emails or improve your website copy in minutes instead of hours\u003c/span\u003e\u003c/p\u003e\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003e👉 Why over 15,000 marketing agencies, content creators, and solopreneurs use Poppy every day\u003c/span\u003e\u003c/p\u003e\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003e👉 Live Q\u0026amp;A — ask me anything\u003c/span\u003e\u003c/p\u003e\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003eIf you make content, run a business, or run a marketing agency and you want to stop grinding out copy that sounds like everyone else's, you should be there.\u003c/span\u003e\u003c/p\u003e\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003eRSVP here: \u003c/span\u003e\u003ca href=\"https://www.addevent.com/event/0lm660jkpdly\" target=\"_blank\"\u003e\u003cb\u003ehttps://www.addevent.com/event/0lm660jkpdly\u003c/b\u003e\u003c/a\u003e\u003c/p\u003e\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003eSee you Thursday.\u003c/span\u003e\u003c/p\u003e\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003e-Amaanath\u003c/span\u003e\u003c/p\u003e\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003eP.S. Video off and audio muted is totally fine — but it's more fun if you show up.\u003c/span\u003e\u003c/p\u003e",
+        "created": "2026-06-23T13:47:30.752051-05:00",
+        "user": {
+          "username": "Amaanath_PoppyAI",
+          "first_name": "Amaanath",
+          "last_name": "Mumtaz",
+          "avatar": "https://appsumo2-cdn.appsumo.com/media/users/avatars/pfp_2_Medium.png",
+          "linkedin_url": "https://www.linkedin.com/in/amaanath"
+        }
+      },
+      {
+        "id": 14478,
+        "title": "BYOK (Bring Your Own Key) is now live for Tiers 4, 5, and 6. 🔑",
+        "message": "\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003eHey Sumo-lings! 🎉\u003c/span\u003e\u003c/p\u003e\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003eYou asked for it. Loudly. Repeatedly. In the comments, in DMs, in our community group.\u003c/span\u003e\u003c/p\u003e\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003eSo we built it.\u003c/span\u003e\u003c/p\u003e\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003e\u003cb\u003eBYOK (Bring Your Own Key) is now live for Tiers 4, 5, and 6. 🔑\u003c/b\u003e\u003c/span\u003e\u003c/p\u003e\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003eFor those who don't know what that means — you can now plug in your own OpenAI or Anthropic API key directly into Poppy. When you do, your requests run through your key instead of drawing from your monthly credits.\u003c/span\u003e\u003c/p\u003e\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003eWhy does this matter?\u003c/span\u003e\u003c/p\u003e\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003eIf you're a power user who's already paying for API access, you were essentially paying twice. Your Poppy credits AND your own API costs. That never felt right to us.\u003c/span\u003e\u003c/p\u003e\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003eNow it doesn't have to work that way.\u003c/span\u003e\u003c/p\u003e\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003eBring your key. Use Poppy's canvas, the source importing, the AI writing, all of it — without touching your credit balance. 🧠\u003c/span\u003e\u003c/p\u003e\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003eThis was genuinely one of the most requested things since we launched and Naz and I are pumped to finally get it into your hands.\u003c/span\u003e\u003c/p\u003e\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003eIf you're on Tier 4, 5, or 6 — go check your settings right now.\u003c/span\u003e\u003c/p\u003e\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003eAnd if you're on a lower tier and this is what you've been waiting for, you know what to do. 👀\u003c/span\u003e\u003c/p\u003e\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003eKeep the feedback coming. We read all of it and we build accordingly.\u003c/span\u003e\u003c/p\u003e\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003eLet's gooo 🚀\u003c/span\u003e\u003c/p\u003e\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003e-Qazi\u003c/span\u003e\u003c/p\u003e",
+        "created": "2026-06-15T09:28:13.904682-05:00",
+        "user": {
+          "username": "Qazi_PoppyAI",
+          "first_name": "Rafeh",
+          "last_name": "Qazi",
+          "avatar": "https://appsumo2-cdn.appsumo.com/media/users/avatars/unnamed.JPG",
+          "linkedin_url": "https://www.linkedin.com/in/rafehqazi"
+        }
+      },
+      {
+        "id": 14479,
+        "title": "Join us for a webinar on how to scale your business with Poppy!",
+        "message": "\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003eYou've probably heard about Poppy AI by now, but you're not convinced yet.\u003c/span\u003e\u003c/p\u003e\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003eAnd that's totally fine.\u003c/span\u003e\u003c/p\u003e\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003eYou've got questions.\u003c/span\u003e\u003c/p\u003e\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003eYou don't understand how Poppy can help you or your business.\u003c/span\u003e\u003c/p\u003e\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003eThat's why I'm here and I'm doing this webinar ❤️.\u003c/span\u003e\u003c/p\u003e\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003eIn this webinar, I'm going to:\u003c/span\u003e\u003c/p\u003e\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003e👉 Teach you step-by-step how to get started with Poppy and show you what it's capable of.\u003c/span\u003e\u003c/p\u003e\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003e👉 How to use Poppy to make content, write emails or improve your website copy in minutes instead of hours or even weeks ;)\u003c/span\u003e\u003c/p\u003e\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003e👉 Why over 15,000 marketing agencies, content creators and soloprenuers are using Poppy AI every day?\u003c/span\u003e\u003c/p\u003e\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003e👉 Finally a live Q\u0026amp;A to answer any questions you still have.\u003c/span\u003e\u003c/p\u003e\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003eIf you make content, run a business or a marketing agency and you're tired of using ChatGPT and Claude because they don't exactly sound human.\u003c/span\u003e\u003c/p\u003e\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003eYou should not miss this.\u003c/span\u003e\u003c/p\u003e\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003eI'm doing this over Zoom so you'll get to ask questions directly at me and engage.\u0026nbsp;\u003c/span\u003e\u003c/p\u003e\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003eIt's gonna be a whole lot of fun and packed with value 🤩.\u003c/span\u003e\u003c/p\u003e\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003e\u003cb\u003eWednesday at 12pm CT.\u003c/b\u003e\u003c/span\u003e\u003c/p\u003e\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003eSee you there?\u003c/span\u003e\u003c/p\u003e\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003eEvent info/Zoom link/RSVP here: \u003cb\u003e\u003ca href=\"https://evt.to/df0xcrtk2rzy\" target=\"_blank\"\u003ehttps://evt.to/df0xcrtk2rzy\u003c/a\u003e\u003c/b\u003e\u003c/span\u003e\u003c/p\u003e\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003e-Amaanath\u003c/span\u003e\u003c/p\u003e\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003eP.S.-If you prefer to have your video off and audio muted that's fine, but it might make it a bit less fun 🥲.\u003c/span\u003e\u003c/p\u003e",
+        "created": "2026-06-09T12:42:13.752216-05:00",
+        "user": {
+          "username": "Amaanath_PoppyAI",
+          "first_name": "Amaanath",
+          "last_name": "Mumtaz",
+          "avatar": "https://appsumo2-cdn.appsumo.com/media/users/avatars/pfp_2_Medium.png",
+          "linkedin_url": "https://www.linkedin.com/in/amaanath"
+        }
+      },
+      {
+        "id": 14480,
+        "title": "We just added Tiers 4, 5, and 6 — and here's why!",
+        "message": "\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003eHey Sumo-lings! 🎉\u003c/span\u003e\u003c/p\u003e\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003e\u003cb\u003eWe just added Tiers 4, 5, and 6 — and I'm gonna be real with you about why.\u003c/b\u003e\u003c/span\u003e\u003c/p\u003e\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003eA LOT of you have been reaching out saying the first three tiers weren't enough. Power users, agencies, teams, developers — you wanted more credits, more seats, and access to the stuff under the hood.\u003c/span\u003e\u003c/p\u003e\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003eSo we built it. Here's what's new:\u003c/span\u003e\u003c/p\u003e\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003e\u003cb\u003eTier 4 — $1,249\u003c/b\u003e\u003c/span\u003e\u003c/p\u003e\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003e\u003cb\u003e3,000 monthly credits + 2 seats.\u003c/b\u003e If you've got a creative partner, an assistant, or literally just want to stop fighting your co-founder for access — this one's for you.\u003c/span\u003e\u003c/p\u003e\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003e\u003cb\u003eTier 5 — $2,049\u003c/b\u003e\u003c/span\u003e\u003c/p\u003e\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003e\u003cb\u003e5,000 monthly credits + 3 seats + API access. \u003c/b\u003eThis is where things get interesting. If you're a developer or you want to plug Poppy into your own workflows and tools, you now can. Build on top of Poppy. Automate things. Go wild. 🔧\u003c/span\u003e\u003c/p\u003e\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003e\u003cb\u003eTier 6 — $4,049\u003c/b\u003e\u003c/span\u003e\u003c/p\u003e\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003e\u003cb\u003e10,000 monthly credits + 5 seats + API access + Chatbot access.\u003c/b\u003e This is the full enchilada. Agencies, larger teams, power users who live inside Poppy all day — this tier was built for you. Chatbot access means you can deploy Poppy's intelligence in entirely new ways.\u003c/span\u003e\u003c/p\u003e\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003e\u003cb\u003eAll tiers still come with the one-time bonus credits and everything that already made Tiers 1–3 great.\u003c/b\u003e\u003c/span\u003e\u003c/p\u003e\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003eWe're not slowing down. Naz and I are shipping constantly and this community has been a huge part of shaping what Poppy becomes. Keep the feedback coming — we read all of it.\u003c/span\u003e\u003c/p\u003e\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003eLet's gooo 🚀\u003c/span\u003e\u003c/p\u003e\u003cp\u003e\u003cspan style=\"font-size: 14px;\"\u003e-Qazi\u003c/span\u003e\u003c/p\u003e",
+        "created": "2026-06-08T15:55:34.101680-05:00",
+        "user": {
+          "username": "Qazi_PoppyAI",
+          "first_name": "Rafeh",
+          "last_name": "Qazi",
+          "avatar": "https://appsumo2-cdn.appsumo.com/media/users/avatars/unnamed.JPG",
+          "linkedin_url": "https://www.linkedin.com/in/rafehqazi"
+        }
+      },
+      {
+        "id": 14481,
+        "title": "Why we built this AI tool…",
+        "message": "\u003cp\u003eHey Sumo-lings!\u003cbr\u003e\u003cbr\u003eMe and my co-founder Naz have ADHD and are neurodivergent (aka neuro spicy haha).\u003cbr\u003e\u003cbr\u003eWe go down rabbit holes, research things forever, and often tend to procrastinate as soon as it's time to turn our idea into action. (let's be real the idea part of it is more fun anyway 😂)\u003cbr\u003e\u003cbr\u003eI've been using ChatGPT and Claude since literally the minute they came out and find it insane that majority of the people still don't know or don't use AI to help them in their day to day. Just walking around being 20 IQ points lower for no absolute reason is diabolical work in my opinion.\u003cbr\u003e\u003cbr\u003eBut I hate the fact that all AI tools are linear as in they go from top to bottom. Like a book. I've always felt so constrained using them like I'm in a strait jacket.\u003cbr\u003e\u003cbr\u003eI wanted an experience that felt more like a choose your own adventure video game. An experience where I felt free in the way I could speak to the AI to have it work with me. I could talk to it through voice or text or an image or even a video. Somewhere I could visually stitch together all my thoughts and have AI make meaning out of it.\u003cbr\u003e\u003cbr\u003eI wanted to be able to SEE all the knowledge it had at any given point. Something that didn't hallucinate or forget my conversation every few minutes.\u003cbr\u003e\u003cbr\u003eAnother problem I had was as a content creator and a copywriter whenever I had to write something I HATED sitting there looking at an empty blinking cursor on GOOGLE DOCS or constantly switching between chrome tabs to look at ChatGPT (uninspiring linear text blob) back to Google Docs (another uninspiring linear text blob).\u003cbr\u003e\u003cbr\u003eI wanted to be able to throw all my research together and then have the AI write for me in my own voice. What I hated about regular ChatGPT was that I couldn't do that. It would always write me something cringy in a voice that never feels like my own.\u003cbr\u003e\u003cbr\u003eWe built this because our brain thinks non-linearly. Our thoughts are a chaotic mess. We needed something to slobber our thoughts all over.\u003cbr\u003e\u003cbr\u003eThen use AI to stitch it together and make meaning out of it.\u003cbr\u003e\u003cbr\u003eAnd ultimately to produce real world published work like emails that get 100k+ opens and videos that get millions of views. Doing it in a way that saves us 100's of hours and leaves us feeling inspired for doing more work.\u003cbr\u003e\u003cbr\u003e-Qazi\u003c/p\u003e",
+        "created": "2026-05-14T13:50:32.505401-05:00",
+        "user": {
+          "username": "Qazi_PoppyAI",
+          "first_name": "Rafeh",
+          "last_name": "Qazi",
+          "avatar": "https://appsumo2-cdn.appsumo.com/media/users/avatars/unnamed.JPG",
+          "linkedin_url": "https://www.linkedin.com/in/rafehqazi"
+        }
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "id": 11492,
+      "question": "What is Poppy AI and what are its main features?",
+      "answer": "Poppy AI is a proactive AI assistant designed to help organize your digital life by integrating various services such as email, calendar, and messaging into a single dashboard. It offers features like proactive suggestions based on your schedule and location, the ability to connect with services like Apple Calendar, Google Calendar, Gmail, Outlook, iCloud Mail, Apple Health, Reminders, Contacts, iMessage, WhatsApp, Uber, and Instacart, and the capability to handle multiple content types including YouTube videos, PDFs, voice notes, and images."
+    },
+    {
+      "id": 11493,
+      "question": "How do I get started with Poppy AI?",
+      "answer": "To get started with Poppy AI, you can sign up on their official website. Once registered, you can connect various services like your email, calendar, and messaging apps to Poppy. The platform provides a visual canvas where you can drag in content such as YouTube videos, articles, PDFs, and voice notes, organizing them into groups for the AI to process simultaneously."
+    },
+    {
+      "id": 11494,
+      "question": "What AI models does Poppy AI support, and how do I choose the right one?",
+      "answer": "Poppy AI supports multiple AI models, each with different content limits and strengths. For instance, GPT-5 mini is suitable for quick questions, while other models may be better for analyzing extensive documents. It's important to choose the model based on your specific task to avoid exceeding token limits and encountering errors."
+    },
+    {
+      "id": 11495,
+      "question": "How does Poppy AI handle user data and privacy?",
+      "answer": "Poppy AI encrypts user data when stored in its database and has a zero-retention policy enabled when using cloud-based large language models for its suggestions. The company aims to transition to using local, on-device AI models as technology advances to further enhance privacy."
+    },
+    {
+      "id": 11496,
+      "question": "What is the Power User Upgrade in Poppy AI?",
+      "answer": "The Power User Upgrade is a plan designed for serious Poppy AI users, offering 16,000 total monthly credits, full API access to connect Poppy to various platforms, a chatbot feature to share knowledge without sharing your account, and white-glove setup support during the launch period."
+    },
+    {
+      "id": 11497,
+      "question": "How are credits used in Poppy AI?",
+      "answer": "Credits in Poppy AI are consumed when you interact with the AI through chats. Each plan comes with 2,000 base credits that reset to zero on the 1st of every month at 9 AM PST. Credits are not used for uploading files or organizing boards, only for AI interactions."
+    },
+    {
+      "id": 11498,
+      "question": "Can I integrate Poppy AI with other applications?",
+      "answer": "Yes, Poppy AI offers full API access, allowing you to integrate it with various applications. This includes building custom chatbots, connecting to automation tools like Zapier and Make.com, integrating with messaging platforms like Telegram, and embedding Poppy's intelligence into your existing software."
+    },
+    {
+      "id": 11499,
+      "question": "What types of content can I add to Poppy AI boards?",
+      "answer": "You can add various forms of content to Poppy AI boards, including YouTube videos, PDFs, voice notes, images, and more. This allows the AI to process and analyze multiple content types simultaneously, enhancing your productivity and content creation capabilities."
+    },
+    {
+      "id": 11500,
+      "question": "How does Poppy AI's proactive suggestion feature work?",
+      "answer": "Poppy AI's proactive suggestion feature analyzes your connected services and data, such as your calendar and location, to provide timely recommendations. For example, if it detects a 30-minute gap in your schedule near a park, it might suggest taking a walk before your next appointment."
+    },
+    {
+      "id": 11501,
+      "question": "Is there a community or forum for Poppy AI users to provide feedback?",
+      "answer": "Yes, Poppy AI has a feedback platform where users can submit feature requests, report issues, and engage with the community. The team reviews every idea and feedback submitted to improve the product."
+    }
+  ]
+}

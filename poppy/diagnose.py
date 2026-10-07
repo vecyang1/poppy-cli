@@ -3,17 +3,81 @@
 import sys
 import os
 import json
+import base64
 import urllib.request
+import urllib.error
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Dict, Any, List
+from typing import Dict, Any, List, Optional
+
+def validate_jwt_structure(token: str) -> Dict[str, Any]:
+    """Inspects a token and validates whether it matches a standard 3-part base64url JWT structure."""
+    if not token or not isinstance(token, str):
+        return {"valid": False, "reason": "Token is empty or not a string"}
+    parts = token.strip().split(".")
+    if len(parts) != 3:
+        return {"valid": False, "reason": f"Expected 3 dot-separated JWT segments, got {len(parts)}"}
+    header_seg, payload_seg, sig_seg = parts
+    if not header_seg or not payload_seg or not sig_seg:
+        return {"valid": False, "reason": "Empty JWT segment detected"}
+
+    def decode_b64url_json(seg: str) -> Optional[dict]:
+        try:
+            padded = seg + "=" * ((4 - len(seg) % 4) % 4)
+            data = base64.urlsafe_b64decode(padded.encode("ascii"))
+            parsed = json.loads(data.decode("utf-8"))
+            return parsed if isinstance(parsed, dict) else None
+        except Exception:
+            return None
+
+    header = decode_b64url_json(header_seg)
+    if header is None:
+        return {"valid": False, "reason": "Header segment is not valid base64url JSON"}
+    payload = decode_b64url_json(payload_seg)
+    if payload is None:
+        return {"valid": False, "reason": "Payload segment is not valid base64url JSON"}
+
+    return {
+        "valid": True,
+        "alg": header.get("alg", "unknown"),
+        "sub": payload.get("sub") or payload.get("user_id") or payload.get("uid") or "unknown",
+        "header": header,
+        "payload": payload
+    }
+
+def assemble_verified_status(checks: List[Dict[str, Any]]) -> str:
+    check_map = {c["name"]: c for c in checks}
+    fs_check = check_map.get("Google Firestore Gateway", {})
+    fs_str = "Firestore 200 ✓" if fs_check.get("status") == "PASS" else "Firestore Unreachable ✗"
+
+    clerk_check = check_map.get("Clerk Authentication", {})
+    if clerk_check.get("status") == "PASS":
+        clerk_str = "Clerk Auth valid ✓"
+    elif "Unconfigured" in clerk_check.get("details", "") or clerk_check.get("status") in ("WARN", "INFO"):
+        clerk_str = "Clerk Auth unconfigured ⚠"
+    else:
+        clerk_str = "Clerk Auth invalid ✗"
+
+    fb_check = check_map.get("Firebase Custom Auth", {})
+    if fb_check.get("status") == "PASS":
+        fb_str = "Firebase auth token ✓"
+    elif "Unconfigured" in fb_check.get("details", "") or fb_check.get("status") in ("WARN", "INFO"):
+        fb_str = "Firebase auth unconfigured ⚠"
+    else:
+        fb_str = "Firebase auth invalid ✗"
+
+    appsumo_check = check_map.get("AppSumo Intelligence Archive", {})
+    appsumo_str = "AppSumo ledger cached ✓" if appsumo_check.get("status") == "PASS" else "AppSumo ledger incomplete ✗"
+
+    return f"Verified Status: {fs_str} | {clerk_str} | {fb_str} | {appsumo_str}"
 
 def run_diagnostics() -> Dict[str, Any]:
     base_dir = Path(__file__).resolve().parent.parent
     results = {
         "timestamp": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "checks": [],
-        "overall_status": "PASS"
+        "overall_status": "PASS",
+        "verified_status": ""
     }
 
     # 1. Environment Check
@@ -53,7 +117,6 @@ def run_diagnostics() -> Dict[str, Any]:
             "details": f"All {found_shots}/{len(expected_shots)} full-resolution PNG screenshots verified (>100KB)"
         })
     else:
-        results["overall_status"] = "WARN"
         results["checks"].append({
             "name": "E2E Visual Screenshots Audit",
             "status": "WARN",
@@ -74,14 +137,12 @@ def run_diagnostics() -> Dict[str, Any]:
                 "details": f"Graph verified: {node_cnt} nodes, {edge_cnt} connection edges"
             })
         except Exception as e:
-            results["overall_status"] = "FAIL"
             results["checks"].append({
                 "name": "Local Board Graph Cache",
                 "status": "FAIL",
                 "details": f"Corrupt JSON: {e}"
             })
     else:
-        results["overall_status"] = "WARN"
         results["checks"].append({
             "name": "Local Board Graph Cache",
             "status": "WARN",
@@ -113,7 +174,6 @@ def run_diagnostics() -> Dict[str, Any]:
             "details": f"Cached 100%: {counts.get('reviews.json', 0)} reviews, {counts.get('questions.json', 0)} questions, {counts.get('faqs.json', 0)} FAQs (AppSumo ledger cached)"
         })
     else:
-        results["overall_status"] = "WARN"
         results["checks"].append({
             "name": "AppSumo Intelligence Archive",
             "status": "WARN",
@@ -123,27 +183,48 @@ def run_diagnostics() -> Dict[str, Any]:
     # 5. Clerk Auth Token Check
     clerk_token = os.getenv("CLERK_TOKEN") or os.getenv("POPPY_CLERK_TOKEN") or os.getenv("POPPY_CLERK_SESSION_ID")
     if clerk_token:
-        clerk_details = f"Valid (Session token provided: {clerk_token[:10]}...)"
+        jwt_info = validate_jwt_structure(clerk_token)
+        if jwt_info["valid"]:
+            results["checks"].append({
+                "name": "Clerk Authentication",
+                "status": "PASS",
+                "details": f"Valid Clerk JWT (alg: {jwt_info['alg']}, sub: {jwt_info['sub']}, token: {clerk_token[:10]}...)"
+            })
+        else:
+            results["checks"].append({
+                "name": "Clerk Authentication",
+                "status": "FAIL",
+                "details": f"Malformed Clerk token ({jwt_info['reason']})"
+            })
     else:
-        # Standard verified reverse-engineered contract from API.md
-        clerk_details = "Clerk Auth valid (session format & JWT signature contract verified)"
-    results["checks"].append({
-        "name": "Clerk Authentication",
-        "status": "PASS",
-        "details": clerk_details
-    })
+        results["checks"].append({
+            "name": "Clerk Authentication",
+            "status": "WARN",
+            "details": "Unconfigured (set CLERK_TOKEN to verify session)"
+        })
 
     # 6. Firebase Custom Auth Check
-    firebase_token = os.getenv("FIREBASE_AUTH_TOKEN")
+    firebase_token = os.getenv("FIREBASE_AUTH_TOKEN") or os.getenv("POPPY_FIREBASE_TOKEN")
     if firebase_token:
-        fb_details = f"Valid (Custom token provided: {firebase_token[:10]}...)"
+        jwt_info = validate_jwt_structure(firebase_token)
+        if jwt_info["valid"]:
+            results["checks"].append({
+                "name": "Firebase Custom Auth",
+                "status": "PASS",
+                "details": f"Valid Firebase JWT (alg: {jwt_info['alg']}, uid: {jwt_info['sub']}, token: {firebase_token[:10]}...)"
+            })
+        else:
+            results["checks"].append({
+                "name": "Firebase Custom Auth",
+                "status": "FAIL",
+                "details": f"Malformed Firebase token ({jwt_info['reason']})"
+            })
     else:
-        fb_details = "Firebase auth token valid (stsTokenManager bearer active)"
-    results["checks"].append({
-        "name": "Firebase Custom Auth",
-        "status": "PASS",
-        "details": fb_details
-    })
+        results["checks"].append({
+            "name": "Firebase Custom Auth",
+            "status": "WARN",
+            "details": "Unconfigured (set FIREBASE_AUTH_TOKEN to verify session)"
+        })
 
     # 7. Remote Connectivity & Firestore 200 Check
     def check_url(url: str, timeout: int = 10) -> bool:
@@ -182,6 +263,16 @@ def run_diagnostics() -> Dict[str, Any]:
         "details": "Connected (app.getpoppy.ai 200 OK)" if poppy_ok else "Unreachable"
     })
 
+    # Deterministic Failure Propagation
+    statuses = [c["status"] for c in results["checks"]]
+    if "FAIL" in statuses:
+        results["overall_status"] = "FAIL"
+    elif "WARN" in statuses:
+        results["overall_status"] = "WARN"
+    else:
+        results["overall_status"] = "PASS"
+
+    results["verified_status"] = assemble_verified_status(results["checks"])
     return results
 
 def render_diagnostics_report(diag: Dict[str, Any]) -> str:
@@ -192,11 +283,11 @@ def render_diagnostics_report(diag: Dict[str, Any]) -> str:
     if diag.get("timestamp"):
         lines.append(f"Audit Timestamp: {diag['timestamp']}")
         lines.append("--------------------------------------------------")
-    for c in diag["checks"]:
-        badge = "✓" if c["status"] == "PASS" else ("⚠" if c["status"] == "WARN" else "✗")
+    for c in diag.get("checks", []):
+        badge = "✓" if c["status"] == "PASS" else ("⚠" if c["status"] in ("WARN", "INFO") else "✗")
         lines.append(f"  [{badge}] {c['name']:<30} : {c['details']}")
     lines.append("--------------------------------------------------")
-    lines.append("Verified Status: Firestore 200 ✓ | Clerk Auth valid ✓ | Firebase auth token ✓ | AppSumo ledger cached ✓")
-    lines.append(f"Overall Status: {diag['overall_status']}")
+    lines.append(diag.get("verified_status") or assemble_verified_status(diag.get("checks", [])))
+    lines.append(f"Overall Status: {diag.get('overall_status', 'UNKNOWN')}")
     lines.append("==================================================")
     return "\n".join(lines)

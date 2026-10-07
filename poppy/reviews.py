@@ -74,6 +74,8 @@ def get_reviews_summary() -> Dict[str, Any]:
     }
 
 def filter_reviews(limit: int = 10, min_rating: int = 1, search: Optional[str] = None) -> List[Dict[str, Any]]:
+    if limit <= 0:
+        return []
     reviews = load_reviews_data()
     filtered = []
     search_lower = search.lower() if search else None
@@ -103,6 +105,8 @@ def filter_reviews(limit: int = 10, min_rating: int = 1, search: Optional[str] =
     return filtered
 
 def filter_questions(limit: int = 10, search: Optional[str] = None) -> List[Dict[str, Any]]:
+    if limit <= 0:
+        return []
     questions = load_questions_data()
     filtered = []
     search_lower = search.lower() if search else None

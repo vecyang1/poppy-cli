@@ -5,6 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.2.0] - 2026-10-07
+
+### Added
+- **Dynamic Board Discovery (`poppy/boards.py`)**: Automatically scans and indexes local `board_*.json` canvas files from project root alongside default snapshots with deduplication.
+- **Structural JWT Validation (`poppy/diagnose.py`)**: Standard-library 3-part base64url JWT header/payload structural validation (`validate_jwt_structure`) with algorithm and subject extraction.
+- **Dynamic Diagnostics Status Banner & Failure Propagation (`poppy/diagnose.py`)**: Replaced static status string with dynamic status computation across Firestore, Clerk, Firebase, and AppSumo checks; failure states in network gateways or malformed tokens properly propagate to `overall_status = "FAIL"`.
+- **Adversarial Test Suite Hardening (`tests/test_cli.py`)**: Expanded test suite to 17 tests covering boundary zero limits, network outage simulations, malformed token rejections, unconfigured warnings, and dynamic board discovery.
+
+### Fixed
+- **Review & Question Filter Boundary Defect (`poppy/reviews.py`)**: Fixed off-by-one error where `--limit 0` returned 1 item; added immediate short-circuit returning `[]` for `limit <= 0`.
+- **Honest Diagnostic Authentication Reporting (`poppy/diagnose.py`)**: Diagnostic check reports honest `WARN` with `"Unconfigured"` status when authentication tokens are not set, rather than falsely self-certifying `"valid"`.
+
 ## [1.1.0] - 2026-10-07
 
 ### Added

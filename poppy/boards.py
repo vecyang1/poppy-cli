@@ -41,71 +41,100 @@ def get_base_dir() -> Path:
     # Resolves to project root
     return Path(__file__).resolve().parent.parent
 
+def _parse_board_graph_data(board_id: str, data: Dict[str, Any]) -> BoardGraph:
+    nodes = []
+    for n in data.get("nodes", []):
+        pos = n.get("position", {})
+        meas = n.get("measured", {})
+        nodes.append(CanvasNode(
+            id=n.get("id", ""),
+            type=n.get("type", "unknown"),
+            title=n.get("title") or n.get("data", {}).get("title") or n.get("id", ""),
+            x=pos.get("x", 0.0),
+            y=pos.get("y", 0.0),
+            width=meas.get("width") or n.get("width", 0.0),
+            height=meas.get("height") or n.get("height", 0.0),
+            data=n.get("data", {})
+        ))
+    edges = []
+    for e in data.get("edges", []):
+        edges.append(CanvasEdge(
+            id=e.get("id", ""),
+            source_id=e.get("source", ""),
+            target_id=e.get("target", ""),
+            source_handle=e.get("sourceHandle", ""),
+            target_handle=e.get("targetHandle", ""),
+            edge_type=e.get("type", "connectionEdge"),
+            animated=e.get("animated", True)
+        ))
+    graph_id = data.get("graphId")
+    if not graph_id:
+        for n_raw in data.get("nodes", []):
+            if n_raw.get("graphId"):
+                graph_id = n_raw.get("graphId")
+                break
+            if n_raw.get("data", {}).get("graphId"):
+                graph_id = n_raw["data"]["graphId"]
+                break
+    if not graph_id:
+        for b in DEFAULT_BOARDS_SNAPSHOT:
+            if b.get("id") == board_id and b.get("graphId"):
+                graph_id = b["graphId"]
+                break
+    graph_id = graph_id or "unknown"
+
+    return BoardGraph(
+        board_id=board_id,
+        graph_id=graph_id,
+        nodes=nodes,
+        edges=edges
+    )
+
 def load_local_graph(board_id: str) -> Optional[BoardGraph]:
     base_dir = get_base_dir()
     candidate_paths = [
         base_dir / f"board_{board_id}.json",
         base_dir / f"board_{board_id.replace('-', '_')}.json",
+        base_dir / f"board_{board_id.replace('_', '-')}.json",
         base_dir / "board_polished_sea_2LmlU.json" if board_id in ("polished-sea-2LmlU", "default") else None
     ]
     for p in candidate_paths:
         if p and p.exists():
             with open(p, "r", encoding="utf-8") as f:
                 data = json.load(f)
-            nodes = []
-            for n in data.get("nodes", []):
-                pos = n.get("position", {})
-                meas = n.get("measured", {})
-                nodes.append(CanvasNode(
-                    id=n.get("id", ""),
-                    type=n.get("type", "unknown"),
-                    title=n.get("title") or n.get("data", {}).get("title") or n.get("id", ""),
-                    x=pos.get("x", 0.0),
-                    y=pos.get("y", 0.0),
-                    width=meas.get("width") or n.get("width", 0.0),
-                    height=meas.get("height") or n.get("height", 0.0),
-                    data=n.get("data", {})
-                ))
-            edges = []
-            for e in data.get("edges", []):
-                edges.append(CanvasEdge(
-                    id=e.get("id", ""),
-                    source_id=e.get("source", ""),
-                    target_id=e.get("target", ""),
-                    source_handle=e.get("sourceHandle", ""),
-                    target_handle=e.get("targetHandle", ""),
-                    edge_type=e.get("type", "connectionEdge"),
-                    animated=e.get("animated", True)
-                ))
-            graph_id = data.get("graphId")
-            if not graph_id:
-                for n_raw in data.get("nodes", []):
-                    if n_raw.get("graphId"):
-                        graph_id = n_raw.get("graphId")
-                        break
-                    if n_raw.get("data", {}).get("graphId"):
-                        graph_id = n_raw["data"]["graphId"]
-                        break
-            if not graph_id:
-                for b in DEFAULT_BOARDS_SNAPSHOT:
-                    if b.get("id") == board_id and b.get("graphId"):
-                        graph_id = b["graphId"]
-                        break
-            graph_id = graph_id or "unknown"
+            return _parse_board_graph_data(board_id, data)
 
-            return BoardGraph(
-                board_id=board_id,
-                graph_id=graph_id,
-                nodes=nodes,
-                edges=edges
-            )
+    # Fallback search across any board_*.json files in base_dir
+    for p in base_dir.glob("board_*.json"):
+        try:
+            with open(p, "r", encoding="utf-8") as f:
+                data = json.load(f)
+            found_bid = data.get("boardId") or data.get("id")
+            if not found_bid:
+                for n in data.get("nodes", []):
+                    if n.get("boardId"):
+                        found_bid = n["boardId"]
+                        break
+            norm_target = board_id.replace("-", "_")
+            stem = p.stem
+            file_bid = (stem[6:] if stem.startswith("board_") else stem).replace("-", "_")
+            if (found_bid and found_bid.replace("-", "_") == norm_target) or file_bid == norm_target:
+                return _parse_board_graph_data(board_id, data)
+        except Exception:
+            continue
     return None
 
 def list_boards() -> List[BoardMetadata]:
     boards = []
     base_dir = get_base_dir()
+    seen_ids = set()
+
+    # 1. Start with default snapshot boards
     for item in DEFAULT_BOARDS_SNAPSHOT:
         bid = item["id"]
+        seen_ids.add(bid)
+        seen_ids.add(bid.replace("-", "_"))
+        seen_ids.add(bid.replace("_", "-"))
         # Check node count if local graph exists
         graph = load_local_graph(bid)
         node_count = len(graph.nodes) if graph else 0
@@ -122,6 +151,72 @@ def list_boards() -> List[BoardMetadata]:
             is_synced_liveblocks=item["isSyncedToLiveblocks"],
             node_count=node_count,
             edge_count=edge_count
+        ))
+
+    # 2. Dynamically discover any board_*.json files in base_dir
+    for p in sorted(base_dir.glob("board_*.json")):
+        try:
+            with open(p, "r", encoding="utf-8") as f:
+                data = json.load(f)
+        except Exception:
+            continue
+
+        nodes = data.get("nodes", [])
+        edges = data.get("edges", [])
+        bid = data.get("boardId") or data.get("id")
+        if not bid:
+            for n in nodes:
+                if n.get("boardId"):
+                    bid = n["boardId"]
+                    break
+        if not bid:
+            stem = p.stem
+            bid = stem[6:] if stem.startswith("board_") else stem
+
+        if bid in seen_ids or bid.replace("-", "_") in seen_ids or bid.replace("_", "-") in seen_ids:
+            continue
+
+        seen_ids.add(bid)
+        seen_ids.add(bid.replace("-", "_"))
+        seen_ids.add(bid.replace("_", "-"))
+
+        name = data.get("name") or data.get("title")
+        if not name:
+            for n in nodes:
+                if n.get("title"):
+                    name = n["title"]
+                    break
+                if n.get("data", {}).get("title"):
+                    name = n["data"]["title"]
+                    break
+        if not name:
+            name = bid.replace("_", " ").replace("-", " ").title()
+
+        user_id = data.get("userId") or "local-user"
+        owner_name = data.get("owner", {}).get("name") or "Local User"
+        owner_email = data.get("owner", {}).get("email") or "user@example.com"
+        for n in nodes:
+            ndata = n.get("data", {})
+            if ndata.get("userName"):
+                owner_name = ndata["userName"]
+            if ndata.get("userEmail"):
+                owner_email = ndata["userEmail"]
+            if n.get("userId"):
+                user_id = n["userId"]
+            if owner_name != "Local User":
+                break
+
+        boards.append(BoardMetadata(
+            id=bid,
+            name=name,
+            user_id=user_id,
+            owner_name=owner_name,
+            owner_email=owner_email,
+            last_opened_at="local cache",
+            is_starred=bool(data.get("starred", False)),
+            is_synced_liveblocks=bool(data.get("isSyncedToLiveblocks", False)),
+            node_count=len(nodes),
+            edge_count=len(edges)
         ))
     return boards
 

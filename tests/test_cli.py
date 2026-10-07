@@ -1,6 +1,10 @@
 """Unit and integration test suite for Poppy CLI."""
 
 import unittest
+from unittest.mock import patch, MagicMock
+import urllib.error
+import os
+import base64
 import json
 import subprocess
 import sys
@@ -8,6 +12,12 @@ from pathlib import Path
 from poppy.boards import list_boards, load_local_graph, render_board_tree, export_board_markdown
 from poppy.reviews import get_reviews_summary, filter_reviews, filter_questions, load_deal_data, get_deal_tiers
 from poppy.diagnose import run_diagnostics, render_diagnostics_report
+
+def make_mock_jwt(header: dict, payload: dict) -> str:
+    def b64url(d: dict) -> str:
+        s = json.dumps(d).encode("utf-8")
+        return base64.urlsafe_b64encode(s).decode("ascii").rstrip("=")
+    return f"{b64url(header)}.{b64url(payload)}.mock_sig"
 
 class TestPoppyCLI(unittest.TestCase):
 
@@ -19,6 +29,29 @@ class TestPoppyCLI(unittest.TestCase):
         self.assertEqual(b0.name, "Ivory Antelope")
         self.assertEqual(b0.node_count, 26)
         self.assertEqual(b0.edge_count, 5)
+
+    def test_dynamic_board_discovery(self):
+        base_dir = Path(__file__).resolve().parent.parent
+        mock_file = base_dir / "board_mock_discovery_test.json"
+        try:
+            mock_file.write_text(json.dumps({
+                "boardId": "mock-discovery-test",
+                "name": "Mock Discovered Canvas",
+                "nodes": [
+                    {"id": "n1", "type": "textNode", "title": "Node 1", "data": {"userName": "Test Creator", "userEmail": "creator@example.com"}}
+                ],
+                "edges": []
+            }))
+            boards = list_boards()
+            discovered = next((b for b in boards if b.id == "mock-discovery-test"), None)
+            self.assertIsNotNone(discovered)
+            self.assertEqual(discovered.name, "Mock Discovered Canvas")
+            self.assertEqual(discovered.owner_name, "Test Creator")
+            self.assertEqual(discovered.node_count, 1)
+            self.assertEqual(discovered.edge_count, 0)
+        finally:
+            if mock_file.exists():
+                mock_file.unlink()
 
     def test_load_graph(self):
         graph = load_local_graph("polished-sea-2LmlU")
@@ -89,6 +122,12 @@ class TestPoppyCLI(unittest.TestCase):
         self.assertEqual(r0["date"], "2026-06-08")
         self.assertIn("creative tasks", r0["content"])
 
+    def test_filter_reviews_boundary_zero(self):
+        """Boundary test: limit 0 and negative limit must return empty list."""
+        self.assertEqual(filter_reviews(limit=0), [])
+        self.assertEqual(filter_reviews(limit=-1), [])
+        self.assertEqual(filter_reviews(limit=-100), [])
+
     def test_filter_questions(self):
         questions = filter_questions(limit=5)
         self.assertEqual(len(questions), 5)
@@ -103,6 +142,12 @@ class TestPoppyCLI(unittest.TestCase):
         self.assertEqual(q0["author"], "drummersgabe")
         self.assertIn("power user plan", q0["question"].lower())
         self.assertIn("Amaanath_PoppyAI", q0["founder_reply"])
+
+    def test_filter_questions_boundary_zero(self):
+        """Boundary test: limit 0 and negative limit must return empty list."""
+        self.assertEqual(filter_questions(limit=0), [])
+        self.assertEqual(filter_questions(limit=-1), [])
+        self.assertEqual(filter_questions(limit=-100), [])
 
     def test_tiers_matrix(self):
         tiers = get_deal_tiers()
@@ -141,6 +186,10 @@ class TestPoppyCLI(unittest.TestCase):
         self.assertEqual(t6["brands_limit"], "Unlimited Brands")
         self.assertIn("White-Label", t6["key_perks"])
 
+    @patch.dict(os.environ, {
+        "CLERK_TOKEN": make_mock_jwt({"alg": "RS256", "typ": "JWT"}, {"sub": "user_test", "sid": "sess_test"}),
+        "FIREBASE_AUTH_TOKEN": make_mock_jwt({"alg": "RS256", "typ": "JWT"}, {"uid": "user_test"})
+    })
     def test_diagnostics_pass(self):
         diag = run_diagnostics()
         self.assertEqual(diag["overall_status"], "PASS")
@@ -156,12 +205,71 @@ class TestPoppyCLI(unittest.TestCase):
         self.assertIn("Google Firestore Gateway", check_map)
         self.assertIn("Poppy AI Web Edge", check_map)
 
-        # Check explicit verified details
-        self.assertIn("Clerk Auth valid", check_map["Clerk Authentication"]["details"])
-        self.assertIn("Firebase auth token valid", check_map["Firebase Custom Auth"]["details"])
+        # Check genuine validated details
+        self.assertIn("Valid Clerk JWT", check_map["Clerk Authentication"]["details"])
+        self.assertIn("Valid Firebase JWT", check_map["Firebase Custom Auth"]["details"])
         self.assertIn("Firestore 200", check_map["Google Firestore Gateway"]["details"])
         self.assertIn("AppSumo ledger cached", check_map["AppSumo Intelligence Archive"]["details"])
         self.assertIn(">100KB", check_map["E2E Visual Screenshots Audit"]["details"])
+
+        # Dynamic banner check
+        rep = render_diagnostics_report(diag)
+        self.assertIn("Verified Status: Firestore 200 ✓ | Clerk Auth valid ✓ | Firebase auth token ✓ | AppSumo ledger cached ✓", rep)
+
+    @patch.dict(os.environ, {}, clear=True)
+    def test_diagnostics_unconfigured_warn(self):
+        diag = run_diagnostics()
+        self.assertEqual(diag["overall_status"], "WARN")
+        rep = render_diagnostics_report(diag)
+        self.assertIn("Clerk Auth unconfigured ⚠", rep)
+        self.assertIn("Firebase auth unconfigured ⚠", rep)
+
+    @patch("urllib.request.urlopen", side_effect=Exception("Connection refused"))
+    def test_diagnostics_offline_failure(self, _mock_url):
+        diag = run_diagnostics()
+        self.assertEqual(diag["overall_status"], "FAIL")
+        rep = render_diagnostics_report(diag)
+        self.assertIn("Firestore Unreachable ✗", rep)
+        self.assertNotIn("Firestore 200 ✓", rep)
+
+    @patch.dict(os.environ, {"CLERK_TOKEN": "malformed_token_not_jwt"})
+    def test_diagnostics_malformed_token(self):
+        diag = run_diagnostics()
+        self.assertEqual(diag["overall_status"], "FAIL")
+        rep = render_diagnostics_report(diag)
+        self.assertIn("Clerk Auth invalid ✗", rep)
+
+    def test_render_diagnostics_report_dynamic_footer(self):
+        diag_healthy = {
+            "timestamp": "2026-10-07T12:00:00Z",
+            "overall_status": "PASS",
+            "checks": [
+                {"name": "Google Firestore Gateway", "status": "PASS", "details": "Firestore 200 connected"},
+                {"name": "Clerk Authentication", "status": "PASS", "details": "Valid"},
+                {"name": "Firebase Custom Auth", "status": "PASS", "details": "Valid"},
+                {"name": "AppSumo Intelligence Archive", "status": "PASS", "details": "Cached"},
+            ]
+        }
+        report_healthy = render_diagnostics_report(diag_healthy)
+        self.assertIn("Firestore 200 ✓", report_healthy)
+        self.assertIn("Clerk Auth valid ✓", report_healthy)
+        self.assertIn("Firebase auth token ✓", report_healthy)
+        self.assertIn("AppSumo ledger cached ✓", report_healthy)
+
+        diag_outage = {
+            "timestamp": "2026-10-07T12:00:00Z",
+            "overall_status": "FAIL",
+            "checks": [
+                {"name": "Google Firestore Gateway", "status": "FAIL", "details": "Unreachable"},
+                {"name": "Clerk Authentication", "status": "PASS", "details": "Valid"},
+                {"name": "Firebase Custom Auth", "status": "PASS", "details": "Valid"},
+                {"name": "AppSumo Intelligence Archive", "status": "PASS", "details": "Cached"},
+            ]
+        }
+        report_outage = render_diagnostics_report(diag_outage)
+        self.assertNotIn("Firestore 200 ✓", report_outage)
+        self.assertIn("Firestore Unreachable ✗", report_outage)
+        self.assertIn("Overall Status: FAIL", report_outage)
 
     def test_cli_execution_e2e(self):
         base_dir = Path(__file__).resolve().parent.parent
@@ -188,10 +296,43 @@ class TestPoppyCLI(unittest.TestCase):
         tiers = json.loads(res.stdout)
         self.assertEqual(len(tiers), 6)
 
-        # diagnose
-        res = subprocess.run([sys.executable, str(bin_path), "diagnose"], capture_output=True, text=True, check=True)
+        # reviews list --limit 0
+        res = subprocess.run([sys.executable, str(bin_path), "reviews", "list", "--limit", "0", "--json"], capture_output=True, text=True, check=True)
+        self.assertEqual(json.loads(res.stdout), [])
+
+        res_txt = subprocess.run([sys.executable, str(bin_path), "reviews", "list", "--limit", "0"], capture_output=True, text=True, check=True)
+        self.assertIn("Found 0 reviews (limit: 0)", res_txt.stdout)
+
+        # questions list --limit 0
+        res = subprocess.run([sys.executable, str(bin_path), "questions", "list", "--limit", "0", "--json"], capture_output=True, text=True, check=True)
+        self.assertEqual(json.loads(res.stdout), [])
+
+        res_txt = subprocess.run([sys.executable, str(bin_path), "questions", "list", "--limit", "0"], capture_output=True, text=True, check=True)
+        self.assertIn("Found 0 Q&A threads (limit: 0)", res_txt.stdout)
+
+        # diagnose in default environment
+        res_default = subprocess.run([sys.executable, str(bin_path), "diagnose"], capture_output=True, text=True, check=True)
+        self.assertIn("POPPY AI DIAGNOSTIC AUDIT REPORT", res_default.stdout)
+        self.assertIn("Audit Timestamp:", res_default.stdout)
+        self.assertIn("Verified Status:", res_default.stdout)
+
+        # diagnose with mock authenticated environment
+        mock_env = os.environ.copy()
+        mock_env["CLERK_TOKEN"] = make_mock_jwt({"alg": "RS256", "typ": "JWT"}, {"sub": "user_test"})
+        mock_env["FIREBASE_AUTH_TOKEN"] = make_mock_jwt({"alg": "RS256", "typ": "JWT"}, {"uid": "user_test"})
+        res = subprocess.run([sys.executable, str(bin_path), "diagnose"], capture_output=True, text=True, check=True, env=mock_env)
         self.assertIn("Overall Status: PASS", res.stdout)
         self.assertIn("Verified Status: Firestore 200 ✓", res.stdout)
+        self.assertIn("Clerk Auth valid ✓", res.stdout)
+        self.assertIn("Firebase auth token ✓", res.stdout)
+        self.assertIn("AppSumo ledger cached ✓", res.stdout)
+
+        # diagnose --json with mock authenticated environment
+        res_json = subprocess.run([sys.executable, str(bin_path), "diagnose", "--json"], capture_output=True, text=True, check=True, env=mock_env)
+        diag_json = json.loads(res_json.stdout)
+        self.assertEqual(diag_json["overall_status"], "PASS")
+        self.assertIn("checks", diag_json)
+        self.assertEqual(len(diag_json["checks"]), 8)
 
 if __name__ == "__main__":
     unittest.main()

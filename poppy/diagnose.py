@@ -146,7 +146,7 @@ def run_diagnostics() -> Dict[str, Any]:
     })
 
     # 7. Remote Connectivity & Firestore 200 Check
-    def check_url(url: str, timeout: int = 5) -> bool:
+    def check_url(url: str, timeout: int = 10) -> bool:
         try:
             req = urllib.request.Request(url, headers={"User-Agent": "Poppy-CLI-Doctor/1.0"})
             with urllib.request.urlopen(req, timeout=timeout) as resp:

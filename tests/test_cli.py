@@ -43,6 +43,17 @@ class TestPoppyCLI(unittest.TestCase):
         self.assertIn("## Canvas Nodes", md)
         self.assertIn("## Connections & Data Flow", md)
 
+    def test_export_json(self):
+        graph = load_local_graph("polished-sea-2LmlU")
+        payload = {
+            "board_id": graph.board_id,
+            "graph_id": graph.graph_id,
+            "nodes": [n.__dict__ for n in graph.nodes],
+            "edges": [e.__dict__ for e in graph.edges]
+        }
+        self.assertEqual(len(payload["nodes"]), 26)
+        self.assertEqual(len(payload["edges"]), 5)
+
     def test_reviews_summary(self):
         summary = get_reviews_summary()
         self.assertEqual(summary["total_reviews"], 161)

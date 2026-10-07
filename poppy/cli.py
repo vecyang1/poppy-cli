@@ -102,7 +102,15 @@ def main():
             if not graph:
                 print(f"Error: Board graph for '{args.board_id}' not found.", file=sys.stderr)
                 sys.exit(1)
-            content = json.dumps([n.__dict__ for n in graph.nodes], indent=2) if args.format == "json" else export_board_markdown(graph)
+            if args.format == "json":
+                content = json.dumps({
+                    "board_id": graph.board_id,
+                    "graph_id": graph.graph_id,
+                    "nodes": [n.__dict__ for n in graph.nodes],
+                    "edges": [e.__dict__ for e in graph.edges]
+                }, indent=2)
+            else:
+                content = export_board_markdown(graph)
             if args.output:
                 with open(args.output, "w", encoding="utf-8") as f:
                     f.write(content)
